@@ -1,0 +1,5518 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PixelRect:
+    serializedVersion: 2
+    x: 246
+    y: 263.33334
+    width: 2098.6667
+    height: 1094
+  m_ShowMode: 4
+  m_Title: Hierarchy
+  m_RootView: {fileID: 6}
+  m_MinSize: {x: 875, y: 300}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_Maximized: 0
+--- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 9}
+  - {fileID: 3}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 30
+    width: 2098.6667
+    height: 1044
+  m_MinSize: {x: 300, y: 100}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 0
+  controlID: 156
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: InspectorWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 1601.3334
+    y: 0
+    width: 497.33337
+    height: 1044
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 15}
+  m_Panes:
+  - {fileID: 15}
+  - {fileID: 12}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 397.33334
+    height: 619.3333
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 16}
+  m_Panes:
+  - {fileID: 16}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &5
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ProjectBrowser
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 619.3333
+    width: 1601.3334
+    height: 424.6667
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 14}
+  m_Panes:
+  - {fileID: 14}
+  - {fileID: 19}
+  - {fileID: 13}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 7}
+  - {fileID: 2}
+  - {fileID: 8}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 2098.6667
+    height: 1094
+  m_MinSize: {x: 875, y: 300}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_UseTopView: 1
+  m_TopViewHeight: 30
+  m_UseBottomView: 1
+  m_BottomViewHeight: 20
+--- !u!114 &7
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12011, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 2098.6667
+    height: 30
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+  m_LastLoadedLayoutName: 
+--- !u!114 &8
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12042, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 1074
+    width: 2098.6667
+    height: 20
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+--- !u!114 &9
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 10}
+  - {fileID: 5}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1601.3334
+    height: 1044
+  m_MinSize: {x: 200, y: 100}
+  m_MaxSize: {x: 16192, y: 16192}
+  vertical: 1
+  controlID: 38
+--- !u!114 &10
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 4}
+  - {fileID: 11}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1601.3334
+    height: 619.3333
+  m_MinSize: {x: 200, y: 50}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+  controlID: 39
+--- !u!114 &11
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: SceneView
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 397.33334
+    y: 0
+    width: 1204
+    height: 619.3333
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 17}
+  m_Panes:
+  - {fileID: 17}
+  - {fileID: 18}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ffb9ccd5681bd841ae77e9e5571f770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Git for Unity
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1954.6667
+    y: 72.66667
+    width: 604.3334
+    height: 1278.3334
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  progressMessageClearTime: 2288.6128669
+  notificationClearTime: -1
+  timeSinceLastRotation: -1
+  currentBranchAndRemoteHasUpdate: 0
+  currentTrackingStatusHasUpdate: 0
+  currentStatusEntriesHasUpdate: 0
+  repositoryProgressHasUpdate: 1
+  appManagerProgressHasUpdate: 1
+  changeTab: 3
+  activeTab: 3
+  initProjectView:
+    hasCompletedInitialCheck: 1
+    isUserDataPresent: 1
+    lastCheckUserChangedEvent:
+      updatedTimeString: 2023-09-20T18:57:17.779-04:00
+      cacheType: 8
+  branchesView:
+    treeLocals:
+      IsRemote: 0
+      folders:
+        keys:
+        - Local branches
+        - carlos-jmh
+        values:
+        - path: Local branches
+          label: Local branches
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+        - path: carlos-jmh
+          label: carlos-jmh
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: Local branches
+      pathSeparator: /
+      displayRootNode: 1
+      isSelectable: 1
+      isCheckable: 0
+      nodes:
+      - path: Local branches
+        label: Local branches
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: master
+        label: master
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: carlos-jmh
+        label: carlos-jmh
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: carlos-jmh/initial_npc_pathfinding
+        label: initial_npc_pathfinding
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 1
+        treeIsCheckable: 0
+        checkState: 0
+      selectedNode:
+        path: carlos-jmh/initial_npc_pathfinding
+        label: initial_npc_pathfinding
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 1
+        treeIsCheckable: 0
+        checkState: 0
+    treeRemotes:
+      IsRemote: 1
+      folders:
+        keys:
+        - Remote branches
+        - master
+        values:
+        - path: Remote branches
+          label: Remote branches
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+        - path: master
+          label: master
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: Remote branches
+      pathSeparator: /
+      displayRootNode: 1
+      isSelectable: 1
+      isCheckable: 0
+      nodes:
+      - path: Remote branches
+        label: Remote branches
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: master
+        label: master
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: master/master
+        label: master
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+    mode: 0
+    newBranchName: 
+    scroll: {x: 0, y: 0}
+    disableDelete: 1
+    disableCreate: 0
+    lastLocalAndRemoteBranchListChangedEvent:
+      updatedTimeString: 2023-09-27T15:20:13.073-04:00
+      cacheType: 2
+    lastCurrentBranchAndRemoteChange:
+      updatedTimeString: 2023-09-27T15:20:16.477-04:00
+      cacheType: 1
+    currentBranch:
+      name: carlos-jmh/initial_npc_pathfinding
+      tracking: 
+    currentRemote:
+      name: master
+      url: https://github.com/ryanata/shadows-over-willowbrook.git
+      login: 
+      user: 
+      host: 
+      function: 0
+      token: 
+    localBranches:
+    - name: master
+      tracking: master/master
+    - name: carlos-jmh/initial_npc_pathfinding
+      tracking: 
+    remoteBranches:
+    - name: master/master
+      tracking: '[None]'
+  changesView:
+    currentBranchHasUpdate: 1
+    currentStatusEntriesHasUpdate: 1
+    currentLocksHasUpdate: 1
+    commitBody: 
+    commitMessage: 
+    currentBranch: carlos-jmh/initial_npc_pathfinding
+    treeScroll: {x: 0, y: 0}
+    treeChanges:
+      assets:
+        keys:
+        - 00000000000000001000000000000000
+        - 401477ba01a715041845d748f28f911c
+        - 455bb0723c59a9145bc3c035376ca788
+        - 86cc6cf350c6f62469395948494f0945
+        - 3fc821cbc11a48745bc9edea6bfda007
+        - 3616009fd1ab770409e0321881372357
+        - 1d43a96ce80684449a8b4eee132e5d47
+        - 51136e93cfad4dd7883ae6248247b6a2
+        - 0d969266144f4fb47be21604dd1e7900
+        - a38ed33481bedd74d8c590f5043f49dc
+        - 6d05c56cb29ad5240bc671605f95db0c
+        - 03832abc07e3394479eec5708b22e984
+        - b8fce3c13f011874d92d75ca24a90702
+        - 1fa3ed80a7c8401995efba10b64226e9
+        - 5999826ec8e37f74a80d7f6ee2700a3a
+        - 3a7b2ae8284a9b14abd6d688cc877cef
+        - 7e3d768af6ee1774cb39815bd8e5b221
+        - 29f130eb3fdf4574a8a586b2bc99f11a
+        - 7e39f6090724e4a4a8aadeb042afa2bc
+        - 8550f034611a06e4f88fc261204d8a7b
+        - 8c7f4db162bab4443818dd13bed4b1dc
+        - 70bd44a44cd62c64fbfc1eea95b24880
+        - 5492b7ed96378624cbcd72212fce093d
+        - 7f3fe2b336bf34749a146f6bf7d462d0
+        - ed6d9f7764b9451f97a6658cdc760e00
+        - fc6dd3809c1761a4e9a227c70117ed54
+        - 710022065e740cf40bf86ccac60e3741
+        - 299beb10465c46f41abeaf10478b4727
+        - 0528335b682da1f42901dc790b763830
+        - dc9c5ff0af7a2f247a2c64921cf9d045
+        - 9b9acdb93a5f98644a2e18d4884f04e2
+        - 9809bf1345abc5648af68b3a82653f08
+        - 709c8d6349be44c68dff3d220992400c
+        - 7fa0352a4d56abd42ad2fc69deb72448
+        - e04976799df50f54ba128eff723155a7
+        - 6fec7b7904f76c4498a68fd145934563
+        - 5b304bdab91a28c469562d02b8225df3
+        - 7f8df5c105d35bd4787c3b4ce3e1c56b
+        - 6bcfcec105ce284468f1e36d261a25c6
+        - 56969010e392d3447af440d88796a2b7
+        - 98e2a88a52f2de04e82eff4be95debf2
+        - c80c8e468ec2b0f479f5b5c75f59c579
+        - 913a53c1f4b2bd44790286be73578b72
+        - 0220aab0833d04faeb927d84ca6cc40c
+        - 424799608f7334c24bf367e4bbfa7f9a
+        values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\NavMeshComponents
+          label: NavMeshComponents
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\NavMeshComponents\Editor
+          label: Editor
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\NavMeshComponents\Editor\AgentOverride2dEditor.cs
+          label: AgentOverride2dEditor.cs
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\NavMeshComponents\Editor\AgentOverride2dEditor.cs
+            fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\AgentOverride2dEditor.cs
+            projectPath: Assets\NavMeshComponents\Editor\AgentOverride2dEditor.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\NavMeshComponents\Editor\CollectSources2dEditor.cs
+          label: CollectSources2dEditor.cs
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\NavMeshComponents\Editor\CollectSources2dEditor.cs
+            fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\CollectSources2dEditor.cs
+            projectPath: Assets\NavMeshComponents\Editor\CollectSources2dEditor.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\NavMeshComponents\Editor\CollectSourcesCache2dEditor.cs
+          label: CollectSourcesCache2dEditor.cs
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\NavMeshComponents\Editor\CollectSourcesCache2dEditor.cs
+            fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\CollectSourcesCache2dEditor.cs
+            projectPath: Assets\NavMeshComponents\Editor\CollectSourcesCache2dEditor.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\NavMeshComponents\Editor\NavMeshAgentAttributePropertyDrawer.cs
+          label: NavMeshAgentAttributePropertyDrawer.cs
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\NavMeshComponents\Editor\NavMeshAgentAttributePropertyDrawer.cs
+            fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshAgentAttributePropertyDrawer.cs
+            projectPath: Assets\NavMeshComponents\Editor\NavMeshAgentAttributePropertyDrawer.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\NavMeshComponents\Editor\NavMeshAreaAttributePropertyDrawer.cs
+          label: NavMeshAreaAttributePropertyDrawer.cs
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\NavMeshComponents\Editor\NavMeshAreaAttributePropertyDrawer.cs
+            fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshAreaAttributePropertyDrawer.cs
+            projectPath: Assets\NavMeshComponents\Editor\NavMeshAreaAttributePropertyDrawer.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\NavMeshComponents\Editor\NavMeshAssetManager.cs
+          label: NavMeshAssetManager.cs
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\NavMeshComponents\Editor\NavMeshAssetManager.cs
+            fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshAssetManager.cs
+            projectPath: Assets\NavMeshComponents\Editor\NavMeshAssetManager.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\NavMeshComponents\Editor\NavMeshComponentsEditor.asmdef
+          label: NavMeshComponentsEditor.asmdef
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\NavMeshComponents\Editor\NavMeshComponentsEditor.asmdef
+            fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshComponentsEditor.asmdef
+            projectPath: Assets\NavMeshComponents\Editor\NavMeshComponentsEditor.asmdef
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs
+          label: NavMeshComponentsGUIUtility.cs
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs
+            fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs
+            projectPath: Assets\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\NavMeshComponents\Editor\NavMeshLinkEditor.cs
+          label: NavMeshLinkEditor.cs
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\NavMeshComponents\Editor\NavMeshLinkEditor.cs
+            fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshLinkEditor.cs
+            projectPath: Assets\NavMeshComponents\Editor\NavMeshLinkEditor.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\NavMeshComponents\Editor\NavMeshModifierEditor.cs
+          label: NavMeshModifierEditor.cs
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\NavMeshComponents\Editor\NavMeshModifierEditor.cs
+            fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshModifierEditor.cs
+            projectPath: Assets\NavMeshComponents\Editor\NavMeshModifierEditor.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\NavMeshComponents\Editor\NavMeshModifierTilemapEditor.cs
+          label: NavMeshModifierTilemapEditor.cs
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\NavMeshComponents\Editor\NavMeshModifierTilemapEditor.cs
+            fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshModifierTilemapEditor.cs
+            projectPath: Assets\NavMeshComponents\Editor\NavMeshModifierTilemapEditor.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\NavMeshComponents\Editor\NavMeshModifierVolumeEditor.cs
+          label: NavMeshModifierVolumeEditor.cs
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\NavMeshComponents\Editor\NavMeshModifierVolumeEditor.cs
+            fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshModifierVolumeEditor.cs
+            projectPath: Assets\NavMeshComponents\Editor\NavMeshModifierVolumeEditor.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs
+          label: NavMeshSurfaceEditor.cs
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs
+            fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs
+            projectPath: Assets\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\NavMeshComponents\Editor\RootSources2dEditor.cs
+          label: RootSources2dEditor.cs
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\NavMeshComponents\Editor\RootSources2dEditor.cs
+            fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\RootSources2dEditor.cs
+            projectPath: Assets\NavMeshComponents\Editor\RootSources2dEditor.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\NavMeshComponents\Scripts
+          label: Scripts
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\NavMeshComponents\Scripts\AgentOverride2d.cs
+          label: AgentOverride2d.cs
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\NavMeshComponents\Scripts\AgentOverride2d.cs
+            fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\AgentOverride2d.cs
+            projectPath: Assets\NavMeshComponents\Scripts\AgentOverride2d.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\NavMeshComponents\Scripts\AgentRotate2d.cs
+          label: AgentRotate2d.cs
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\NavMeshComponents\Scripts\AgentRotate2d.cs
+            fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\AgentRotate2d.cs
+            projectPath: Assets\NavMeshComponents\Scripts\AgentRotate2d.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\NavMeshComponents\Scripts\AgentRotateSmooth2d.cs
+          label: AgentRotateSmooth2d.cs
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\NavMeshComponents\Scripts\AgentRotateSmooth2d.cs
+            fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\AgentRotateSmooth2d.cs
+            projectPath: Assets\NavMeshComponents\Scripts\AgentRotateSmooth2d.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\NavMeshComponents\Scripts\CollectSources2d.cs
+          label: CollectSources2d.cs
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\NavMeshComponents\Scripts\CollectSources2d.cs
+            fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\CollectSources2d.cs
+            projectPath: Assets\NavMeshComponents\Scripts\CollectSources2d.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\NavMeshComponents\Scripts\CollectSourcesCache2d.cs
+          label: CollectSourcesCache2d.cs
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\NavMeshComponents\Scripts\CollectSourcesCache2d.cs
+            fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\CollectSourcesCache2d.cs
+            projectPath: Assets\NavMeshComponents\Scripts\CollectSourcesCache2d.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\NavMeshComponents\Scripts\NavMeshAgentAttribute.cs
+          label: NavMeshAgentAttribute.cs
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\NavMeshComponents\Scripts\NavMeshAgentAttribute.cs
+            fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshAgentAttribute.cs
+            projectPath: Assets\NavMeshComponents\Scripts\NavMeshAgentAttribute.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\NavMeshComponents\Scripts\NavMeshAreaAttribute.cs
+          label: NavMeshAreaAttribute.cs
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\NavMeshComponents\Scripts\NavMeshAreaAttribute.cs
+            fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshAreaAttribute.cs
+            projectPath: Assets\NavMeshComponents\Scripts\NavMeshAreaAttribute.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\NavMeshComponents\Scripts\NavMeshBuilder2d.cs
+          label: NavMeshBuilder2d.cs
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\NavMeshComponents\Scripts\NavMeshBuilder2d.cs
+            fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshBuilder2d.cs
+            projectPath: Assets\NavMeshComponents\Scripts\NavMeshBuilder2d.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\NavMeshComponents\Scripts\NavMeshBuilderState.cs
+          label: NavMeshBuilderState.cs
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\NavMeshComponents\Scripts\NavMeshBuilderState.cs
+            fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshBuilderState.cs
+            projectPath: Assets\NavMeshComponents\Scripts\NavMeshBuilderState.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\NavMeshComponents\Scripts\NavMeshComponents.asmdef
+          label: NavMeshComponents.asmdef
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\NavMeshComponents\Scripts\NavMeshComponents.asmdef
+            fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshComponents.asmdef
+            projectPath: Assets\NavMeshComponents\Scripts\NavMeshComponents.asmdef
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\NavMeshComponents\Scripts\NavMeshExtension.cs
+          label: NavMeshExtension.cs
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\NavMeshComponents\Scripts\NavMeshExtension.cs
+            fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshExtension.cs
+            projectPath: Assets\NavMeshComponents\Scripts\NavMeshExtension.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\NavMeshComponents\Scripts\NavMeshExtensionsProvider.cs
+          label: NavMeshExtensionsProvider.cs
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\NavMeshComponents\Scripts\NavMeshExtensionsProvider.cs
+            fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshExtensionsProvider.cs
+            projectPath: Assets\NavMeshComponents\Scripts\NavMeshExtensionsProvider.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\NavMeshComponents\Scripts\NavMeshLink.cs
+          label: NavMeshLink.cs
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\NavMeshComponents\Scripts\NavMeshLink.cs
+            fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshLink.cs
+            projectPath: Assets\NavMeshComponents\Scripts\NavMeshLink.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\NavMeshComponents\Scripts\NavMeshModifier.cs
+          label: NavMeshModifier.cs
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\NavMeshComponents\Scripts\NavMeshModifier.cs
+            fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshModifier.cs
+            projectPath: Assets\NavMeshComponents\Scripts\NavMeshModifier.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\NavMeshComponents\Scripts\NavMeshModifierTilemap.cs
+          label: NavMeshModifierTilemap.cs
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\NavMeshComponents\Scripts\NavMeshModifierTilemap.cs
+            fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshModifierTilemap.cs
+            projectPath: Assets\NavMeshComponents\Scripts\NavMeshModifierTilemap.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\NavMeshComponents\Scripts\NavMeshModifierVolume.cs
+          label: NavMeshModifierVolume.cs
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\NavMeshComponents\Scripts\NavMeshModifierVolume.cs
+            fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshModifierVolume.cs
+            projectPath: Assets\NavMeshComponents\Scripts\NavMeshModifierVolume.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\NavMeshComponents\Scripts\NavMeshSurface.cs
+          label: NavMeshSurface.cs
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\NavMeshComponents\Scripts\NavMeshSurface.cs
+            fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshSurface.cs
+            projectPath: Assets\NavMeshComponents\Scripts\NavMeshSurface.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\NavMeshComponents\Scripts\RootSources2d.cs
+          label: RootSources2d.cs
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\NavMeshComponents\Scripts\RootSources2d.cs
+            fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\RootSources2d.cs
+            projectPath: Assets\NavMeshComponents\Scripts\RootSources2d.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\NavMeshComponents\Scripts\RotateAgentInstantly.cs
+          label: RotateAgentInstantly.cs
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\NavMeshComponents\Scripts\RotateAgentInstantly.cs
+            fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\RotateAgentInstantly.cs
+            projectPath: Assets\NavMeshComponents\Scripts\RotateAgentInstantly.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\NavMeshComponents\Scripts\RotateAgentSmoothly.cs
+          label: RotateAgentSmoothly.cs
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\NavMeshComponents\Scripts\RotateAgentSmoothly.cs
+            fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\RotateAgentSmoothly.cs
+            projectPath: Assets\NavMeshComponents\Scripts\RotateAgentSmoothly.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Scenes
+          label: Scenes
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Scenes\SampleScene
+          label: SampleScene
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Scenes\SampleScene\NavMesh-Navmesh.asset
+          label: NavMesh-Navmesh.asset
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Scenes\SampleScene\NavMesh-Navmesh.asset
+            fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\Scenes\SampleScene\NavMesh-Navmesh.asset
+            projectPath: Assets\Scenes\SampleScene\NavMesh-Navmesh.asset
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Scripts
+          label: Scripts
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Scripts\Red NPC.cs
+          label: Red NPC.cs
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Scripts\Red NPC.cs
+            fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\Scripts\Red
+              NPC.cs
+            projectPath: Assets\Scripts\Red NPC.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Settings
+          label: Settings
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Settings\Renderer2D.asset
+          label: Renderer2D.asset
+          level: 2
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Settings\Renderer2D.asset
+            fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\Settings\Renderer2D.asset
+            projectPath: Assets\Settings\Renderer2D.asset
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
+      folders:
+        keys:
+        - Assets
+        - Assets\NavMeshComponents
+        - Assets\NavMeshComponents\Editor
+        - Assets\NavMeshComponents\Scripts
+        - Assets\Scenes
+        - Assets\Scenes\SampleScene
+        - Assets\Scripts
+        - Assets\Settings
+        - Packages
+        - UserSettings
+        - UserSettings\Layouts
+        values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\NavMeshComponents
+          label: NavMeshComponents
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\NavMeshComponents\Editor
+          label: Editor
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\NavMeshComponents\Scripts
+          label: Scripts
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Scenes
+          label: Scenes
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Scenes\SampleScene
+          label: SampleScene
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Scripts
+          label: Scripts
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Settings
+          label: Settings
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Packages
+          label: Packages
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UserSettings
+          label: UserSettings
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UserSettings\Layouts
+          label: Layouts
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: 
+      pathSeparator: \
+      displayRootNode: 0
+      isSelectable: 1
+      isCheckable: 1
+      isUsingGlobalSelection: 1
+      nodes:
+      - path: 
+        label: 
+        level: -1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets
+        label: Assets
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\NavMeshComponents.meta
+        label: NavMeshComponents.meta
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents.meta
+          projectPath: Assets\NavMeshComponents.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents
+        label: NavMeshComponents
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\NavMeshComponents\Editor.meta
+        label: Editor.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Editor.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor.meta
+          projectPath: Assets\NavMeshComponents\Editor.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Editor
+        label: Editor
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\NavMeshComponents\Editor\AgentOverride2dEditor.cs
+        label: AgentOverride2dEditor.cs
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Editor\AgentOverride2dEditor.cs
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\AgentOverride2dEditor.cs
+          projectPath: Assets\NavMeshComponents\Editor\AgentOverride2dEditor.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Editor\AgentOverride2dEditor.cs.meta
+        label: AgentOverride2dEditor.cs.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Editor\AgentOverride2dEditor.cs.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\AgentOverride2dEditor.cs.meta
+          projectPath: Assets\NavMeshComponents\Editor\AgentOverride2dEditor.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Editor\CollectSources2dEditor.cs
+        label: CollectSources2dEditor.cs
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Editor\CollectSources2dEditor.cs
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\CollectSources2dEditor.cs
+          projectPath: Assets\NavMeshComponents\Editor\CollectSources2dEditor.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Editor\CollectSources2dEditor.cs.meta
+        label: CollectSources2dEditor.cs.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Editor\CollectSources2dEditor.cs.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\CollectSources2dEditor.cs.meta
+          projectPath: Assets\NavMeshComponents\Editor\CollectSources2dEditor.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Editor\CollectSourcesCache2dEditor.cs
+        label: CollectSourcesCache2dEditor.cs
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Editor\CollectSourcesCache2dEditor.cs
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\CollectSourcesCache2dEditor.cs
+          projectPath: Assets\NavMeshComponents\Editor\CollectSourcesCache2dEditor.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Editor\CollectSourcesCache2dEditor.cs.meta
+        label: CollectSourcesCache2dEditor.cs.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Editor\CollectSourcesCache2dEditor.cs.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\CollectSourcesCache2dEditor.cs.meta
+          projectPath: Assets\NavMeshComponents\Editor\CollectSourcesCache2dEditor.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Editor\NavMeshAgentAttributePropertyDrawer.cs
+        label: NavMeshAgentAttributePropertyDrawer.cs
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Editor\NavMeshAgentAttributePropertyDrawer.cs
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshAgentAttributePropertyDrawer.cs
+          projectPath: Assets\NavMeshComponents\Editor\NavMeshAgentAttributePropertyDrawer.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Editor\NavMeshAgentAttributePropertyDrawer.cs.meta
+        label: NavMeshAgentAttributePropertyDrawer.cs.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Editor\NavMeshAgentAttributePropertyDrawer.cs.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshAgentAttributePropertyDrawer.cs.meta
+          projectPath: Assets\NavMeshComponents\Editor\NavMeshAgentAttributePropertyDrawer.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Editor\NavMeshAreaAttributePropertyDrawer.cs
+        label: NavMeshAreaAttributePropertyDrawer.cs
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Editor\NavMeshAreaAttributePropertyDrawer.cs
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshAreaAttributePropertyDrawer.cs
+          projectPath: Assets\NavMeshComponents\Editor\NavMeshAreaAttributePropertyDrawer.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Editor\NavMeshAreaAttributePropertyDrawer.cs.meta
+        label: NavMeshAreaAttributePropertyDrawer.cs.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Editor\NavMeshAreaAttributePropertyDrawer.cs.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshAreaAttributePropertyDrawer.cs.meta
+          projectPath: Assets\NavMeshComponents\Editor\NavMeshAreaAttributePropertyDrawer.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Editor\NavMeshAssetManager.cs
+        label: NavMeshAssetManager.cs
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Editor\NavMeshAssetManager.cs
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshAssetManager.cs
+          projectPath: Assets\NavMeshComponents\Editor\NavMeshAssetManager.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Editor\NavMeshAssetManager.cs.meta
+        label: NavMeshAssetManager.cs.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Editor\NavMeshAssetManager.cs.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshAssetManager.cs.meta
+          projectPath: Assets\NavMeshComponents\Editor\NavMeshAssetManager.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Editor\NavMeshComponentsEditor.asmdef
+        label: NavMeshComponentsEditor.asmdef
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Editor\NavMeshComponentsEditor.asmdef
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshComponentsEditor.asmdef
+          projectPath: Assets\NavMeshComponents\Editor\NavMeshComponentsEditor.asmdef
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Editor\NavMeshComponentsEditor.asmdef.meta
+        label: NavMeshComponentsEditor.asmdef.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Editor\NavMeshComponentsEditor.asmdef.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshComponentsEditor.asmdef.meta
+          projectPath: Assets\NavMeshComponents\Editor\NavMeshComponentsEditor.asmdef.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs
+        label: NavMeshComponentsGUIUtility.cs
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs
+          projectPath: Assets\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs.meta
+        label: NavMeshComponentsGUIUtility.cs.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs.meta
+          projectPath: Assets\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Editor\NavMeshLinkEditor.cs
+        label: NavMeshLinkEditor.cs
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Editor\NavMeshLinkEditor.cs
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshLinkEditor.cs
+          projectPath: Assets\NavMeshComponents\Editor\NavMeshLinkEditor.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Editor\NavMeshLinkEditor.cs.meta
+        label: NavMeshLinkEditor.cs.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Editor\NavMeshLinkEditor.cs.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshLinkEditor.cs.meta
+          projectPath: Assets\NavMeshComponents\Editor\NavMeshLinkEditor.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Editor\NavMeshModifierEditor.cs
+        label: NavMeshModifierEditor.cs
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Editor\NavMeshModifierEditor.cs
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshModifierEditor.cs
+          projectPath: Assets\NavMeshComponents\Editor\NavMeshModifierEditor.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Editor\NavMeshModifierEditor.cs.meta
+        label: NavMeshModifierEditor.cs.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Editor\NavMeshModifierEditor.cs.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshModifierEditor.cs.meta
+          projectPath: Assets\NavMeshComponents\Editor\NavMeshModifierEditor.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Editor\NavMeshModifierTilemapEditor.cs
+        label: NavMeshModifierTilemapEditor.cs
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Editor\NavMeshModifierTilemapEditor.cs
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshModifierTilemapEditor.cs
+          projectPath: Assets\NavMeshComponents\Editor\NavMeshModifierTilemapEditor.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Editor\NavMeshModifierTilemapEditor.cs.meta
+        label: NavMeshModifierTilemapEditor.cs.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Editor\NavMeshModifierTilemapEditor.cs.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshModifierTilemapEditor.cs.meta
+          projectPath: Assets\NavMeshComponents\Editor\NavMeshModifierTilemapEditor.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Editor\NavMeshModifierVolumeEditor.cs
+        label: NavMeshModifierVolumeEditor.cs
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Editor\NavMeshModifierVolumeEditor.cs
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshModifierVolumeEditor.cs
+          projectPath: Assets\NavMeshComponents\Editor\NavMeshModifierVolumeEditor.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Editor\NavMeshModifierVolumeEditor.cs.meta
+        label: NavMeshModifierVolumeEditor.cs.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Editor\NavMeshModifierVolumeEditor.cs.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshModifierVolumeEditor.cs.meta
+          projectPath: Assets\NavMeshComponents\Editor\NavMeshModifierVolumeEditor.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs
+        label: NavMeshSurfaceEditor.cs
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs
+          projectPath: Assets\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs.meta
+        label: NavMeshSurfaceEditor.cs.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs.meta
+          projectPath: Assets\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Editor\RootSources2dEditor.cs
+        label: RootSources2dEditor.cs
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Editor\RootSources2dEditor.cs
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\RootSources2dEditor.cs
+          projectPath: Assets\NavMeshComponents\Editor\RootSources2dEditor.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Editor\RootSources2dEditor.cs.meta
+        label: RootSources2dEditor.cs.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Editor\RootSources2dEditor.cs.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\RootSources2dEditor.cs.meta
+          projectPath: Assets\NavMeshComponents\Editor\RootSources2dEditor.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Scripts.meta
+        label: Scripts.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Scripts.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts.meta
+          projectPath: Assets\NavMeshComponents\Scripts.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Scripts
+        label: Scripts
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\NavMeshComponents\Scripts\AgentOverride2d.cs
+        label: AgentOverride2d.cs
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Scripts\AgentOverride2d.cs
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\AgentOverride2d.cs
+          projectPath: Assets\NavMeshComponents\Scripts\AgentOverride2d.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Scripts\AgentOverride2d.cs.meta
+        label: AgentOverride2d.cs.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Scripts\AgentOverride2d.cs.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\AgentOverride2d.cs.meta
+          projectPath: Assets\NavMeshComponents\Scripts\AgentOverride2d.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Scripts\AgentRotate2d.cs
+        label: AgentRotate2d.cs
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Scripts\AgentRotate2d.cs
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\AgentRotate2d.cs
+          projectPath: Assets\NavMeshComponents\Scripts\AgentRotate2d.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Scripts\AgentRotate2d.cs.meta
+        label: AgentRotate2d.cs.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Scripts\AgentRotate2d.cs.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\AgentRotate2d.cs.meta
+          projectPath: Assets\NavMeshComponents\Scripts\AgentRotate2d.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Scripts\AgentRotateSmooth2d.cs
+        label: AgentRotateSmooth2d.cs
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Scripts\AgentRotateSmooth2d.cs
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\AgentRotateSmooth2d.cs
+          projectPath: Assets\NavMeshComponents\Scripts\AgentRotateSmooth2d.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Scripts\AgentRotateSmooth2d.cs.meta
+        label: AgentRotateSmooth2d.cs.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Scripts\AgentRotateSmooth2d.cs.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\AgentRotateSmooth2d.cs.meta
+          projectPath: Assets\NavMeshComponents\Scripts\AgentRotateSmooth2d.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Scripts\CollectSources2d.cs
+        label: CollectSources2d.cs
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Scripts\CollectSources2d.cs
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\CollectSources2d.cs
+          projectPath: Assets\NavMeshComponents\Scripts\CollectSources2d.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Scripts\CollectSources2d.cs.meta
+        label: CollectSources2d.cs.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Scripts\CollectSources2d.cs.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\CollectSources2d.cs.meta
+          projectPath: Assets\NavMeshComponents\Scripts\CollectSources2d.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Scripts\CollectSourcesCache2d.cs
+        label: CollectSourcesCache2d.cs
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Scripts\CollectSourcesCache2d.cs
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\CollectSourcesCache2d.cs
+          projectPath: Assets\NavMeshComponents\Scripts\CollectSourcesCache2d.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Scripts\CollectSourcesCache2d.cs.meta
+        label: CollectSourcesCache2d.cs.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Scripts\CollectSourcesCache2d.cs.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\CollectSourcesCache2d.cs.meta
+          projectPath: Assets\NavMeshComponents\Scripts\CollectSourcesCache2d.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Scripts\NavMeshAgentAttribute.cs
+        label: NavMeshAgentAttribute.cs
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Scripts\NavMeshAgentAttribute.cs
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshAgentAttribute.cs
+          projectPath: Assets\NavMeshComponents\Scripts\NavMeshAgentAttribute.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Scripts\NavMeshAgentAttribute.cs.meta
+        label: NavMeshAgentAttribute.cs.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Scripts\NavMeshAgentAttribute.cs.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshAgentAttribute.cs.meta
+          projectPath: Assets\NavMeshComponents\Scripts\NavMeshAgentAttribute.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Scripts\NavMeshAreaAttribute.cs
+        label: NavMeshAreaAttribute.cs
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Scripts\NavMeshAreaAttribute.cs
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshAreaAttribute.cs
+          projectPath: Assets\NavMeshComponents\Scripts\NavMeshAreaAttribute.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Scripts\NavMeshAreaAttribute.cs.meta
+        label: NavMeshAreaAttribute.cs.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Scripts\NavMeshAreaAttribute.cs.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshAreaAttribute.cs.meta
+          projectPath: Assets\NavMeshComponents\Scripts\NavMeshAreaAttribute.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Scripts\NavMeshBuilder2d.cs
+        label: NavMeshBuilder2d.cs
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Scripts\NavMeshBuilder2d.cs
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshBuilder2d.cs
+          projectPath: Assets\NavMeshComponents\Scripts\NavMeshBuilder2d.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Scripts\NavMeshBuilder2d.cs.meta
+        label: NavMeshBuilder2d.cs.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Scripts\NavMeshBuilder2d.cs.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshBuilder2d.cs.meta
+          projectPath: Assets\NavMeshComponents\Scripts\NavMeshBuilder2d.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Scripts\NavMeshBuilderState.cs
+        label: NavMeshBuilderState.cs
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Scripts\NavMeshBuilderState.cs
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshBuilderState.cs
+          projectPath: Assets\NavMeshComponents\Scripts\NavMeshBuilderState.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Scripts\NavMeshBuilderState.cs.meta
+        label: NavMeshBuilderState.cs.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Scripts\NavMeshBuilderState.cs.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshBuilderState.cs.meta
+          projectPath: Assets\NavMeshComponents\Scripts\NavMeshBuilderState.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Scripts\NavMeshComponents.asmdef
+        label: NavMeshComponents.asmdef
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Scripts\NavMeshComponents.asmdef
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshComponents.asmdef
+          projectPath: Assets\NavMeshComponents\Scripts\NavMeshComponents.asmdef
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Scripts\NavMeshComponents.asmdef.meta
+        label: NavMeshComponents.asmdef.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Scripts\NavMeshComponents.asmdef.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshComponents.asmdef.meta
+          projectPath: Assets\NavMeshComponents\Scripts\NavMeshComponents.asmdef.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Scripts\NavMeshExtension.cs
+        label: NavMeshExtension.cs
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Scripts\NavMeshExtension.cs
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshExtension.cs
+          projectPath: Assets\NavMeshComponents\Scripts\NavMeshExtension.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Scripts\NavMeshExtension.cs.meta
+        label: NavMeshExtension.cs.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Scripts\NavMeshExtension.cs.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshExtension.cs.meta
+          projectPath: Assets\NavMeshComponents\Scripts\NavMeshExtension.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Scripts\NavMeshExtensionsProvider.cs
+        label: NavMeshExtensionsProvider.cs
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Scripts\NavMeshExtensionsProvider.cs
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshExtensionsProvider.cs
+          projectPath: Assets\NavMeshComponents\Scripts\NavMeshExtensionsProvider.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Scripts\NavMeshExtensionsProvider.cs.meta
+        label: NavMeshExtensionsProvider.cs.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Scripts\NavMeshExtensionsProvider.cs.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshExtensionsProvider.cs.meta
+          projectPath: Assets\NavMeshComponents\Scripts\NavMeshExtensionsProvider.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Scripts\NavMeshLink.cs
+        label: NavMeshLink.cs
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Scripts\NavMeshLink.cs
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshLink.cs
+          projectPath: Assets\NavMeshComponents\Scripts\NavMeshLink.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Scripts\NavMeshLink.cs.meta
+        label: NavMeshLink.cs.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Scripts\NavMeshLink.cs.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshLink.cs.meta
+          projectPath: Assets\NavMeshComponents\Scripts\NavMeshLink.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Scripts\NavMeshModifier.cs
+        label: NavMeshModifier.cs
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Scripts\NavMeshModifier.cs
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshModifier.cs
+          projectPath: Assets\NavMeshComponents\Scripts\NavMeshModifier.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Scripts\NavMeshModifier.cs.meta
+        label: NavMeshModifier.cs.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Scripts\NavMeshModifier.cs.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshModifier.cs.meta
+          projectPath: Assets\NavMeshComponents\Scripts\NavMeshModifier.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Scripts\NavMeshModifierTilemap.cs
+        label: NavMeshModifierTilemap.cs
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Scripts\NavMeshModifierTilemap.cs
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshModifierTilemap.cs
+          projectPath: Assets\NavMeshComponents\Scripts\NavMeshModifierTilemap.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Scripts\NavMeshModifierTilemap.cs.meta
+        label: NavMeshModifierTilemap.cs.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Scripts\NavMeshModifierTilemap.cs.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshModifierTilemap.cs.meta
+          projectPath: Assets\NavMeshComponents\Scripts\NavMeshModifierTilemap.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Scripts\NavMeshModifierVolume.cs
+        label: NavMeshModifierVolume.cs
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Scripts\NavMeshModifierVolume.cs
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshModifierVolume.cs
+          projectPath: Assets\NavMeshComponents\Scripts\NavMeshModifierVolume.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Scripts\NavMeshModifierVolume.cs.meta
+        label: NavMeshModifierVolume.cs.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Scripts\NavMeshModifierVolume.cs.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshModifierVolume.cs.meta
+          projectPath: Assets\NavMeshComponents\Scripts\NavMeshModifierVolume.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Scripts\NavMeshSurface.cs
+        label: NavMeshSurface.cs
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Scripts\NavMeshSurface.cs
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshSurface.cs
+          projectPath: Assets\NavMeshComponents\Scripts\NavMeshSurface.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Scripts\NavMeshSurface.cs.meta
+        label: NavMeshSurface.cs.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Scripts\NavMeshSurface.cs.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshSurface.cs.meta
+          projectPath: Assets\NavMeshComponents\Scripts\NavMeshSurface.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Scripts\RootSources2d.cs
+        label: RootSources2d.cs
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Scripts\RootSources2d.cs
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\RootSources2d.cs
+          projectPath: Assets\NavMeshComponents\Scripts\RootSources2d.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Scripts\RootSources2d.cs.meta
+        label: RootSources2d.cs.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Scripts\RootSources2d.cs.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\RootSources2d.cs.meta
+          projectPath: Assets\NavMeshComponents\Scripts\RootSources2d.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Scripts\RotateAgentInstantly.cs
+        label: RotateAgentInstantly.cs
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Scripts\RotateAgentInstantly.cs
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\RotateAgentInstantly.cs
+          projectPath: Assets\NavMeshComponents\Scripts\RotateAgentInstantly.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Scripts\RotateAgentInstantly.cs.meta
+        label: RotateAgentInstantly.cs.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Scripts\RotateAgentInstantly.cs.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\RotateAgentInstantly.cs.meta
+          projectPath: Assets\NavMeshComponents\Scripts\RotateAgentInstantly.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Scripts\RotateAgentSmoothly.cs
+        label: RotateAgentSmoothly.cs
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Scripts\RotateAgentSmoothly.cs
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\RotateAgentSmoothly.cs
+          projectPath: Assets\NavMeshComponents\Scripts\RotateAgentSmoothly.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NavMeshComponents\Scripts\RotateAgentSmoothly.cs.meta
+        label: RotateAgentSmoothly.cs.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NavMeshComponents\Scripts\RotateAgentSmoothly.cs.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\RotateAgentSmoothly.cs.meta
+          projectPath: Assets\NavMeshComponents\Scripts\RotateAgentSmoothly.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Scenes
+        label: Scenes
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Scenes\SampleScene.meta
+        label: SampleScene.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scenes\SampleScene.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\Scenes\SampleScene.meta
+          projectPath: Assets\Scenes\SampleScene.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Scenes\SampleScene
+        label: SampleScene
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Scenes\SampleScene\NavMesh-Navmesh.asset
+        label: NavMesh-Navmesh.asset
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scenes\SampleScene\NavMesh-Navmesh.asset
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\Scenes\SampleScene\NavMesh-Navmesh.asset
+          projectPath: Assets\Scenes\SampleScene\NavMesh-Navmesh.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Scenes\SampleScene\NavMesh-Navmesh.asset.meta
+        label: NavMesh-Navmesh.asset.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scenes\SampleScene\NavMesh-Navmesh.asset.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\Scenes\SampleScene\NavMesh-Navmesh.asset.meta
+          projectPath: Assets\Scenes\SampleScene\NavMesh-Navmesh.asset.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Scripts.meta
+        label: Scripts.meta
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\Scripts.meta
+          projectPath: Assets\Scripts.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Scripts
+        label: Scripts
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Scripts\Red NPC.cs
+        label: Red NPC.cs
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\Red NPC.cs
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\Scripts\Red NPC.cs
+          projectPath: Assets\Scripts\Red NPC.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Scripts\Red NPC.cs.meta
+        label: Red NPC.cs.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\Red NPC.cs.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\Scripts\Red NPC.cs.meta
+          projectPath: Assets\Scripts\Red NPC.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Settings
+        label: Settings
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Settings\Renderer2D.asset
+        label: Renderer2D.asset
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Settings\Renderer2D.asset
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\Settings\Renderer2D.asset
+          projectPath: Assets\Settings\Renderer2D.asset
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Packages
+        label: Packages
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Packages\manifest.json
+        label: manifest.json
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Packages\manifest.json
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Packages\manifest.json
+          projectPath: Packages\manifest.json
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Packages\packages-lock.json
+        label: packages-lock.json
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Packages\packages-lock.json
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Packages\packages-lock.json
+          projectPath: Packages\packages-lock.json
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: UserSettings
+        label: UserSettings
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UserSettings\Layouts
+        label: Layouts
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2022.dwlt
+        label: default-2022.dwlt
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UserSettings\Layouts\default-2022.dwlt
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\UserSettings\Layouts\default-2022.dwlt
+          projectPath: UserSettings\Layouts\default-2022.dwlt
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+    gitStatusEntries:
+    - path: Assets\NavMeshComponents.meta
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents.meta
+      projectPath: Assets\NavMeshComponents.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Editor.meta
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor.meta
+      projectPath: Assets\NavMeshComponents\Editor.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Editor\AgentOverride2dEditor.cs
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\AgentOverride2dEditor.cs
+      projectPath: Assets\NavMeshComponents\Editor\AgentOverride2dEditor.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Editor\AgentOverride2dEditor.cs.meta
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\AgentOverride2dEditor.cs.meta
+      projectPath: Assets\NavMeshComponents\Editor\AgentOverride2dEditor.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Editor\CollectSources2dEditor.cs
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\CollectSources2dEditor.cs
+      projectPath: Assets\NavMeshComponents\Editor\CollectSources2dEditor.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Editor\CollectSources2dEditor.cs.meta
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\CollectSources2dEditor.cs.meta
+      projectPath: Assets\NavMeshComponents\Editor\CollectSources2dEditor.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Editor\CollectSourcesCache2dEditor.cs
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\CollectSourcesCache2dEditor.cs
+      projectPath: Assets\NavMeshComponents\Editor\CollectSourcesCache2dEditor.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Editor\CollectSourcesCache2dEditor.cs.meta
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\CollectSourcesCache2dEditor.cs.meta
+      projectPath: Assets\NavMeshComponents\Editor\CollectSourcesCache2dEditor.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Editor\NavMeshAgentAttributePropertyDrawer.cs
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshAgentAttributePropertyDrawer.cs
+      projectPath: Assets\NavMeshComponents\Editor\NavMeshAgentAttributePropertyDrawer.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Editor\NavMeshAgentAttributePropertyDrawer.cs.meta
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshAgentAttributePropertyDrawer.cs.meta
+      projectPath: Assets\NavMeshComponents\Editor\NavMeshAgentAttributePropertyDrawer.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Editor\NavMeshAreaAttributePropertyDrawer.cs
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshAreaAttributePropertyDrawer.cs
+      projectPath: Assets\NavMeshComponents\Editor\NavMeshAreaAttributePropertyDrawer.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Editor\NavMeshAreaAttributePropertyDrawer.cs.meta
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshAreaAttributePropertyDrawer.cs.meta
+      projectPath: Assets\NavMeshComponents\Editor\NavMeshAreaAttributePropertyDrawer.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Editor\NavMeshAssetManager.cs
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshAssetManager.cs
+      projectPath: Assets\NavMeshComponents\Editor\NavMeshAssetManager.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Editor\NavMeshAssetManager.cs.meta
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshAssetManager.cs.meta
+      projectPath: Assets\NavMeshComponents\Editor\NavMeshAssetManager.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Editor\NavMeshComponentsEditor.asmdef
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshComponentsEditor.asmdef
+      projectPath: Assets\NavMeshComponents\Editor\NavMeshComponentsEditor.asmdef
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Editor\NavMeshComponentsEditor.asmdef.meta
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshComponentsEditor.asmdef.meta
+      projectPath: Assets\NavMeshComponents\Editor\NavMeshComponentsEditor.asmdef.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs
+      projectPath: Assets\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs.meta
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs.meta
+      projectPath: Assets\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Editor\NavMeshLinkEditor.cs
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshLinkEditor.cs
+      projectPath: Assets\NavMeshComponents\Editor\NavMeshLinkEditor.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Editor\NavMeshLinkEditor.cs.meta
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshLinkEditor.cs.meta
+      projectPath: Assets\NavMeshComponents\Editor\NavMeshLinkEditor.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Editor\NavMeshModifierEditor.cs
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshModifierEditor.cs
+      projectPath: Assets\NavMeshComponents\Editor\NavMeshModifierEditor.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Editor\NavMeshModifierEditor.cs.meta
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshModifierEditor.cs.meta
+      projectPath: Assets\NavMeshComponents\Editor\NavMeshModifierEditor.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Editor\NavMeshModifierTilemapEditor.cs
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshModifierTilemapEditor.cs
+      projectPath: Assets\NavMeshComponents\Editor\NavMeshModifierTilemapEditor.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Editor\NavMeshModifierTilemapEditor.cs.meta
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshModifierTilemapEditor.cs.meta
+      projectPath: Assets\NavMeshComponents\Editor\NavMeshModifierTilemapEditor.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Editor\NavMeshModifierVolumeEditor.cs
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshModifierVolumeEditor.cs
+      projectPath: Assets\NavMeshComponents\Editor\NavMeshModifierVolumeEditor.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Editor\NavMeshModifierVolumeEditor.cs.meta
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshModifierVolumeEditor.cs.meta
+      projectPath: Assets\NavMeshComponents\Editor\NavMeshModifierVolumeEditor.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs
+      projectPath: Assets\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs.meta
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs.meta
+      projectPath: Assets\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Editor\RootSources2dEditor.cs
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\RootSources2dEditor.cs
+      projectPath: Assets\NavMeshComponents\Editor\RootSources2dEditor.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Editor\RootSources2dEditor.cs.meta
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Editor\RootSources2dEditor.cs.meta
+      projectPath: Assets\NavMeshComponents\Editor\RootSources2dEditor.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Scripts.meta
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts.meta
+      projectPath: Assets\NavMeshComponents\Scripts.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Scripts\AgentOverride2d.cs
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\AgentOverride2d.cs
+      projectPath: Assets\NavMeshComponents\Scripts\AgentOverride2d.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Scripts\AgentOverride2d.cs.meta
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\AgentOverride2d.cs.meta
+      projectPath: Assets\NavMeshComponents\Scripts\AgentOverride2d.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Scripts\AgentRotate2d.cs
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\AgentRotate2d.cs
+      projectPath: Assets\NavMeshComponents\Scripts\AgentRotate2d.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Scripts\AgentRotate2d.cs.meta
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\AgentRotate2d.cs.meta
+      projectPath: Assets\NavMeshComponents\Scripts\AgentRotate2d.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Scripts\AgentRotateSmooth2d.cs
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\AgentRotateSmooth2d.cs
+      projectPath: Assets\NavMeshComponents\Scripts\AgentRotateSmooth2d.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Scripts\AgentRotateSmooth2d.cs.meta
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\AgentRotateSmooth2d.cs.meta
+      projectPath: Assets\NavMeshComponents\Scripts\AgentRotateSmooth2d.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Scripts\CollectSources2d.cs
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\CollectSources2d.cs
+      projectPath: Assets\NavMeshComponents\Scripts\CollectSources2d.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Scripts\CollectSources2d.cs.meta
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\CollectSources2d.cs.meta
+      projectPath: Assets\NavMeshComponents\Scripts\CollectSources2d.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Scripts\CollectSourcesCache2d.cs
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\CollectSourcesCache2d.cs
+      projectPath: Assets\NavMeshComponents\Scripts\CollectSourcesCache2d.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Scripts\CollectSourcesCache2d.cs.meta
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\CollectSourcesCache2d.cs.meta
+      projectPath: Assets\NavMeshComponents\Scripts\CollectSourcesCache2d.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Scripts\NavMeshAgentAttribute.cs
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshAgentAttribute.cs
+      projectPath: Assets\NavMeshComponents\Scripts\NavMeshAgentAttribute.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Scripts\NavMeshAgentAttribute.cs.meta
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshAgentAttribute.cs.meta
+      projectPath: Assets\NavMeshComponents\Scripts\NavMeshAgentAttribute.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Scripts\NavMeshAreaAttribute.cs
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshAreaAttribute.cs
+      projectPath: Assets\NavMeshComponents\Scripts\NavMeshAreaAttribute.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Scripts\NavMeshAreaAttribute.cs.meta
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshAreaAttribute.cs.meta
+      projectPath: Assets\NavMeshComponents\Scripts\NavMeshAreaAttribute.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Scripts\NavMeshBuilder2d.cs
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshBuilder2d.cs
+      projectPath: Assets\NavMeshComponents\Scripts\NavMeshBuilder2d.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Scripts\NavMeshBuilder2d.cs.meta
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshBuilder2d.cs.meta
+      projectPath: Assets\NavMeshComponents\Scripts\NavMeshBuilder2d.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Scripts\NavMeshBuilderState.cs
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshBuilderState.cs
+      projectPath: Assets\NavMeshComponents\Scripts\NavMeshBuilderState.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Scripts\NavMeshBuilderState.cs.meta
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshBuilderState.cs.meta
+      projectPath: Assets\NavMeshComponents\Scripts\NavMeshBuilderState.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Scripts\NavMeshComponents.asmdef
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshComponents.asmdef
+      projectPath: Assets\NavMeshComponents\Scripts\NavMeshComponents.asmdef
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Scripts\NavMeshComponents.asmdef.meta
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshComponents.asmdef.meta
+      projectPath: Assets\NavMeshComponents\Scripts\NavMeshComponents.asmdef.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Scripts\NavMeshExtension.cs
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshExtension.cs
+      projectPath: Assets\NavMeshComponents\Scripts\NavMeshExtension.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Scripts\NavMeshExtension.cs.meta
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshExtension.cs.meta
+      projectPath: Assets\NavMeshComponents\Scripts\NavMeshExtension.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Scripts\NavMeshExtensionsProvider.cs
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshExtensionsProvider.cs
+      projectPath: Assets\NavMeshComponents\Scripts\NavMeshExtensionsProvider.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Scripts\NavMeshExtensionsProvider.cs.meta
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshExtensionsProvider.cs.meta
+      projectPath: Assets\NavMeshComponents\Scripts\NavMeshExtensionsProvider.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Scripts\NavMeshLink.cs
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshLink.cs
+      projectPath: Assets\NavMeshComponents\Scripts\NavMeshLink.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Scripts\NavMeshLink.cs.meta
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshLink.cs.meta
+      projectPath: Assets\NavMeshComponents\Scripts\NavMeshLink.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Scripts\NavMeshModifier.cs
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshModifier.cs
+      projectPath: Assets\NavMeshComponents\Scripts\NavMeshModifier.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Scripts\NavMeshModifier.cs.meta
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshModifier.cs.meta
+      projectPath: Assets\NavMeshComponents\Scripts\NavMeshModifier.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Scripts\NavMeshModifierTilemap.cs
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshModifierTilemap.cs
+      projectPath: Assets\NavMeshComponents\Scripts\NavMeshModifierTilemap.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Scripts\NavMeshModifierTilemap.cs.meta
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshModifierTilemap.cs.meta
+      projectPath: Assets\NavMeshComponents\Scripts\NavMeshModifierTilemap.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Scripts\NavMeshModifierVolume.cs
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshModifierVolume.cs
+      projectPath: Assets\NavMeshComponents\Scripts\NavMeshModifierVolume.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Scripts\NavMeshModifierVolume.cs.meta
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshModifierVolume.cs.meta
+      projectPath: Assets\NavMeshComponents\Scripts\NavMeshModifierVolume.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Scripts\NavMeshSurface.cs
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshSurface.cs
+      projectPath: Assets\NavMeshComponents\Scripts\NavMeshSurface.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Scripts\NavMeshSurface.cs.meta
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\NavMeshSurface.cs.meta
+      projectPath: Assets\NavMeshComponents\Scripts\NavMeshSurface.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Scripts\RootSources2d.cs
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\RootSources2d.cs
+      projectPath: Assets\NavMeshComponents\Scripts\RootSources2d.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Scripts\RootSources2d.cs.meta
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\RootSources2d.cs.meta
+      projectPath: Assets\NavMeshComponents\Scripts\RootSources2d.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Scripts\RotateAgentInstantly.cs
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\RotateAgentInstantly.cs
+      projectPath: Assets\NavMeshComponents\Scripts\RotateAgentInstantly.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Scripts\RotateAgentInstantly.cs.meta
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\RotateAgentInstantly.cs.meta
+      projectPath: Assets\NavMeshComponents\Scripts\RotateAgentInstantly.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Scripts\RotateAgentSmoothly.cs
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\RotateAgentSmoothly.cs
+      projectPath: Assets\NavMeshComponents\Scripts\RotateAgentSmoothly.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NavMeshComponents\Scripts\RotateAgentSmoothly.cs.meta
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\NavMeshComponents\Scripts\RotateAgentSmoothly.cs.meta
+      projectPath: Assets\NavMeshComponents\Scripts\RotateAgentSmoothly.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scenes\SampleScene.meta
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\Scenes\SampleScene.meta
+      projectPath: Assets\Scenes\SampleScene.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scenes\SampleScene\NavMesh-Navmesh.asset
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\Scenes\SampleScene\NavMesh-Navmesh.asset
+      projectPath: Assets\Scenes\SampleScene\NavMesh-Navmesh.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scenes\SampleScene\NavMesh-Navmesh.asset.meta
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\Scenes\SampleScene\NavMesh-Navmesh.asset.meta
+      projectPath: Assets\Scenes\SampleScene\NavMesh-Navmesh.asset.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scripts.meta
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\Scripts.meta
+      projectPath: Assets\Scripts.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scripts\Red NPC.cs
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\Scripts\Red NPC.cs
+      projectPath: Assets\Scripts\Red NPC.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scripts\Red NPC.cs.meta
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\Scripts\Red NPC.cs.meta
+      projectPath: Assets\Scripts\Red NPC.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Settings\Renderer2D.asset
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\Settings\Renderer2D.asset
+      projectPath: Assets\Settings\Renderer2D.asset
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Packages\manifest.json
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Packages\manifest.json
+      projectPath: Packages\manifest.json
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Packages\packages-lock.json
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Packages\packages-lock.json
+      projectPath: Packages\packages-lock.json
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: UserSettings\Layouts\default-2022.dwlt
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\UserSettings\Layouts\default-2022.dwlt
+      projectPath: UserSettings\Layouts\default-2022.dwlt
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    changedFilesText: 81 changed files
+    lastCurrentBranchChangedEvent:
+      updatedTimeString: 2023-09-27T17:23:17.805-04:00
+      cacheType: 1
+    lastStatusEntriesChangedEvent:
+      updatedTimeString: 2023-09-27T17:42:46.463-04:00
+      cacheType: 6
+    lastLocksChangedEvent:
+      updatedTimeString: 2023-09-27T17:42:46.681-04:00
+      cacheType: 7
+  historyView:
+    currentLogHasUpdate: 0
+    currentTrackingStatusHasUpdate: 0
+    logEntries:
+    - commitID: 8b1a28900188159a02a4febbbe5e82dcaa39b11a
+      mergeA: 
+      mergeB: 
+      authorName: Carlos Matias Herrero
+      authorEmail: carlmat000@gmail.com
+      commitEmail: carlmat000@gmail.com
+      commitName: Carlos Matias Herrero
+      summary: initial commit
+      description: 
+      timeString: 2023-09-20T18:59:17.000-04:00
+      commitTimeString: 2023-09-20T18:59:17.000-04:00
+      changes:
+      - path: .vsconfig
+        fullPath: C:\Users\carlm\Shadows Over Willowbrook\.vsconfig
+        projectPath: .vsconfig
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes.meta
+        fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\Scenes.meta
+        projectPath: Assets\Scenes.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes\SampleScene.unity
+        fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\Scenes\SampleScene.unity
+        projectPath: Assets\Scenes\SampleScene.unity
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes\SampleScene.unity.meta
+        fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\Scenes\SampleScene.unity.meta
+        projectPath: Assets\Scenes\SampleScene.unity.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings.meta
+        fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\Settings.meta
+        projectPath: Assets\Settings.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\Lit2DSceneTemplate.scenetemplate
+        fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\Settings\Lit2DSceneTemplate.scenetemplate
+        projectPath: Assets\Settings\Lit2DSceneTemplate.scenetemplate
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
+        fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
+        projectPath: Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\Renderer2D.asset
+        fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\Settings\Renderer2D.asset
+        projectPath: Assets\Settings\Renderer2D.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\Renderer2D.asset.meta
+        fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\Settings\Renderer2D.asset.meta
+        projectPath: Assets\Settings\Renderer2D.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\Scenes.meta
+        fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\Settings\Scenes.meta
+        projectPath: Assets\Settings\Scenes.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\Scenes\URP2DSceneTemplate.unity
+        fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\Settings\Scenes\URP2DSceneTemplate.unity
+        projectPath: Assets\Settings\Scenes\URP2DSceneTemplate.unity
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
+        fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
+        projectPath: Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\UniversalRP.asset
+        fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\Settings\UniversalRP.asset
+        projectPath: Assets\Settings\UniversalRP.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\UniversalRP.asset.meta
+        fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\Settings\UniversalRP.asset.meta
+        projectPath: Assets\Settings\UniversalRP.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\UniversalRenderPipelineGlobalSettings.asset
+        fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\UniversalRenderPipelineGlobalSettings.asset
+        projectPath: Assets\UniversalRenderPipelineGlobalSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\UniversalRenderPipelineGlobalSettings.asset.meta
+        fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\UniversalRenderPipelineGlobalSettings.asset.meta
+        projectPath: Assets\UniversalRenderPipelineGlobalSettings.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Packages\manifest.json
+        fullPath: C:\Users\carlm\Shadows Over Willowbrook\Packages\manifest.json
+        projectPath: Packages\manifest.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Packages\packages-lock.json
+        fullPath: C:\Users\carlm\Shadows Over Willowbrook\Packages\packages-lock.json
+        projectPath: Packages\packages-lock.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\AudioManager.asset
+        fullPath: C:\Users\carlm\Shadows Over Willowbrook\ProjectSettings\AudioManager.asset
+        projectPath: ProjectSettings\AudioManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\ClusterInputManager.asset
+        fullPath: C:\Users\carlm\Shadows Over Willowbrook\ProjectSettings\ClusterInputManager.asset
+        projectPath: ProjectSettings\ClusterInputManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\DynamicsManager.asset
+        fullPath: C:\Users\carlm\Shadows Over Willowbrook\ProjectSettings\DynamicsManager.asset
+        projectPath: ProjectSettings\DynamicsManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\EditorBuildSettings.asset
+        fullPath: C:\Users\carlm\Shadows Over Willowbrook\ProjectSettings\EditorBuildSettings.asset
+        projectPath: ProjectSettings\EditorBuildSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\EditorSettings.asset
+        fullPath: C:\Users\carlm\Shadows Over Willowbrook\ProjectSettings\EditorSettings.asset
+        projectPath: ProjectSettings\EditorSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\GraphicsSettings.asset
+        fullPath: C:\Users\carlm\Shadows Over Willowbrook\ProjectSettings\GraphicsSettings.asset
+        projectPath: ProjectSettings\GraphicsSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\InputManager.asset
+        fullPath: C:\Users\carlm\Shadows Over Willowbrook\ProjectSettings\InputManager.asset
+        projectPath: ProjectSettings\InputManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\MemorySettings.asset
+        fullPath: C:\Users\carlm\Shadows Over Willowbrook\ProjectSettings\MemorySettings.asset
+        projectPath: ProjectSettings\MemorySettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\NavMeshAreas.asset
+        fullPath: C:\Users\carlm\Shadows Over Willowbrook\ProjectSettings\NavMeshAreas.asset
+        projectPath: ProjectSettings\NavMeshAreas.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\NetworkManager.asset
+        fullPath: C:\Users\carlm\Shadows Over Willowbrook\ProjectSettings\NetworkManager.asset
+        projectPath: ProjectSettings\NetworkManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\PackageManagerSettings.asset
+        fullPath: C:\Users\carlm\Shadows Over Willowbrook\ProjectSettings\PackageManagerSettings.asset
+        projectPath: ProjectSettings\PackageManagerSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\Physics2DSettings.asset
+        fullPath: C:\Users\carlm\Shadows Over Willowbrook\ProjectSettings\Physics2DSettings.asset
+        projectPath: ProjectSettings\Physics2DSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\PresetManager.asset
+        fullPath: C:\Users\carlm\Shadows Over Willowbrook\ProjectSettings\PresetManager.asset
+        projectPath: ProjectSettings\PresetManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\ProjectSettings.asset
+        fullPath: C:\Users\carlm\Shadows Over Willowbrook\ProjectSettings\ProjectSettings.asset
+        projectPath: ProjectSettings\ProjectSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\ProjectVersion.txt
+        fullPath: C:\Users\carlm\Shadows Over Willowbrook\ProjectSettings\ProjectVersion.txt
+        projectPath: ProjectSettings\ProjectVersion.txt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\QualitySettings.asset
+        fullPath: C:\Users\carlm\Shadows Over Willowbrook\ProjectSettings\QualitySettings.asset
+        projectPath: ProjectSettings\QualitySettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\TagManager.asset
+        fullPath: C:\Users\carlm\Shadows Over Willowbrook\ProjectSettings\TagManager.asset
+        projectPath: ProjectSettings\TagManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\TimeManager.asset
+        fullPath: C:\Users\carlm\Shadows Over Willowbrook\ProjectSettings\TimeManager.asset
+        projectPath: ProjectSettings\TimeManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\URPProjectSettings.asset
+        fullPath: C:\Users\carlm\Shadows Over Willowbrook\ProjectSettings\URPProjectSettings.asset
+        projectPath: ProjectSettings\URPProjectSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\UnityConnectSettings.asset
+        fullPath: C:\Users\carlm\Shadows Over Willowbrook\ProjectSettings\UnityConnectSettings.asset
+        projectPath: ProjectSettings\UnityConnectSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\VFXManager.asset
+        fullPath: C:\Users\carlm\Shadows Over Willowbrook\ProjectSettings\VFXManager.asset
+        projectPath: ProjectSettings\VFXManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\VersionControlSettings.asset
+        fullPath: C:\Users\carlm\Shadows Over Willowbrook\ProjectSettings\VersionControlSettings.asset
+        projectPath: ProjectSettings\VersionControlSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\XRSettings.asset
+        fullPath: C:\Users\carlm\Shadows Over Willowbrook\ProjectSettings\XRSettings.asset
+        projectPath: ProjectSettings\XRSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\EditorUserSettings.asset
+        fullPath: C:\Users\carlm\Shadows Over Willowbrook\UserSettings\EditorUserSettings.asset
+        projectPath: UserSettings\EditorUserSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\Search.index
+        fullPath: C:\Users\carlm\Shadows Over Willowbrook\UserSettings\Search.index
+        projectPath: UserSettings\Search.index
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\Search.settings
+        fullPath: C:\Users\carlm\Shadows Over Willowbrook\UserSettings\Search.settings
+        projectPath: UserSettings\Search.settings
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+    - commitID: 9a9fd7ebae794b0b1eedd314c5e04f4e015d62c3
+      mergeA: 
+      mergeB: 
+      authorName: Carlos Matias Herrero
+      authorEmail: carlmat000@gmail.com
+      commitEmail: carlmat000@gmail.com
+      commitName: Carlos Matias Herrero
+      summary: Initial commit
+      description: 
+      timeString: 2023-09-20T18:57:21.000-04:00
+      commitTimeString: 2023-09-20T18:57:21.000-04:00
+      changes:
+      - path: .gitattributes
+        fullPath: C:\Users\carlm\Shadows Over Willowbrook\.gitattributes
+        projectPath: .gitattributes
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: .gitignore
+        fullPath: C:\Users\carlm\Shadows Over Willowbrook\.gitignore
+        projectPath: .gitignore
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\.gitignore
+        fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\.gitignore
+        projectPath: Assets\.gitignore
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+    statusAhead: 0
+    lastLogChangedEvent:
+      updatedTimeString: 2023-09-27T15:19:49.445-04:00
+      cacheType: 3
+    lastTrackingStatusChangedEvent:
+      updatedTimeString: 2023-09-27T15:19:48.942-04:00
+      cacheType: 5
+    historyControl:
+      scroll: {x: 0, y: 0}
+      entries:
+      - commitID: 8b1a28900188159a02a4febbbe5e82dcaa39b11a
+        mergeA: 
+        mergeB: 
+        authorName: Carlos Matias Herrero
+        authorEmail: carlmat000@gmail.com
+        commitEmail: carlmat000@gmail.com
+        commitName: Carlos Matias Herrero
+        summary: initial commit
+        description: 
+        timeString: 2023-09-20T18:59:17.000-04:00
+        commitTimeString: 2023-09-20T18:59:17.000-04:00
+        changes:
+        - path: .vsconfig
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\.vsconfig
+          projectPath: .vsconfig
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\Scenes.meta
+          projectPath: Assets\Scenes.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes\SampleScene.unity
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\Scenes\SampleScene.unity
+          projectPath: Assets\Scenes\SampleScene.unity
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes\SampleScene.unity.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\Scenes\SampleScene.unity.meta
+          projectPath: Assets\Scenes\SampleScene.unity.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\Settings.meta
+          projectPath: Assets\Settings.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\Lit2DSceneTemplate.scenetemplate
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\Settings\Lit2DSceneTemplate.scenetemplate
+          projectPath: Assets\Settings\Lit2DSceneTemplate.scenetemplate
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
+          projectPath: Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\Renderer2D.asset
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\Settings\Renderer2D.asset
+          projectPath: Assets\Settings\Renderer2D.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\Renderer2D.asset.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\Settings\Renderer2D.asset.meta
+          projectPath: Assets\Settings\Renderer2D.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\Scenes.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\Settings\Scenes.meta
+          projectPath: Assets\Settings\Scenes.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\Scenes\URP2DSceneTemplate.unity
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\Settings\Scenes\URP2DSceneTemplate.unity
+          projectPath: Assets\Settings\Scenes\URP2DSceneTemplate.unity
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
+          projectPath: Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\UniversalRP.asset
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\Settings\UniversalRP.asset
+          projectPath: Assets\Settings\UniversalRP.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\UniversalRP.asset.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\Settings\UniversalRP.asset.meta
+          projectPath: Assets\Settings\UniversalRP.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\UniversalRenderPipelineGlobalSettings.asset
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\UniversalRenderPipelineGlobalSettings.asset
+          projectPath: Assets\UniversalRenderPipelineGlobalSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\UniversalRenderPipelineGlobalSettings.asset.meta
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\UniversalRenderPipelineGlobalSettings.asset.meta
+          projectPath: Assets\UniversalRenderPipelineGlobalSettings.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Packages\manifest.json
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Packages\manifest.json
+          projectPath: Packages\manifest.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Packages\packages-lock.json
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Packages\packages-lock.json
+          projectPath: Packages\packages-lock.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\AudioManager.asset
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\ProjectSettings\AudioManager.asset
+          projectPath: ProjectSettings\AudioManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\ClusterInputManager.asset
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\ProjectSettings\ClusterInputManager.asset
+          projectPath: ProjectSettings\ClusterInputManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\DynamicsManager.asset
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\ProjectSettings\DynamicsManager.asset
+          projectPath: ProjectSettings\DynamicsManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\EditorBuildSettings.asset
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\ProjectSettings\EditorBuildSettings.asset
+          projectPath: ProjectSettings\EditorBuildSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\EditorSettings.asset
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\ProjectSettings\EditorSettings.asset
+          projectPath: ProjectSettings\EditorSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\GraphicsSettings.asset
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\ProjectSettings\GraphicsSettings.asset
+          projectPath: ProjectSettings\GraphicsSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\InputManager.asset
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\ProjectSettings\InputManager.asset
+          projectPath: ProjectSettings\InputManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\MemorySettings.asset
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\ProjectSettings\MemorySettings.asset
+          projectPath: ProjectSettings\MemorySettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\NavMeshAreas.asset
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\ProjectSettings\NavMeshAreas.asset
+          projectPath: ProjectSettings\NavMeshAreas.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\NetworkManager.asset
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\ProjectSettings\NetworkManager.asset
+          projectPath: ProjectSettings\NetworkManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\PackageManagerSettings.asset
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\ProjectSettings\PackageManagerSettings.asset
+          projectPath: ProjectSettings\PackageManagerSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\Physics2DSettings.asset
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\ProjectSettings\Physics2DSettings.asset
+          projectPath: ProjectSettings\Physics2DSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\PresetManager.asset
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\ProjectSettings\PresetManager.asset
+          projectPath: ProjectSettings\PresetManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\ProjectSettings.asset
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\ProjectSettings\ProjectSettings.asset
+          projectPath: ProjectSettings\ProjectSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\ProjectVersion.txt
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\ProjectSettings\ProjectVersion.txt
+          projectPath: ProjectSettings\ProjectVersion.txt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\QualitySettings.asset
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\ProjectSettings\QualitySettings.asset
+          projectPath: ProjectSettings\QualitySettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\TagManager.asset
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\ProjectSettings\TagManager.asset
+          projectPath: ProjectSettings\TagManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\TimeManager.asset
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\ProjectSettings\TimeManager.asset
+          projectPath: ProjectSettings\TimeManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\URPProjectSettings.asset
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\ProjectSettings\URPProjectSettings.asset
+          projectPath: ProjectSettings\URPProjectSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\UnityConnectSettings.asset
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\ProjectSettings\UnityConnectSettings.asset
+          projectPath: ProjectSettings\UnityConnectSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\VFXManager.asset
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\ProjectSettings\VFXManager.asset
+          projectPath: ProjectSettings\VFXManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\VersionControlSettings.asset
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\ProjectSettings\VersionControlSettings.asset
+          projectPath: ProjectSettings\VersionControlSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\XRSettings.asset
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\ProjectSettings\XRSettings.asset
+          projectPath: ProjectSettings\XRSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\EditorUserSettings.asset
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\UserSettings\EditorUserSettings.asset
+          projectPath: UserSettings\EditorUserSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\Search.index
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\UserSettings\Search.index
+          projectPath: UserSettings\Search.index
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\Search.settings
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\UserSettings\Search.settings
+          projectPath: UserSettings\Search.settings
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - commitID: 9a9fd7ebae794b0b1eedd314c5e04f4e015d62c3
+        mergeA: 
+        mergeB: 
+        authorName: Carlos Matias Herrero
+        authorEmail: carlmat000@gmail.com
+        commitEmail: carlmat000@gmail.com
+        commitName: Carlos Matias Herrero
+        summary: Initial commit
+        description: 
+        timeString: 2023-09-20T18:57:21.000-04:00
+        commitTimeString: 2023-09-20T18:57:21.000-04:00
+        changes:
+        - path: .gitattributes
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\.gitattributes
+          projectPath: .gitattributes
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: .gitignore
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\.gitignore
+          projectPath: .gitignore
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\.gitignore
+          fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\.gitignore
+          projectPath: Assets\.gitignore
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      statusAhead: 0
+      selectedIndex: -1
+    selectedEntry:
+      commitID: 
+      mergeA: 
+      mergeB: 
+      authorName: 
+      authorEmail: 
+      commitEmail: 
+      commitName: 
+      summary: 
+      description: 
+      timeString: 0001-01-01T00:00:00.000+00:00
+      commitTimeString: 0001-01-01T00:00:00.000+00:00
+      changes: []
+    treeChanges:
+      assets:
+        keys: []
+        values: []
+      folders:
+        keys: []
+        values: []
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: 
+      pathSeparator: /
+      displayRootNode: 0
+      isSelectable: 1
+      isCheckable: 0
+      isUsingGlobalSelection: 0
+      nodes: []
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+    detailsScroll: {x: 0, y: 0}
+  settingsView:
+    gitPathView:
+      gitPath: C:\Users\carlm\AppData\Local\GitForUnity\git\cmd\git.exe
+      gitLfsPath: C:\Users\carlm\AppData\Local\GitForUnity\git\mingw64\libexec\git-core\git-lfs.exe
+      errorMessage: 
+      resetToBundled: 0
+      resetToSystem: 0
+      changingManually: 0
+    hasRemote: 1
+    lastCurrentRemoteChangedEvent:
+      updatedTimeString: 2023-09-27T15:18:11.031-04:00
+      cacheType: 1
+    newRepositoryRemoteUrl: https://github.com/ryanata/shadows-over-willowbrook.git
+    repositoryRemoteName: master
+    repositoryRemoteUrl: https://github.com/ryanata/shadows-over-willowbrook.git
+    scroll: {x: 0, y: 0}
+    userSettingsView:
+      gitName: 
+      gitEmail: 
+      newGitName: 
+      newGitEmail: 
+      needsSaving: 0
+      lastCheckUserChangedEvent:
+        updatedTimeString: 0001-01-01T00:00:00.000+00:00
+        cacheType: 8
+    webTimeout: 100000
+    gitTimeout: 5000
+  locksView:
+    currentRemoteHasUpdate: 1
+    currentStatusEntriesHasUpdate: 0
+    currentLocksHasUpdate: 0
+    keychainHasUpdate: 1
+    locksControl:
+      scroll: {x: 0, y: 0}
+      gitLockEntries: []
+      assets:
+        keys: []
+        values: []
+      gitStatusDictionary:
+        keys: []
+        values: []
+      selectedEntry:
+        gitLock:
+          id: 
+          path: 
+          owner:
+            name: 
+            email: 
+          lockedAtString: 
+        gitFileStatus: 0
+        lockedAt: 1 Jan 0001, 00:00
+    lastCurrentRemoteChangedEvent:
+      updatedTimeString: 2023-09-27T15:18:11.031-04:00
+      cacheType: 1
+    lastLocksChangedEvent:
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 7
+    lastStatusEntriesChangedEvent:
+      updatedTimeString: 2023-09-27T15:19:48.934-04:00
+      cacheType: 6
+    lockedFiles: []
+    gitStatusEntries:
+    - path: Assets\Settings\Renderer2D.asset
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\Assets\Settings\Renderer2D.asset
+      projectPath: Assets\Settings\Renderer2D.asset
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: UserSettings\Layouts\default-2022.dwlt
+      fullPath: C:\Users\carlm\Shadows Over Willowbrook\UserSettings\Layouts\default-2022.dwlt
+      projectPath: UserSettings\Layouts\default-2022.dwlt
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    currentUsername: 
+    unlockFileMenuContent:
+      m_Text: Release Lock
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+    forceUnlockFileMenuContent:
+      m_Text: Release Lock (forced)
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  hasRemote: 1
+  currentRemoteName: master
+  currentBranch: carlos-jmh/initial_npc_pathfinding
+  currentRemoteUrl: https://github.com/ryanata/shadows-over-willowbrook.git
+  statusAhead: 0
+  statusBehind: 0
+  hasItemsToCommit: 1
+  isTrackingRemoteBranch: 0
+  currentBranchContent:
+    m_Text: carlos-jmh/initial_npc_pathfinding
+    m_Image: {fileID: 0}
+    m_Tooltip: Active branch
+  currentRemoteUrlContent:
+    m_Text: https://github.com/ryanata/shadows-over-willowbrook.git
+    m_Image: {fileID: 0}
+    m_Tooltip: Url of the master remote
+  lastCurrentBranchAndRemoteChangedEvent:
+    updatedTimeString: 2023-09-27T15:20:16.477-04:00
+    cacheType: 1
+  lastTrackingStatusChangedEvent:
+    updatedTimeString: 2023-09-27T15:22:56.131-04:00
+    cacheType: 5
+  lastStatusEntriesChangedEvent:
+    updatedTimeString: 2023-09-27T15:35:40.101-04:00
+    cacheType: 6
+  pullButtonContent:
+    m_Text: Pull
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  pushButtonContent:
+    m_Text: Push
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  refreshButtonContent:
+    m_Text: Refresh
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  fetchButtonContent:
+    m_Text: Fetch
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  repositoryProgressValue: 0.93939394
+  repositoryProgressMessage: 
+  appManagerProgressValue: 1
+  appManagerProgressMessage: 
+  primaryConnectionUsername: 
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6629f1bb292b749a18b5fff7994c8b19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 600, y: 350}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Unity Version Control
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 2560
+    y: 1407.3334
+    width: 1302.3334
+    height: 356.3333
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  mForceToOpen: 0
+--- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_TitleContent:
+    m_Text: Project
+    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 246
+    y: 912.6667
+    width: 1600.3334
+    height: 403.6667
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_SearchFilter:
+    m_NameFilter: 
+    m_ClassNames: []
+    m_AssetLabels: []
+    m_AssetBundleNames: []
+    m_ReferencingInstanceIDs: 
+    m_SceneHandles: 
+    m_ShowAllHits: 0
+    m_SkipHidden: 0
+    m_SearchArea: 1
+    m_Folders:
+    - Assets/Scripts
+    m_Globs: []
+    m_OriginalText: 
+    m_ImportLogFlags: 0
+    m_FilterByTypeIntersection: 0
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets/Scripts
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: C:\Users\carlm\Shadows Over Willowbrook
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: de730000
+    m_LastClickedID: 29662
+    m_ExpandedIDs: 000000006a70000000ca9a3bffffff7f
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_AssetTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 000000006a700000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_ListAreaState:
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c6230000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 5}
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+    m_NewAssetIndexInList: -1
+    m_ScrollPosition: {x: 0, y: 0}
+    m_GridSize: 64
+  m_SkipHiddenPackages: 0
+  m_DirectoriesAreaWidth: 207
+--- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Inspector
+    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1847.3334
+    y: 293.33334
+    width: 496.33337
+    height: 1023
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_ObjectsLockedBeforeSerialization:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_InstanceIDsLockedBeforeSerialization: e8bbffff
+  m_PreviewResizer:
+    m_CachedPref: 160
+    m_ControlHash: -371814159
+    m_PrefName: Preview_InspectorPreview
+  m_LastInspectedObjectInstanceID: -1
+  m_LastVerticalScrollValue: 0
+  m_GlobalObjectId: 
+  m_InspectorMode: 0
+  m_LockTracker:
+    m_IsLocked: 1
+  m_PreviewWindow: {fileID: 0}
+--- !u!114 &16
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Hierarchy
+    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 246
+    y: 293.33334
+    width: 396.33334
+    height: 598.3333
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 46c4feff
+      m_LastClickedID: -80826
+      m_ExpandedIDs: 7ae6ffff18fbffff
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 4}
+      m_SearchString: 
+    m_ExpandedScenes: []
+    m_CurrenRootInstanceID: 0
+    m_LockTracker:
+      m_IsLocked: 0
+    m_CurrentSortingName: TransformSorting
+  m_WindowGUID: 4c969a2b90040154d917609493e03593
+--- !u!114 &17
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Scene
+    m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 643.3334
+    y: 293.33334
+    width: 1202
+    height: 598.3333
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData:
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: -164, y: -26.666687}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 3
+      id: Tool Settings
+      index: 0
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: -141, y: 149}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 1
+      id: unity-grid-and-snap-toolbar
+      index: 1
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-scene-view-toolbar
+      index: 0
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 1
+      id: unity-search-toolbar
+      index: 1
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 0
+      containerId: overlay-container--left
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-transform-toolbar
+      index: 0
+      layout: 2
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 0
+      containerId: overlay-container--left
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 197}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-component-tools
+      index: 1
+      layout: 2
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 0
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 67.5, y: 86}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Orientation
+      index: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Light Settings
+      index: 2
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Camera
+      index: 1
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Cloth Constraints
+      index: 3
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Cloth Collisions
+      index: 4
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Navmesh Display
+      index: 4
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Agent Display
+      index: 5
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Obstacle Display
+      index: 6
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Occlusion Culling
+      index: 5
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Physics Debugger
+      index: 6
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Scene Visibility
+      index: 7
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Particles
+      index: 8
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Tilemap
+      index: 11
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Tilemap Palette Helper
+      index: 12
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Open Tile Palette
+      index: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Tilemap Focus
+      index: 1
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Path
+      index: 9
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: APV Overlay
+      index: 10
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/TrailRenderer
+      index: 11
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: -209.33337, y: -197.33334}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 3
+      id: AINavigationOverlay
+      index: 12
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    m_OverlaysVisible: 1
+  m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
+  m_Gizmos: 1
+  m_OverrideSceneCullingMask: 6917529027641081856
+  m_SceneIsLit: 1
+  m_SceneLighting: 1
+  m_2DMode: 1
+  m_isRotationLocked: 0
+  m_PlayAudio: 0
+  m_AudioPlay: 0
+  m_Position:
+    m_Target: {x: -0.20208307, y: 0.8066426, z: -0.055489145}
+    speed: 2
+    m_Value: {x: -0.20208307, y: 0.8066426, z: -0.055489145}
+  m_RenderMode: 0
+  m_CameraMode:
+    drawMode: 0
+    name: Shaded
+    section: Shading Mode
+  m_ValidateTrueMetals: 0
+  m_DoValidateTrueMetals: 0
+  m_SceneViewState:
+    m_AlwaysRefresh: 0
+    showFog: 1
+    showSkybox: 1
+    showFlares: 1
+    showImageEffects: 1
+    showParticleSystems: 1
+    showVisualEffectGraphs: 1
+    m_FxEnabled: 1
+  m_Grid:
+    xGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0, y: 0}
+    yGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    zGrid:
+      m_Fade:
+        m_Target: 1
+        speed: 2
+        m_Value: 1
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    m_ShowGrid: 1
+    m_GridAxis: 1
+    m_gridOpacity: 0.5
+  m_Rotation:
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    speed: 2
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
+  m_Size:
+    m_Target: 11.95268
+    speed: 2
+    m_Value: 11.95268
+  m_Ortho:
+    m_Target: 1
+    speed: 2
+    m_Value: 1
+  m_CameraSettings:
+    m_Speed: 1
+    m_SpeedNormalized: 0.5
+    m_SpeedMin: 0.001
+    m_SpeedMax: 2
+    m_EasingEnabled: 1
+    m_EasingDuration: 0.4
+    m_AccelerationEnabled: 1
+    m_FieldOfViewHorizontalOrVertical: 60
+    m_NearClip: 0.03
+    m_FarClip: 10000
+    m_DynamicClip: 1
+    m_OcclusionCulling: 0
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewOrtho: 0
+  m_ReplacementShader: {fileID: 0}
+  m_ReplacementString: 
+  m_SceneVisActive: 1
+  m_LastLockedObject: {fileID: 0}
+  m_ViewIsLockedToObject: 0
+--- !u!114 &18
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Game
+    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 643.3334
+    y: 293.33334
+    width: 1202
+    height: 598.3333
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_SerializedViewNames: []
+  m_SerializedViewValues: []
+  m_PlayModeViewName: GameView
+  m_ShowGizmos: 0
+  m_TargetDisplay: 0
+  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+  m_TargetSize: {x: 1202, y: 577.3333}
+  m_TextureFilterMode: 0
+  m_TextureHideFlags: 61
+  m_RenderIMGUI: 1
+  m_EnterPlayModeBehavior: 0
+  m_UseMipMap: 0
+  m_VSyncEnabled: 0
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
+    m_HBaseRangeMin: -400.6667
+    m_HBaseRangeMax: 400.6667
+    m_VBaseRangeMin: -192.44444
+    m_VBaseRangeMax: 192.44444
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 0
+    m_EnableSliderZoomHorizontal: 0
+    m_EnableSliderZoomVertical: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 21
+      width: 1202
+      height: 577.3333
+    m_Scale: {x: 1.5, y: 1.5}
+    m_Translation: {x: 601, y: 288.66666}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -400.66666
+      y: -192.44444
+      width: 801.3333
+      height: 384.8889
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 1803, y: 897.5}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 01000000000000000000
+  m_XRRenderMode: 0
+  m_RenderTexture: {fileID: 0}
+--- !u!114 &19
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Console
+    m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 2560
+    y: 1407.3334
+    width: 1302.3334
+    height: 356.3333
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
