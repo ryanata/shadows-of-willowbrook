@@ -15,172 +15,16 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
     x: 0
-    y: 43
-    width: 1920
-    height: 997
+    y: 53
+    width: 1440
+    height: 777
   m_ShowMode: 4
-  m_Title: Hierarchy
-  m_RootView: {fileID: 8}
-  m_MinSize: {x: 875, y: 542}
+  m_Title: Scene
+  m_RootView: {fileID: 2}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: AnimationWindow
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 198
-    height: 301
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 16}
-  m_Panes:
-  - {fileID: 16}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &3
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 2}
-  - {fileID: 7}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 646
-    width: 1507
-    height: 301
-  m_MinSize: {x: 200, y: 50}
-  m_MaxSize: {x: 16192, y: 8096}
-  vertical: 0
-  controlID: 53
---- !u!114 &4
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 11}
-  - {fileID: 5}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 30
-    width: 1920
-    height: 947
-  m_MinSize: {x: 300, y: 100}
-  m_MaxSize: {x: 24288, y: 16192}
-  vertical: 0
-  controlID: 169
---- !u!114 &5
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: InspectorWindow
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 1507
-    y: 0
-    width: 413
-    height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 18}
-  m_Panes:
-  - {fileID: 18}
-  - {fileID: 14}
-  m_Selected: 0
-  m_LastSelected: 1
---- !u!114 &6
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 360
-    height: 646
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 19}
-  m_Panes:
-  - {fileID: 19}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &7
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 198
-    y: 0
-    width: 1309
-    height: 301
-  m_MinSize: {x: 232, y: 271}
-  m_MaxSize: {x: 10002, y: 10021}
-  m_ActualView: {fileID: 17}
-  m_Panes:
-  - {fileID: 17}
-  - {fileID: 22}
-  m_Selected: 0
-  m_LastSelected: 1
---- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -193,22 +37,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 9}
+  - {fileID: 3}
+  - {fileID: 5}
   - {fileID: 4}
-  - {fileID: 10}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1920
-    height: 997
+    width: 1440
+    height: 777
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
   m_UseBottomView: 1
   m_BottomViewHeight: 20
---- !u!114 &9
+--- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -225,12 +69,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1920
+    width: 1440
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
---- !u!114 &10
+--- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -246,37 +90,12 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 977
-    width: 1920
+    y: 757
+    width: 1440
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
---- !u!114 &11
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 12}
-  - {fileID: 3}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1507
-    height: 947
-  m_MinSize: {x: 200, y: 100}
-  m_MaxSize: {x: 16192, y: 16192}
-  vertical: 1
-  controlID: 40
---- !u!114 &12
+--- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -290,18 +109,94 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 6}
-  - {fileID: 13}
+  - {fileID: 11}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 30
+    width: 1440
+    height: 727
+  m_MinSize: {x: 300, y: 100}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 0
+  controlID: 18
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 7}
+  - {fileID: 10}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1507
-    height: 646
+    width: 1130
+    height: 727
+  m_MinSize: {x: 200, y: 100}
+  m_MaxSize: {x: 16192, y: 16192}
+  vertical: 1
+  controlID: 19
+--- !u!114 &7
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 8}
+  - {fileID: 9}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1130
+    height: 495.5
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 41
---- !u!114 &13
+  controlID: 20
+--- !u!114 &8
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 270
+    height: 495.5
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 13}
+  m_Panes:
+  - {fileID: 13}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -316,20 +211,19 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 360
+    x: 270
     y: 0
-    width: 1147
-    height: 646
+    width: 860
+    height: 495.5
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 20}
+  m_ActualView: {fileID: 12}
   m_Panes:
-  - {fileID: 20}
-  - {fileID: 21}
-  - {fileID: 15}
+  - {fileID: 12}
+  - {fileID: 14}
   m_Selected: 0
   m_LastSelected: 1
---- !u!114 &14
+--- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -337,1253 +231,26 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ffb9ccd5681bd841ae77e9e5571f770, type: 3}
-  m_Name: 
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Git for Unity
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 1388
-    y: 73
-    width: 531
-    height: 926
-  m_SerializedDataModeController:
-    m_DataMode: 0
-    m_PreferredDataMode: 0
-    m_SupportedDataModes: 
-    isAutomatic: 1
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-    m_OverlaysVisible: 1
-  progressMessageClearTime: -1
-  notificationClearTime: -1
-  timeSinceLastRotation: -1
-  currentBranchAndRemoteHasUpdate: 0
-  currentTrackingStatusHasUpdate: 1
-  currentStatusEntriesHasUpdate: 1
-  repositoryProgressHasUpdate: 1
-  appManagerProgressHasUpdate: 1
-  changeTab: 5
-  activeTab: 5
-  initProjectView:
-    hasCompletedInitialCheck: 0
-    isUserDataPresent: 0
-    lastCheckUserChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
-      cacheType: 8
-  branchesView:
-    treeLocals:
-      IsRemote: 0
-      folders:
-        keys:
-        - Local branches
-        values:
-        - path: Local branches
-          label: Local branches
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-      checkedFileNodes:
-        keys: []
-        values: []
-      title: Local branches
-      pathSeparator: /
-      displayRootNode: 1
-      isSelectable: 1
-      isCheckable: 0
-      nodes:
-      - path: Local branches
-        label: Local branches
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-      - path: master
-        label: master
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 1
-        treeIsCheckable: 0
-        checkState: 0
-      selectedNode:
-        path: 
-        label: 
-        level: 0
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-    treeRemotes:
-      IsRemote: 1
-      folders:
-        keys:
-        - Remote branches
-        - origin
-        values:
-        - path: Remote branches
-          label: Remote branches
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-        - path: origin
-          label: origin
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-      checkedFileNodes:
-        keys: []
-        values: []
-      title: Remote branches
-      pathSeparator: /
-      displayRootNode: 1
-      isSelectable: 1
-      isCheckable: 0
-      nodes:
-      - path: Remote branches
-        label: Remote branches
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-      - path: origin
-        label: origin
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-      - path: origin/HEAD
-        label: HEAD
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-      selectedNode:
-        path: 
-        label: 
-        level: 0
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-    mode: 0
-    newBranchName: 
-    scroll: {x: 0, y: 0}
-    disableDelete: 1
-    disableCreate: 1
-    lastLocalAndRemoteBranchListChangedEvent:
-      updatedTimeString: 2023-09-21T00:52:08.160-04:00
-      cacheType: 2
-    lastCurrentBranchAndRemoteChange:
-      updatedTimeString: 2023-09-21T00:50:14.140-04:00
-      cacheType: 1
-    currentBranch:
-      name: master
-      tracking: origin/master
-    currentRemote:
-      name: origin
-      url: https://github.com/ryanata/shadows-over-willowbrook.git
-      login: 
-      user: 
-      host: 
-      function: 0
-      token: 
-    localBranches:
-    - name: master
-      tracking: origin/master
-    remoteBranches:
-    - name: origin/HEAD
-      tracking: '[None]'
-  changesView:
-    currentBranchHasUpdate: 0
-    currentStatusEntriesHasUpdate: 0
-    currentLocksHasUpdate: 0
-    commitBody: 
-    commitMessage: 
-    currentBranch: master
-    treeScroll: {x: 0, y: 0}
-    treeChanges:
-      assets:
-        keys: []
-        values: []
-      folders:
-        keys:
-        - ProjectSettings
-        values:
-        - path: ProjectSettings
-          label: ProjectSettings
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-      checkedFileNodes:
-        keys: []
-        values: []
-      title: 
-      pathSeparator: \
-      displayRootNode: 0
-      isSelectable: 1
-      isCheckable: 1
-      isUsingGlobalSelection: 1
-      nodes:
-      - path: 
-        label: 
-        level: -1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: ProjectSettings
-        label: ProjectSettings
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: ProjectSettings\SceneTemplateSettings.json
-        label: SceneTemplateSettings.json
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\SceneTemplateSettings.json
-          fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\SceneTemplateSettings.json
-          projectPath: ProjectSettings\SceneTemplateSettings.json
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      selectedNode:
-        path: 
-        label: 
-        level: 0
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-    gitStatusEntries:
-    - path: ProjectSettings\SceneTemplateSettings.json
-      fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\SceneTemplateSettings.json
-      projectPath: ProjectSettings\SceneTemplateSettings.json
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    changedFilesText: 1 changed file
-    lastCurrentBranchChangedEvent:
-      updatedTimeString: 2023-09-21T00:50:14.140-04:00
-      cacheType: 1
-    lastStatusEntriesChangedEvent:
-      updatedTimeString: 2023-09-21T00:52:07.128-04:00
-      cacheType: 6
-    lastLocksChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
-      cacheType: 7
-  historyView:
-    currentLogHasUpdate: 0
-    currentTrackingStatusHasUpdate: 0
-    logEntries:
-    - commitID: 8b1a28900188159a02a4febbbe5e82dcaa39b11a
-      mergeA: 
-      mergeB: 
-      authorName: Carlos Matias Herrero
-      authorEmail: carlmat000@gmail.com
-      commitEmail: carlmat000@gmail.com
-      commitName: Carlos Matias Herrero
-      summary: initial commit
-      description: 
-      timeString: 2023-09-20T18:59:17.000-04:00
-      commitTimeString: 2023-09-20T18:59:17.000-04:00
-      changes:
-      - path: .vsconfig
-        fullPath: C:\Dev\Projects\shadows-over-willowbrook\.vsconfig
-        projectPath: .vsconfig
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Scenes.meta
-        fullPath: C:\Dev\Projects\shadows-over-willowbrook\Assets\Scenes.meta
-        projectPath: Assets\Scenes.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Scenes\SampleScene.unity
-        fullPath: C:\Dev\Projects\shadows-over-willowbrook\Assets\Scenes\SampleScene.unity
-        projectPath: Assets\Scenes\SampleScene.unity
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Scenes\SampleScene.unity.meta
-        fullPath: C:\Dev\Projects\shadows-over-willowbrook\Assets\Scenes\SampleScene.unity.meta
-        projectPath: Assets\Scenes\SampleScene.unity.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Settings.meta
-        fullPath: C:\Dev\Projects\shadows-over-willowbrook\Assets\Settings.meta
-        projectPath: Assets\Settings.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Settings\Lit2DSceneTemplate.scenetemplate
-        fullPath: C:\Dev\Projects\shadows-over-willowbrook\Assets\Settings\Lit2DSceneTemplate.scenetemplate
-        projectPath: Assets\Settings\Lit2DSceneTemplate.scenetemplate
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
-        fullPath: C:\Dev\Projects\shadows-over-willowbrook\Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
-        projectPath: Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Settings\Renderer2D.asset
-        fullPath: C:\Dev\Projects\shadows-over-willowbrook\Assets\Settings\Renderer2D.asset
-        projectPath: Assets\Settings\Renderer2D.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Settings\Renderer2D.asset.meta
-        fullPath: C:\Dev\Projects\shadows-over-willowbrook\Assets\Settings\Renderer2D.asset.meta
-        projectPath: Assets\Settings\Renderer2D.asset.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Settings\Scenes.meta
-        fullPath: C:\Dev\Projects\shadows-over-willowbrook\Assets\Settings\Scenes.meta
-        projectPath: Assets\Settings\Scenes.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Settings\Scenes\URP2DSceneTemplate.unity
-        fullPath: C:\Dev\Projects\shadows-over-willowbrook\Assets\Settings\Scenes\URP2DSceneTemplate.unity
-        projectPath: Assets\Settings\Scenes\URP2DSceneTemplate.unity
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
-        fullPath: C:\Dev\Projects\shadows-over-willowbrook\Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
-        projectPath: Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Settings\UniversalRP.asset
-        fullPath: C:\Dev\Projects\shadows-over-willowbrook\Assets\Settings\UniversalRP.asset
-        projectPath: Assets\Settings\UniversalRP.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Settings\UniversalRP.asset.meta
-        fullPath: C:\Dev\Projects\shadows-over-willowbrook\Assets\Settings\UniversalRP.asset.meta
-        projectPath: Assets\Settings\UniversalRP.asset.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\UniversalRenderPipelineGlobalSettings.asset
-        fullPath: C:\Dev\Projects\shadows-over-willowbrook\Assets\UniversalRenderPipelineGlobalSettings.asset
-        projectPath: Assets\UniversalRenderPipelineGlobalSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\UniversalRenderPipelineGlobalSettings.asset.meta
-        fullPath: C:\Dev\Projects\shadows-over-willowbrook\Assets\UniversalRenderPipelineGlobalSettings.asset.meta
-        projectPath: Assets\UniversalRenderPipelineGlobalSettings.asset.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Packages\manifest.json
-        fullPath: C:\Dev\Projects\shadows-over-willowbrook\Packages\manifest.json
-        projectPath: Packages\manifest.json
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Packages\packages-lock.json
-        fullPath: C:\Dev\Projects\shadows-over-willowbrook\Packages\packages-lock.json
-        projectPath: Packages\packages-lock.json
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\AudioManager.asset
-        fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\AudioManager.asset
-        projectPath: ProjectSettings\AudioManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\ClusterInputManager.asset
-        fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\ClusterInputManager.asset
-        projectPath: ProjectSettings\ClusterInputManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\DynamicsManager.asset
-        fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\DynamicsManager.asset
-        projectPath: ProjectSettings\DynamicsManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\EditorBuildSettings.asset
-        fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\EditorBuildSettings.asset
-        projectPath: ProjectSettings\EditorBuildSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\EditorSettings.asset
-        fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\EditorSettings.asset
-        projectPath: ProjectSettings\EditorSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\GraphicsSettings.asset
-        fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\GraphicsSettings.asset
-        projectPath: ProjectSettings\GraphicsSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\InputManager.asset
-        fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\InputManager.asset
-        projectPath: ProjectSettings\InputManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\MemorySettings.asset
-        fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\MemorySettings.asset
-        projectPath: ProjectSettings\MemorySettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\NavMeshAreas.asset
-        fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\NavMeshAreas.asset
-        projectPath: ProjectSettings\NavMeshAreas.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\NetworkManager.asset
-        fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\NetworkManager.asset
-        projectPath: ProjectSettings\NetworkManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\PackageManagerSettings.asset
-        fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\PackageManagerSettings.asset
-        projectPath: ProjectSettings\PackageManagerSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\Physics2DSettings.asset
-        fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\Physics2DSettings.asset
-        projectPath: ProjectSettings\Physics2DSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\PresetManager.asset
-        fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\PresetManager.asset
-        projectPath: ProjectSettings\PresetManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\ProjectSettings.asset
-        fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\ProjectSettings.asset
-        projectPath: ProjectSettings\ProjectSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\ProjectVersion.txt
-        fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\ProjectVersion.txt
-        projectPath: ProjectSettings\ProjectVersion.txt
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\QualitySettings.asset
-        fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\QualitySettings.asset
-        projectPath: ProjectSettings\QualitySettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\TagManager.asset
-        fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\TagManager.asset
-        projectPath: ProjectSettings\TagManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\TimeManager.asset
-        fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\TimeManager.asset
-        projectPath: ProjectSettings\TimeManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\URPProjectSettings.asset
-        fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\URPProjectSettings.asset
-        projectPath: ProjectSettings\URPProjectSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\UnityConnectSettings.asset
-        fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\UnityConnectSettings.asset
-        projectPath: ProjectSettings\UnityConnectSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\VFXManager.asset
-        fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\VFXManager.asset
-        projectPath: ProjectSettings\VFXManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\VersionControlSettings.asset
-        fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\VersionControlSettings.asset
-        projectPath: ProjectSettings\VersionControlSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\XRSettings.asset
-        fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\XRSettings.asset
-        projectPath: ProjectSettings\XRSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: UserSettings\EditorUserSettings.asset
-        fullPath: C:\Dev\Projects\shadows-over-willowbrook\UserSettings\EditorUserSettings.asset
-        projectPath: UserSettings\EditorUserSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: UserSettings\Search.index
-        fullPath: C:\Dev\Projects\shadows-over-willowbrook\UserSettings\Search.index
-        projectPath: UserSettings\Search.index
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: UserSettings\Search.settings
-        fullPath: C:\Dev\Projects\shadows-over-willowbrook\UserSettings\Search.settings
-        projectPath: UserSettings\Search.settings
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-    - commitID: 9a9fd7ebae794b0b1eedd314c5e04f4e015d62c3
-      mergeA: 
-      mergeB: 
-      authorName: Carlos Matias Herrero
-      authorEmail: carlmat000@gmail.com
-      commitEmail: carlmat000@gmail.com
-      commitName: Carlos Matias Herrero
-      summary: Initial commit
-      description: 
-      timeString: 2023-09-20T18:57:21.000-04:00
-      commitTimeString: 2023-09-20T18:57:21.000-04:00
-      changes:
-      - path: .gitattributes
-        fullPath: C:\Dev\Projects\shadows-over-willowbrook\.gitattributes
-        projectPath: .gitattributes
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: .gitignore
-        fullPath: C:\Dev\Projects\shadows-over-willowbrook\.gitignore
-        projectPath: .gitignore
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\.gitignore
-        fullPath: C:\Dev\Projects\shadows-over-willowbrook\Assets\.gitignore
-        projectPath: Assets\.gitignore
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-    statusAhead: 0
-    lastLogChangedEvent:
-      updatedTimeString: 2023-09-21T00:51:48.934-04:00
-      cacheType: 3
-    lastTrackingStatusChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
-      cacheType: 5
-    historyControl:
-      scroll: {x: 0, y: 0}
-      entries:
-      - commitID: 8b1a28900188159a02a4febbbe5e82dcaa39b11a
-        mergeA: 
-        mergeB: 
-        authorName: Carlos Matias Herrero
-        authorEmail: carlmat000@gmail.com
-        commitEmail: carlmat000@gmail.com
-        commitName: Carlos Matias Herrero
-        summary: initial commit
-        description: 
-        timeString: 2023-09-20T18:59:17.000-04:00
-        commitTimeString: 2023-09-20T18:59:17.000-04:00
-        changes:
-        - path: .vsconfig
-          fullPath: C:\Dev\Projects\shadows-over-willowbrook\.vsconfig
-          projectPath: .vsconfig
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Scenes.meta
-          fullPath: C:\Dev\Projects\shadows-over-willowbrook\Assets\Scenes.meta
-          projectPath: Assets\Scenes.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Scenes\SampleScene.unity
-          fullPath: C:\Dev\Projects\shadows-over-willowbrook\Assets\Scenes\SampleScene.unity
-          projectPath: Assets\Scenes\SampleScene.unity
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Scenes\SampleScene.unity.meta
-          fullPath: C:\Dev\Projects\shadows-over-willowbrook\Assets\Scenes\SampleScene.unity.meta
-          projectPath: Assets\Scenes\SampleScene.unity.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Settings.meta
-          fullPath: C:\Dev\Projects\shadows-over-willowbrook\Assets\Settings.meta
-          projectPath: Assets\Settings.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Settings\Lit2DSceneTemplate.scenetemplate
-          fullPath: C:\Dev\Projects\shadows-over-willowbrook\Assets\Settings\Lit2DSceneTemplate.scenetemplate
-          projectPath: Assets\Settings\Lit2DSceneTemplate.scenetemplate
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
-          fullPath: C:\Dev\Projects\shadows-over-willowbrook\Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
-          projectPath: Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Settings\Renderer2D.asset
-          fullPath: C:\Dev\Projects\shadows-over-willowbrook\Assets\Settings\Renderer2D.asset
-          projectPath: Assets\Settings\Renderer2D.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Settings\Renderer2D.asset.meta
-          fullPath: C:\Dev\Projects\shadows-over-willowbrook\Assets\Settings\Renderer2D.asset.meta
-          projectPath: Assets\Settings\Renderer2D.asset.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Settings\Scenes.meta
-          fullPath: C:\Dev\Projects\shadows-over-willowbrook\Assets\Settings\Scenes.meta
-          projectPath: Assets\Settings\Scenes.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Settings\Scenes\URP2DSceneTemplate.unity
-          fullPath: C:\Dev\Projects\shadows-over-willowbrook\Assets\Settings\Scenes\URP2DSceneTemplate.unity
-          projectPath: Assets\Settings\Scenes\URP2DSceneTemplate.unity
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
-          fullPath: C:\Dev\Projects\shadows-over-willowbrook\Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
-          projectPath: Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Settings\UniversalRP.asset
-          fullPath: C:\Dev\Projects\shadows-over-willowbrook\Assets\Settings\UniversalRP.asset
-          projectPath: Assets\Settings\UniversalRP.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Settings\UniversalRP.asset.meta
-          fullPath: C:\Dev\Projects\shadows-over-willowbrook\Assets\Settings\UniversalRP.asset.meta
-          projectPath: Assets\Settings\UniversalRP.asset.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\UniversalRenderPipelineGlobalSettings.asset
-          fullPath: C:\Dev\Projects\shadows-over-willowbrook\Assets\UniversalRenderPipelineGlobalSettings.asset
-          projectPath: Assets\UniversalRenderPipelineGlobalSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\UniversalRenderPipelineGlobalSettings.asset.meta
-          fullPath: C:\Dev\Projects\shadows-over-willowbrook\Assets\UniversalRenderPipelineGlobalSettings.asset.meta
-          projectPath: Assets\UniversalRenderPipelineGlobalSettings.asset.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Packages\manifest.json
-          fullPath: C:\Dev\Projects\shadows-over-willowbrook\Packages\manifest.json
-          projectPath: Packages\manifest.json
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Packages\packages-lock.json
-          fullPath: C:\Dev\Projects\shadows-over-willowbrook\Packages\packages-lock.json
-          projectPath: Packages\packages-lock.json
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\AudioManager.asset
-          fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\AudioManager.asset
-          projectPath: ProjectSettings\AudioManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\ClusterInputManager.asset
-          fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\ClusterInputManager.asset
-          projectPath: ProjectSettings\ClusterInputManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\DynamicsManager.asset
-          fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\DynamicsManager.asset
-          projectPath: ProjectSettings\DynamicsManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\EditorBuildSettings.asset
-          fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\EditorBuildSettings.asset
-          projectPath: ProjectSettings\EditorBuildSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\EditorSettings.asset
-          fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\EditorSettings.asset
-          projectPath: ProjectSettings\EditorSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\GraphicsSettings.asset
-          fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\GraphicsSettings.asset
-          projectPath: ProjectSettings\GraphicsSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\InputManager.asset
-          fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\InputManager.asset
-          projectPath: ProjectSettings\InputManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\MemorySettings.asset
-          fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\MemorySettings.asset
-          projectPath: ProjectSettings\MemorySettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\NavMeshAreas.asset
-          fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\NavMeshAreas.asset
-          projectPath: ProjectSettings\NavMeshAreas.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\NetworkManager.asset
-          fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\NetworkManager.asset
-          projectPath: ProjectSettings\NetworkManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\PackageManagerSettings.asset
-          fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\PackageManagerSettings.asset
-          projectPath: ProjectSettings\PackageManagerSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\Physics2DSettings.asset
-          fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\Physics2DSettings.asset
-          projectPath: ProjectSettings\Physics2DSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\PresetManager.asset
-          fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\PresetManager.asset
-          projectPath: ProjectSettings\PresetManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\ProjectSettings.asset
-          fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\ProjectSettings.asset
-          projectPath: ProjectSettings\ProjectSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\ProjectVersion.txt
-          fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\ProjectVersion.txt
-          projectPath: ProjectSettings\ProjectVersion.txt
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\QualitySettings.asset
-          fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\QualitySettings.asset
-          projectPath: ProjectSettings\QualitySettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\TagManager.asset
-          fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\TagManager.asset
-          projectPath: ProjectSettings\TagManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\TimeManager.asset
-          fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\TimeManager.asset
-          projectPath: ProjectSettings\TimeManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\URPProjectSettings.asset
-          fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\URPProjectSettings.asset
-          projectPath: ProjectSettings\URPProjectSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\UnityConnectSettings.asset
-          fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\UnityConnectSettings.asset
-          projectPath: ProjectSettings\UnityConnectSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\VFXManager.asset
-          fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\VFXManager.asset
-          projectPath: ProjectSettings\VFXManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\VersionControlSettings.asset
-          fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\VersionControlSettings.asset
-          projectPath: ProjectSettings\VersionControlSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\XRSettings.asset
-          fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\XRSettings.asset
-          projectPath: ProjectSettings\XRSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: UserSettings\EditorUserSettings.asset
-          fullPath: C:\Dev\Projects\shadows-over-willowbrook\UserSettings\EditorUserSettings.asset
-          projectPath: UserSettings\EditorUserSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: UserSettings\Search.index
-          fullPath: C:\Dev\Projects\shadows-over-willowbrook\UserSettings\Search.index
-          projectPath: UserSettings\Search.index
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: UserSettings\Search.settings
-          fullPath: C:\Dev\Projects\shadows-over-willowbrook\UserSettings\Search.settings
-          projectPath: UserSettings\Search.settings
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - commitID: 9a9fd7ebae794b0b1eedd314c5e04f4e015d62c3
-        mergeA: 
-        mergeB: 
-        authorName: Carlos Matias Herrero
-        authorEmail: carlmat000@gmail.com
-        commitEmail: carlmat000@gmail.com
-        commitName: Carlos Matias Herrero
-        summary: Initial commit
-        description: 
-        timeString: 2023-09-20T18:57:21.000-04:00
-        commitTimeString: 2023-09-20T18:57:21.000-04:00
-        changes:
-        - path: .gitattributes
-          fullPath: C:\Dev\Projects\shadows-over-willowbrook\.gitattributes
-          projectPath: .gitattributes
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: .gitignore
-          fullPath: C:\Dev\Projects\shadows-over-willowbrook\.gitignore
-          projectPath: .gitignore
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\.gitignore
-          fullPath: C:\Dev\Projects\shadows-over-willowbrook\Assets\.gitignore
-          projectPath: Assets\.gitignore
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      statusAhead: 0
-      selectedIndex: -1
-    selectedEntry:
-      commitID: 
-      mergeA: 
-      mergeB: 
-      authorName: 
-      authorEmail: 
-      commitEmail: 
-      commitName: 
-      summary: 
-      description: 
-      timeString: 0001-01-01T00:00:00.000+00:00
-      commitTimeString: 0001-01-01T00:00:00.000+00:00
-      changes: []
-    treeChanges:
-      assets:
-        keys: []
-        values: []
-      folders:
-        keys: []
-        values: []
-      checkedFileNodes:
-        keys: []
-        values: []
-      title: 
-      pathSeparator: /
-      displayRootNode: 0
-      isSelectable: 1
-      isCheckable: 0
-      isUsingGlobalSelection: 0
-      nodes: []
-      selectedNode:
-        path: 
-        label: 
-        level: 0
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-    detailsScroll: {x: 0, y: 0}
-  settingsView:
-    gitPathView:
-      gitPath: C:\Users\Khale\AppData\Local\GitForUnity\git\cmd\git.exe
-      gitLfsPath: C:\Users\Khale\AppData\Local\GitForUnity\git\mingw64\libexec\git-core\git-lfs.exe
-      errorMessage: 
-      resetToBundled: 0
-      resetToSystem: 0
-      changingManually: 0
-    hasRemote: 1
-    lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2023-09-27T15:11:52.985-04:00
-      cacheType: 1
-    newRepositoryRemoteUrl: https://github.com/ryanata/shadows-over-willowbrook.git
-    repositoryRemoteName: origin
-    repositoryRemoteUrl: https://github.com/ryanata/shadows-over-willowbrook.git
-    scroll: {x: 0, y: 0}
-    userSettingsView:
-      gitName: KTujjar
-      gitEmail: khaledtujjar323@gmail.com
-      newGitName: KTujjar
-      newGitEmail: khaledtujjar323@gmail.com
-      needsSaving: 0
-      lastCheckUserChangedEvent:
-        updatedTimeString: 2023-09-27T15:49:04.553-04:00
-        cacheType: 8
-    webTimeout: 100000
-    gitTimeout: 5000
-  locksView:
-    currentRemoteHasUpdate: 1
-    currentStatusEntriesHasUpdate: 0
-    currentLocksHasUpdate: 0
-    keychainHasUpdate: 1
-    locksControl:
-      scroll: {x: 0, y: 0}
-      gitLockEntries: []
-      assets:
-        keys: []
-        values: []
-      gitStatusDictionary:
-        keys: []
-        values: []
-      selectedEntry:
-        gitLock:
-          id: 
-          path: 
-          owner:
-            name: 
-            email: 
-          lockedAtString: 
-        gitFileStatus: 0
-        lockedAt: 1 Jan 0001, 00:00
-    lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2023-09-21T00:50:14.140-04:00
-      cacheType: 1
-    lastLocksChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
-      cacheType: 7
-    lastStatusEntriesChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
-      cacheType: 6
-    lockedFiles: []
-    gitStatusEntries:
-    - path: ProjectSettings\SceneTemplateSettings.json
-      fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\SceneTemplateSettings.json
-      projectPath: ProjectSettings\SceneTemplateSettings.json
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    currentUsername: 
-    unlockFileMenuContent:
-      m_Text: Release Lock
-      m_Image: {fileID: 0}
-      m_Tooltip: 
-    forceUnlockFileMenuContent:
-      m_Text: Release Lock (forced)
-      m_Image: {fileID: 0}
-      m_Tooltip: 
-  hasRemote: 1
-  currentRemoteName: origin
-  currentBranch: master
-  currentRemoteUrl: https://github.com/ryanata/shadows-over-willowbrook.git
-  statusAhead: 0
-  statusBehind: 0
-  hasItemsToCommit: 1
-  isTrackingRemoteBranch: 1
-  currentBranchContent:
-    m_Text: master
-    m_Image: {fileID: 0}
-    m_Tooltip: Active branch
-  currentRemoteUrlContent:
-    m_Text: https://github.com/ryanata/shadows-over-willowbrook.git
-    m_Image: {fileID: 0}
-    m_Tooltip: Url of the origin remote
-  lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2023-09-27T15:11:52.985-04:00
-    cacheType: 1
-  lastTrackingStatusChangedEvent:
-    updatedTimeString: 2023-09-27T15:23:45.198-04:00
-    cacheType: 5
-  lastStatusEntriesChangedEvent:
-    updatedTimeString: 2023-09-27T15:23:45.183-04:00
-    cacheType: 6
-  pullButtonContent:
-    m_Text: Pull
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  pushButtonContent:
-    m_Text: Push
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  refreshButtonContent:
-    m_Text: Refresh
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  fetchButtonContent:
-    m_Text: Fetch
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  repositoryProgressValue: 0
-  repositoryProgressMessage: 
-  appManagerProgressValue: 0
-  appManagerProgressMessage: 
-  primaryConnectionUsername: 
---- !u!114 &15
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Animator
-    m_Image: {fileID: -1673928668082335149, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 401
-    y: 73
-    width: 1282
-    height: 724
-  m_SerializedDataModeController:
-    m_DataMode: 0
-    m_PreferredDataMode: 0
-    m_SupportedDataModes: 
-    isAutomatic: 1
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-    m_OverlaysVisible: 1
-  m_ViewTransforms:
-    m_KeySerializationHelper:
-    - {fileID: 5409240443727467897, guid: 97ec6f471a2fb7d4c982ba3b8b21e8f8, type: 2}
-    m_ValueSerializationHelper:
-    - e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-  m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 97ec6f471a2fb7d4c982ba3b8b21e8f8, type: 2}
-  m_BreadCrumbs:
-  - m_Target: {fileID: 5409240443727467897, guid: 97ec6f471a2fb7d4c982ba3b8b21e8f8, type: 2}
-    m_ScrollPosition: {x: 0, y: 0}
-  stateMachineGraph: {fileID: 0}
-  stateMachineGraphGUI: {fileID: 0}
-  blendTreeGraph: {fileID: 0}
-  blendTreeGraphGUI: {fileID: 0}
-  m_AutoLiveLink: 1
-  m_MiniTool: 0
-  m_LockTracker:
-    m_IsLocked: 0
-  m_CurrentEditor: 1
-  m_LayerEditor:
-    m_SelectedLayerIndex: 0
---- !u!114 &16
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12071, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Animation
-    m_Image: {fileID: -8166618308981325432, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
+  m_Children: []
+  m_Position:
     serializedVersion: 2
     x: 0
-    y: 719
-    width: 197
-    height: 280
-  m_SerializedDataModeController:
-    m_DataMode: 0
-    m_PreferredDataMode: 0
-    m_SupportedDataModes: 
-    isAutomatic: 1
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-    m_OverlaysVisible: 1
-  m_LockTracker:
-    m_IsLocked: 0
-  m_LastSelectedObjectID: -44922
---- !u!114 &17
+    y: 495.5
+    width: 1130
+    height: 231.5
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 15}
+  m_Panes:
+  - {fileID: 15}
+  - {fileID: 16}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1592,254 +259,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 230, y: 250}
-  m_MaxSize: {x: 10000, y: 10000}
-  m_TitleContent:
-    m_Text: Project
-    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
+  m_Children: []
+  m_Position:
     serializedVersion: 2
-    x: 198
-    y: 719
-    width: 1307
-    height: 280
-  m_SerializedDataModeController:
-    m_DataMode: 0
-    m_PreferredDataMode: 0
-    m_SupportedDataModes: 
-    isAutomatic: 1
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-    m_OverlaysVisible: 1
-  m_SearchFilter:
-    m_NameFilter: 
-    m_ClassNames: []
-    m_AssetLabels: []
-    m_AssetBundleNames: []
-    m_ReferencingInstanceIDs: 
-    m_SceneHandles: 
-    m_ShowAllHits: 0
-    m_SkipHidden: 0
-    m_SearchArea: 1
-    m_Folders:
-    - Assets/Art/TilePalletes
-    m_Globs: []
-    m_OriginalText: 
-    m_ImportLogFlags: 0
-    m_FilterByTypeIntersection: 0
-  m_ViewMode: 1
-  m_StartGridSize: 92
-  m_LastFolders:
-  - Assets/Art/TilePalletes
-  m_LastFoldersGridSize: 92
-  m_LastProjectPath: C:\Dev\Projects\shadows-over-willowbrook
-  m_LockTracker:
-    m_IsLocked: 0
-  m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a0720000
-    m_LastClickedID: 29344
-    m_ExpandedIDs: 00000000587000005c72000000ca9a3b
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 0
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 11
-      m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 7}
-    m_SearchString: 
-    m_CreateAssetUtility:
-      m_EndAction: {fileID: 0}
-      m_InstanceID: 0
-      m_Path: 
-      m_Icon: {fileID: 0}
-      m_ResourceFile: 
-  m_AssetTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 0000000058700000
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 0
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 11
-      m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
-    m_SearchString: 
-    m_CreateAssetUtility:
-      m_EndAction: {fileID: 0}
-      m_InstanceID: 0
-      m_Path: 
-      m_Icon: {fileID: 0}
-      m_ResourceFile: 
-  m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c62300009e670000926f00000a710000867200007a72000096730000
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 0
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 11
-      m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 7}
-    m_CreateAssetUtility:
-      m_EndAction: {fileID: 0}
-      m_InstanceID: 0
-      m_Path: 
-      m_Icon: {fileID: 0}
-      m_ResourceFile: 
-    m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
-    m_GridSize: 92
-  m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 207
---- !u!114 &18
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
+    x: 1130
+    y: 0
+    width: 310
+    height: 727
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Inspector
-    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 1507
-    y: 73
-    width: 412
-    height: 926
-  m_SerializedDataModeController:
-    m_DataMode: 0
-    m_PreferredDataMode: 0
-    m_SupportedDataModes: 
-    isAutomatic: 1
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-    m_OverlaysVisible: 1
-  m_ObjectsLockedBeforeSerialization: []
-  m_InstanceIDsLockedBeforeSerialization: 
-  m_PreviewResizer:
-    m_CachedPref: 221
-    m_ControlHash: -371814159
-    m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
-  m_GlobalObjectId: 
-  m_InspectorMode: 0
-  m_LockTracker:
-    m_IsLocked: 0
-  m_PreviewWindow: {fileID: 0}
---- !u!114 &19
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Hierarchy
-    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 73
-    width: 359
-    height: 625
-  m_SerializedDataModeController:
-    m_DataMode: 0
-    m_PreferredDataMode: 0
-    m_SupportedDataModes: 
-    isAutomatic: 1
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-    m_OverlaysVisible: 1
-  m_SceneHierarchy:
-    m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: e895ffff1afbfffff4ffffff
-      m_RenameOverlay:
-        m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
-        m_EditFieldRect:
-          serializedVersion: 2
-          x: 0
-          y: 0
-          width: 0
-          height: 0
-        m_UserData: 0
-        m_IsWaitingForDelay: 0
-        m_IsRenaming: 0
-        m_OriginalEventType: 11
-        m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 6}
-      m_SearchString: 
-    m_ExpandedScenes: []
-    m_CurrenRootInstanceID: 0
-    m_LockTracker:
-      m_IsLocked: 0
-    m_CurrentSortingName: TransformSorting
-  m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &20
+  m_ActualView: {fileID: 17}
+  m_Panes:
+  - {fileID: 17}
+  - {fileID: 18}
+  - {fileID: 19}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1855,14 +294,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
-    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 360
-    y: 73
-    width: 1145
-    height: 625
+    x: 270
+    y: 83
+    width: 858
+    height: 474.5
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2149,7 +588,7 @@ MonoBehaviour:
       containerId: overlay-toolbar__top
       floating: 0
       collapsed: 0
-      displayed: 0
+      displayed: 1
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
@@ -2215,10 +654,23 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 901, y: 486}
+      snapOffset: {x: 32, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: UnityEditor.SceneViewCameraOverlay
+      index: 11
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Cinemachine Tool Settings
       index: 10
       layout: 4
       size: {x: 0, y: 0}
@@ -2234,9 +686,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.9915949, y: -2.003124, z: 0.1766212}
+    m_Target: {x: -1.5431746, y: 0.7846701, z: -0.11238489}
     speed: 2
-    m_Value: {x: 0.8353626, y: -1.8009013, z: 0.18067238}
+    m_Value: {x: -1.5431746, y: 0.7846701, z: -0.11238489}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -2272,13 +724,13 @@ MonoBehaviour:
       m_Size: {x: 1, y: 1}
     zGrid:
       m_Fade:
-        m_Target: 1
+        m_Target: 0
         speed: 2
-        m_Value: 1
+        m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
-    m_ShowGrid: 1
+    m_ShowGrid: 0
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
@@ -2286,9 +738,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 9.40783
+    m_Target: 14.477698
     speed: 2
-    m_Value: 9.002708
+    m_Value: 14.477698
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -2313,7 +765,70 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &21
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Hierarchy
+    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 83
+    width: 269
+    height: 474.5
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 8acbffff
+      m_LastClickedID: -13430
+      m_ExpandedIDs: cef3fffffcfaffff
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_ExpandedScenes: []
+    m_CurrenRootInstanceID: 0
+    m_LockTracker:
+      m_IsLocked: 0
+    m_CurrentSortingName: TransformSorting
+  m_WindowGUID: 4c969a2b90040154d917609493e03593
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2329,14 +844,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
-    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 360
-    y: 73
-    width: 1145
-    height: 625
+    x: 270
+    y: 83
+    width: 858
+    height: 474.5
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2347,13 +862,15 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
-  m_SerializedViewNames: []
-  m_SerializedViewValues: []
+  m_SerializedViewNames:
+  - UnityEditor.DeviceSimulation.SimulatorWindow
+  m_SerializedViewValues:
+  - /Users/ryanata/Documents/Games/shadows-over-willowbrook/Library/PlayModeViewStates/0d918ee6750484086b427169fc76ace5
   m_PlayModeViewName: GameView
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 340, y: 604}
+  m_TargetSize: {x: 3840, y: 2160}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -2362,16 +879,16 @@ MonoBehaviour:
   m_VSyncEnabled: 0
   m_Gizmos: 0
   m_Stats: 0
-  m_SelectedSizes: 08000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_SelectedSizes: 06000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -170
-    m_HBaseRangeMax: 170
-    m_VBaseRangeMin: -302
-    m_VBaseRangeMax: 302
+    m_HBaseRangeMin: -960
+    m_HBaseRangeMax: 960
+    m_VBaseRangeMin: -540
+    m_VBaseRangeMax: 540
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -2389,29 +906,175 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1145
-      height: 604
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 572.5, y: 302}
+      width: 858
+      height: 453.5
+    m_Scale: {x: 0.41990742, y: 0.41990742}
+    m_Translation: {x: 429, y: 226.75}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -572.5
-      y: -302
-      width: 1145
-      height: 604
+      x: -1021.65375
+      y: -540
+      width: 2043.3075
+      height: 1080
     m_MinimalGUI: 1
-  m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1145, y: 625}
+  m_defaultScale: 0.41990742
+  m_LastWindowPixelSize: {x: 1716, y: 949}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &22
+--- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_TitleContent:
+    m_Text: Project
+    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 578.5
+    width: 1129
+    height: 210.5
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_SearchFilter:
+    m_NameFilter: 
+    m_ClassNames: []
+    m_AssetLabels: []
+    m_AssetBundleNames: []
+    m_ReferencingInstanceIDs: 
+    m_SceneHandles: 
+    m_ShowAllHits: 0
+    m_SkipHidden: 0
+    m_SearchArea: 1
+    m_Folders:
+    - Assets/Scripts
+    m_Globs: []
+    m_OriginalText: 
+    m_ImportLogFlags: 0
+    m_FilterByTypeIntersection: 0
+  m_ViewMode: 1
+  m_StartGridSize: 92
+  m_LastFolders:
+  - Assets/Scripts
+  m_LastFoldersGridSize: 92
+  m_LastProjectPath: /Users/ryanata/Documents/Games/shadows-over-willowbrook
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: ae840000
+    m_LastClickedID: 33966
+    m_ExpandedIDs: 00000000a67a0000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: Scenes
+      m_OriginalName: Scenes
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 33964
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 0
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 10}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_AssetTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 00000000a67a0000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_ListAreaState:
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c62300009e670000926f00000a710000867200007a72000096730000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 10}
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+    m_NewAssetIndexInList: -1
+    m_ScrollPosition: {x: 0, y: 0}
+    m_GridSize: 92
+  m_SkipHiddenPackages: 0
+  m_DirectoriesAreaWidth: 207
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2427,14 +1090,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Console
-    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 698
-    y: 699
-    width: 688
-    height: 300
+    x: 148.5
+    y: 585.5
+    width: 979.5
+    height: 213.5
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2445,3 +1108,648 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
+--- !u!114 &17
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Inspector
+    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1130
+    y: 83
+    width: 309
+    height: 706
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_ObjectsLockedBeforeSerialization: []
+  m_InstanceIDsLockedBeforeSerialization: 
+  m_PreviewResizer:
+    m_CachedPref: 177
+    m_ControlHash: -371814159
+    m_PrefName: Preview_InspectorPreview
+  m_LastInspectedObjectInstanceID: -1
+  m_LastVerticalScrollValue: 0
+  m_GlobalObjectId: 
+  m_InspectorMode: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_PreviewWindow: {fileID: 0}
+--- !u!114 &18
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f683d99f24875748a6656966ca9cea0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 240, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Tile Palette
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1130
+    y: 83
+    width: 309
+    height: 710
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+--- !u!114 &19
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ffb9ccd5681bd841ae77e9e5571f770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Git for Unity
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1130
+    y: 83
+    width: 309
+    height: 716
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  progressMessageClearTime: -1
+  notificationClearTime: -1
+  timeSinceLastRotation: -1
+  currentBranchAndRemoteHasUpdate: 0
+  currentTrackingStatusHasUpdate: 0
+  currentStatusEntriesHasUpdate: 0
+  repositoryProgressHasUpdate: 0
+  appManagerProgressHasUpdate: 1
+  changeTab: 5
+  activeTab: 5
+  initProjectView:
+    hasCompletedInitialCheck: 0
+    isUserDataPresent: 0
+    lastCheckUserChangedEvent:
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 8
+  branchesView:
+    treeLocals:
+      IsRemote: 0
+      folders:
+        keys:
+        - Local branches
+        - ryanata
+        values:
+        - path: Local branches
+          label: Local branches
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+        - path: ryanata
+          label: ryanata
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: Local branches
+      pathSeparator: /
+      displayRootNode: 1
+      isSelectable: 1
+      isCheckable: 0
+      nodes:
+      - path: Local branches
+        label: Local branches
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: master
+        label: master
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: khaledBranch
+        label: khaledBranch
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: ryanata
+        label: ryanata
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: ryanata/updatePlayer
+        label: updatePlayer
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 1
+        treeIsCheckable: 0
+        checkState: 0
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+    treeRemotes:
+      IsRemote: 1
+      folders:
+        keys:
+        - Remote branches
+        - origin
+        - origin/carlos-jmh
+        values:
+        - path: Remote branches
+          label: Remote branches
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+        - path: origin
+          label: origin
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+        - path: origin/carlos-jmh
+          label: carlos-jmh
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: Remote branches
+      pathSeparator: /
+      displayRootNode: 1
+      isSelectable: 1
+      isCheckable: 0
+      nodes:
+      - path: Remote branches
+        label: Remote branches
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: origin
+        label: origin
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: origin/carlos-jmh
+        label: carlos-jmh
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: origin/carlos-jmh/initial_npc_pathfinding
+        label: initial_npc_pathfinding
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: origin/HEAD
+        label: HEAD
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: origin/KhaledBranch
+        label: KhaledBranch
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+    mode: 0
+    newBranchName: 
+    scroll: {x: 0, y: 0}
+    disableDelete: 1
+    disableCreate: 1
+    lastLocalAndRemoteBranchListChangedEvent:
+      updatedTimeString: 2023-09-27T20:17:11.166-04:00
+      cacheType: 2
+    lastCurrentBranchAndRemoteChange:
+      updatedTimeString: 2023-09-27T20:16:47.092-04:00
+      cacheType: 1
+    currentBranch:
+      name: ryanata/updatePlayer
+      tracking: 
+    currentRemote:
+      name: origin
+      url: https://github.com/ryanata/shadows-over-willowbrook
+      login: 
+      user: 
+      host: 
+      function: 0
+      token: 
+    localBranches:
+    - name: master
+      tracking: origin/master
+    - name: khaledBranch
+      tracking: origin/khaledBranch
+    - name: ryanata/updatePlayer
+      tracking: 
+    remoteBranches:
+    - name: origin/carlos-jmh/initial_npc_pathfinding
+      tracking: '[None]'
+    - name: origin/HEAD
+      tracking: '[None]'
+    - name: origin/KhaledBranch
+      tracking: '[None]'
+  changesView:
+    currentBranchHasUpdate: 0
+    currentStatusEntriesHasUpdate: 0
+    currentLocksHasUpdate: 0
+    commitBody: 
+    commitMessage: 
+    currentBranch: ryanata/updatePlayer
+    treeScroll: {x: 0, y: 0}
+    treeChanges:
+      assets:
+        keys: []
+        values: []
+      folders:
+        keys: []
+        values: []
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: 
+      pathSeparator: /
+      displayRootNode: 0
+      isSelectable: 1
+      isCheckable: 1
+      isUsingGlobalSelection: 1
+      nodes:
+      - path: 
+        label: 
+        level: -1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+    gitStatusEntries: []
+    changedFilesText: No changed files
+    lastCurrentBranchChangedEvent:
+      updatedTimeString: 2023-09-27T20:16:47.092-04:00
+      cacheType: 1
+    lastStatusEntriesChangedEvent:
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 6
+    lastLocksChangedEvent:
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 7
+  historyView:
+    currentLogHasUpdate: 0
+    currentTrackingStatusHasUpdate: 0
+    logEntries: []
+    statusAhead: 0
+    lastLogChangedEvent:
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 3
+    lastTrackingStatusChangedEvent:
+      updatedTimeString: 2023-09-27T20:17:06.976-04:00
+      cacheType: 5
+    historyControl:
+      scroll: {x: 0, y: 0}
+      entries: []
+      statusAhead: 0
+      selectedIndex: -1
+    selectedEntry:
+      commitID: 
+      mergeA: 
+      mergeB: 
+      authorName: 
+      authorEmail: 
+      commitEmail: 
+      commitName: 
+      summary: 
+      description: 
+      timeString: 0001-01-01T00:00:00.000+00:00
+      commitTimeString: 0001-01-01T00:00:00.000+00:00
+      changes: []
+    treeChanges:
+      assets:
+        keys: []
+        values: []
+      folders:
+        keys: []
+        values: []
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: 
+      pathSeparator: /
+      displayRootNode: 0
+      isSelectable: 1
+      isCheckable: 0
+      isUsingGlobalSelection: 0
+      nodes: []
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+    detailsScroll: {x: 0, y: 0}
+  settingsView:
+    gitPathView:
+      gitPath: /Users/ryanata/Library/Application Support/GitForUnity/git/bin/git
+      gitLfsPath: /Users/ryanata/Library/Application Support/GitForUnity/git/libexec/git-core/git-lfs
+      errorMessage: 
+      resetToBundled: 0
+      resetToSystem: 0
+      changingManually: 0
+    hasRemote: 1
+    lastCurrentRemoteChangedEvent:
+      updatedTimeString: 2023-09-28T22:06:01.454-04:00
+      cacheType: 1
+    newRepositoryRemoteUrl: https://github.com/ryanata/shadows-over-willowbrook
+    repositoryRemoteName: origin
+    repositoryRemoteUrl: https://github.com/ryanata/shadows-over-willowbrook
+    scroll: {x: 0, y: 0}
+    userSettingsView:
+      gitName: 
+      gitEmail: 
+      newGitName: 
+      newGitEmail: 
+      needsSaving: 0
+      lastCheckUserChangedEvent:
+        updatedTimeString: 0001-01-01T00:00:00.000+00:00
+        cacheType: 8
+    webTimeout: 100000
+    gitTimeout: 5000
+  locksView:
+    currentRemoteHasUpdate: 1
+    currentStatusEntriesHasUpdate: 0
+    currentLocksHasUpdate: 0
+    keychainHasUpdate: 1
+    locksControl:
+      scroll: {x: 0, y: 0}
+      gitLockEntries: []
+      assets:
+        keys: []
+        values: []
+      gitStatusDictionary:
+        keys: []
+        values: []
+      selectedEntry:
+        gitLock:
+          id: 
+          path: 
+          owner:
+            name: 
+            email: 
+          lockedAtString: 
+        gitFileStatus: 0
+        lockedAt: 1 Jan 0001, 00:00
+    lastCurrentRemoteChangedEvent:
+      updatedTimeString: 2023-09-27T20:16:47.092-04:00
+      cacheType: 1
+    lastLocksChangedEvent:
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 7
+    lastStatusEntriesChangedEvent:
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 6
+    lockedFiles: []
+    gitStatusEntries:
+    - path: ProjectSettings\SceneTemplateSettings.json
+      fullPath: C:\Dev\Projects\shadows-over-willowbrook\ProjectSettings\SceneTemplateSettings.json
+      projectPath: ProjectSettings\SceneTemplateSettings.json
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    currentUsername: 
+    unlockFileMenuContent:
+      m_Text: Release Lock
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+    forceUnlockFileMenuContent:
+      m_Text: Release Lock (forced)
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  hasRemote: 1
+  currentRemoteName: origin
+  currentBranch: ryanata/updatePlayer
+  currentRemoteUrl: https://github.com/ryanata/shadows-over-willowbrook
+  statusAhead: 0
+  statusBehind: 0
+  hasItemsToCommit: 0
+  isTrackingRemoteBranch: 0
+  currentBranchContent:
+    m_Text: ryanata/updatePlayer
+    m_Image: {fileID: 0}
+    m_Tooltip: Active branch
+  currentRemoteUrlContent:
+    m_Text: https://github.com/ryanata/shadows-over-willowbrook
+    m_Image: {fileID: 0}
+    m_Tooltip: Url of the origin remote
+  lastCurrentBranchAndRemoteChangedEvent:
+    updatedTimeString: 2023-09-27T20:16:47.092-04:00
+    cacheType: 1
+  lastTrackingStatusChangedEvent:
+    updatedTimeString: 2023-09-27T20:17:06.976-04:00
+    cacheType: 5
+  lastStatusEntriesChangedEvent:
+    updatedTimeString: 0001-01-01T00:00:00.000+00:00
+    cacheType: 6
+  pullButtonContent:
+    m_Text: Pull
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  pushButtonContent:
+    m_Text: Push
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  refreshButtonContent:
+    m_Text: Refresh
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  fetchButtonContent:
+    m_Text: Fetch
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  repositoryProgressValue: 0
+  repositoryProgressMessage: 
+  appManagerProgressValue: 1
+  appManagerProgressMessage: 
+  primaryConnectionUsername: 

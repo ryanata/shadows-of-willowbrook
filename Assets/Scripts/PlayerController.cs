@@ -21,14 +21,18 @@ public class PlayerController : MonoBehaviour
     {
         if (!isMoving)
         {
-            input.x = Input.GetAxisRaw("Horizontal");
-            input.y = Input.GetAxisRaw("Vertical");
+            input = Vector2.zero;
+            if (Input.GetKey(KeyCode.W)) input.y = 1;
+            if (Input.GetKey(KeyCode.S)) input.y = -1;
+            if (Input.GetKey(KeyCode.A)) input.x = -1;
+            if (Input.GetKey(KeyCode.D)) input.x = 1;
+
+            // Normalize the input vector if it exceeds 1 in magnitude.
+            // This prevents faster movement in diagonal directions.
+            if (input.magnitude > 1) input.Normalize();
 
             Debug.Log("This is input.x" + input.x);
             Debug.Log("This is input.y" + input.y);
-
-
-            if (input.x != 0) input.y = 0;
 
             if (input != Vector2.zero)
             {
@@ -43,8 +47,10 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        animator.SetBool("isMoving", isMoving);
-    }
+    animator.SetBool("isMoving", isMoving);
+}
+
+
 
     IEnumerator Move(Vector3 targetPos)
     {
