@@ -5,65 +5,75 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float moveSpeed;
-
-    private bool isMoving;
+    public float CollisionOffset = 0.05f;
+    public ContactFilter2D movementFilter;
+    public bool isInDialog;
 
     private Vector2 input;
-
     private Animator animator;
+    private Rigidbody2D rb;
+    private List<RaycastHit2D> castCollisions = new List<RaycastHit2D>();
 
     private void Awake()
     {
         animator = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     private void Update()
     {
-        if (!isMoving)
+        if (isInDialog) return;
+        input.x = Input.GetAxisRaw("Horizontal");
+        input.y = Input.GetAxisRaw("Vertical");
+
+        if (input.x != 0) input.y = 0;
+
+        if (input != Vector2.zero)
         {
-            input = Vector2.zero;
-            if (Input.GetKey(KeyCode.W)) input.y = 1;
-            if (Input.GetKey(KeyCode.S)) input.y = -1;
-            if (Input.GetKey(KeyCode.A)) input.x = -1;
-            if (Input.GetKey(KeyCode.D)) input.x = 1;
+            animator.SetFloat("moveX", input.x);
+            animator.SetFloat("moveY", input.y);
+            animator.SetBool("isMoving", true);
+        }
+        else
+        {
+            animator.SetBool("isMoving", false);
+        }
+    }
 
-            // Normalize the input vector if it exceeds 1 in magnitude.
-            // This prevents faster movement in diagonal directions.
-            if (input.magnitude > 1) input.Normalize();
+    private void FixedUpdate()
+    {
+        if (isInDialog) return;
+        bool success = MovePlayer(input);
 
-            Debug.Log("This is input.x" + input.x);
-            Debug.Log("This is input.y" + input.y);
+        if (!success)
+        {
+            success = MovePlayer(new Vector2(input.x, 0));
 
-            if (input != Vector2.zero)
+            if (!success)
             {
-                animator.SetFloat("moveX", input.x);
-                animator.SetFloat("moveY", input.y);
-
-                var targetPos = transform.position;
-                targetPos.x += input.x;
-                targetPos.y += input.y;
-
-                StartCoroutine(Move(targetPos));
+                success = MovePlayer(new Vector2(0, input.y));
             }
         }
+    }
 
-    animator.SetBool("isMoving", isMoving);
-}
-
-
-
-    IEnumerator Move(Vector3 targetPos)
+    public bool MovePlayer(Vector2 direction)
     {
-        isMoving = true;
-        while ((targetPos - transform.position).sqrMagnitude > Mathf.Epsilon)
-        {
-            transform.position = Vector3.MoveTowards(transform.position, targetPos, moveSpeed * Time.deltaTime);
-            yield return null;
-        }
-        transform.position = targetPos;
+        int count = rb.Cast(
+            direction,
+            movementFilter,
+            castCollisions,
+            moveSpeed * Time.fixedDeltaTime + CollisionOffset);
 
-        isMoving = false;
+        if (count == 0)
+        {
+            Vector2 moveVector = direction * moveSpeed * Time.fixedDeltaTime;
+
+            rb.MovePosition(rb.position + moveVector);
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
 }
-
-
