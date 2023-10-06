@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     public float CollisionOffset = 0.05f;
     public ContactFilter2D movementFilter;
     public bool isInDialog;
+    public bool isDead;
 
     private Vector2 input;
     private Animator animator;
@@ -22,7 +23,7 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        if (isInDialog) return;
+        if (isInDialog || isDead) return;
         input.x = Input.GetAxisRaw("Horizontal");
         input.y = Input.GetAxisRaw("Vertical");
 
@@ -42,7 +43,7 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (isInDialog) return;
+        if (isInDialog || isDead) return;
         bool success = MovePlayer(input);
 
         if (!success)

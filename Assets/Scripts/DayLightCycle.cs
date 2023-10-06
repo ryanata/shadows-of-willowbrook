@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class DayLightCycle : MonoBehaviour
 {
+    public MurdererController murderer;
     public float dayIntensity = 1f;
     public float nightIntensity = 0.1f;
     public float dayDuration = 180f; // 3 minutes
@@ -27,6 +28,10 @@ public class DayLightCycle : MonoBehaviour
         if (time < dayDuration)
         {
             globalLight.intensity = dayIntensity;
+            if (murderer.isActive())
+            {
+                murderer.deactivate();
+            }
         }
         else if (time < dayDuration + transitionDuration)
         {
@@ -36,11 +41,18 @@ public class DayLightCycle : MonoBehaviour
         else if (time < dayDuration + transitionDuration + nightDuration)
         {
             globalLight.intensity = nightIntensity;
+            // Spawn the murderer only if it isn't active
+            if (!murderer.isActive())
+            {
+                murderer.activate();
+            }
         }
         else
         {
             float t = (time - dayDuration - transitionDuration - nightDuration) / transitionDuration;
             globalLight.intensity = Mathf.Lerp(nightIntensity, dayIntensity, t);
+            // Escape from the player
+            murderer.escape();
         }
     }
 }
