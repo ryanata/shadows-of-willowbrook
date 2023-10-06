@@ -248,9 +248,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0.14351852
-    width: 0.16145834
-    height: 0.5
+    y: 0
+    width: 1
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -338,7 +338,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &275748385
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -353,7 +353,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerController: {fileID: 1657595111}
   killRange: 1.5
-  hasKilledPlayer: 0
+  killSpeed: 3
+  escapeRange: 8
+  escapeSpeed: 8
+  nightSpawnPoint: {x: 3, y: -8, z: 0.1856353}
 --- !u!212 &275748388
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -415,7 +418,7 @@ Transform:
   m_GameObject: {fileID: 275748384}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.80201, y: -8.086116, z: 0.1856353}
+  m_LocalPosition: {x: 3, y: -8, z: 0.1856353}
   m_LocalScale: {x: 8, y: 8, z: 8}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3737,11 +3740,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d31e6cb9c5914006a19a00913eb8894, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  murderer: {fileID: 275748385}
   dayIntensity: 1
   nightIntensity: 0.1
-  dayDuration: 180
-  nightDuration: 180
-  transitionDuration: 60
+  dayDuration: 10
+  nightDuration: 20
+  transitionDuration: 5
 --- !u!1 &1657595110
 GameObject:
   m_ObjectHideFlags: 0
@@ -3792,6 +3796,7 @@ MonoBehaviour:
     minNormalAngle: 0
     maxNormalAngle: 0
   isInDialog: 0
+  isDead: 0
 --- !u!212 &1657595112
 SpriteRenderer:
   m_ObjectHideFlags: 0
