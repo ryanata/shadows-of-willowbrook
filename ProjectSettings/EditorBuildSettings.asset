@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainScene.unity
     guid: 57e4bd3b044af524886ba34cf782eb7e
+  - enabled: 1
+    path: Assets/Scenes/FakeHouse.unity
+    guid: 2b566f3b478b34336a7f439280996f31
   m_configObjects: {}

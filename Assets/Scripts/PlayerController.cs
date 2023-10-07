@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -9,6 +10,7 @@ public class PlayerController : MonoBehaviour
     public ContactFilter2D movementFilter;
     public bool isInDialog;
     public bool isDead;
+    public SceneInfo playerStorage;
 
     private Vector2 input;
     private Animator animator;
@@ -19,6 +21,16 @@ public class PlayerController : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+    }
+
+    private void Start()
+    {
+        // If in MainScene, then we must use the player's position
+        // from the previous scene.
+        if (SceneManager.GetActiveScene().name == "MainScene")
+        {
+            transform.position = playerStorage.startPosition;
+        }
     }
 
     private void Update()
