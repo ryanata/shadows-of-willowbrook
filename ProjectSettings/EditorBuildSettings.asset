@@ -14,7 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainScene.unity
     guid: 57e4bd3b044af524886ba34cf782eb7e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/FakeHouse.unity
     guid: 2b566f3b478b34336a7f439280996f31
+  - enabled: 1
+    path: Assets/Scenes/FlowerShopScene.unity
+    guid: 9f0ec7c92322746729e2bb73c9379f46
   m_configObjects: {}
