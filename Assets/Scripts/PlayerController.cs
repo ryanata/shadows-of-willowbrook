@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     public ContactFilter2D movementFilter;
     public bool isInDialog;
     public bool isDead;
+    public GameObject journal;
     public SceneInfo playerStorage;
 
     private Vector2 input;
@@ -36,6 +37,10 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         if (isInDialog || isDead) return;
+        if (Input.GetKeyDown(KeyCode.J))
+        {
+            this.ToggleJournal();
+        }
         input.x = Input.GetAxisRaw("Horizontal");
         input.y = Input.GetAxisRaw("Vertical");
 
@@ -88,5 +93,10 @@ public class PlayerController : MonoBehaviour
         {
             return false;
         }
+    }
+
+    private void ToggleJournal()
+    {
+        journal.SetActive(!journal.activeSelf);
     }
 }

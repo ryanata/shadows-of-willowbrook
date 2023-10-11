@@ -4,22 +4,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Clue : MonoBehaviour {
-
-    [SerializeField]
-    //private Text pickUpText;
-
+public class ClueController : MonoBehaviour {
+    public HelpTextController helpText;
+    public int clueNumber;
+    public SceneInfo playerStorage;
     private bool pickUpAllowed;
 
-	// Use this for initialization
-	/*private void Start () {
-        pickUpText.gameObject.SetActive(false);
-	}*/
-	
 	// Update is called once per frame
 	private void Update () {
         if (pickUpAllowed && Input.GetKeyDown(KeyCode.E))
-            PickUp();
+        {
+            this.PickUp();
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -27,7 +23,8 @@ public class Clue : MonoBehaviour {
         if (collision.gameObject.name.Equals("Player"))
         {
             pickUpAllowed = true;
-        }        
+            helpText.activate(true);
+        }  
     }
     
     private void OnTriggerExit2D(Collider2D collision)
@@ -35,11 +32,14 @@ public class Clue : MonoBehaviour {
         if (collision.gameObject.name.Equals("Player"))
         {
             pickUpAllowed = false;
+            helpText.activate(false);
         }
     }
 
     private void PickUp()
     {
+        // Save the clue in global store
+        playerStorage.cluesFound[clueNumber-1] = true;
         Destroy(gameObject);
     }
 
