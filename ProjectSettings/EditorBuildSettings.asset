@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FlowerShopScene.unity
     guid: 9f0ec7c92322746729e2bb73c9379f46
+  - enabled: 1
+    path: Assets/Scenes/PoliceScene.unity
+    guid: 9eb17f43cf33e4199b84038080b82860
   m_configObjects: {}
