@@ -53,7 +53,7 @@ TextureImporter:
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: -1
+  spriteTessellationDetail: 0
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -108,18 +108,66 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: flower_sign_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae6222ed564214028b1955a85ccc0a2f
+      internalID: -671108926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_sign_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2666aec426c4647e682d64c04e7df11c
+      internalID: -1830109758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
-    physicsShape: []
+    physicsShape:
+    - - {x: -10.5, y: -13}
+      - {x: -10.5, y: 13}
+      - {x: 10.5, y: 13}
+      - {x: 10.5, y: -13}
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 0
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      flower_sign_0: -671108926
+      flower_sign_1: -1830109758
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
