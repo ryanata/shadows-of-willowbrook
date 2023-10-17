@@ -11,7 +11,6 @@ public class FieldOfView : MonoBehaviour
     public LayerMask targetLayer;
     public LayerMask obstructionLayer;
     public GameObject playerRef;
-    public Light pointLight;
     public bool CanSeePlayer { get; private set; }
 
     NavMeshAgent agent;
