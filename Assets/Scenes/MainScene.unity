@@ -248,9 +248,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0.0041666664
-    width: 0.43645835
-    height: 0.5
+    y: 0.18148148
+    width: 0.33958334
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -4364,8 +4364,12 @@ MonoBehaviour:
   interactionKey: 101
   dialogManager: {fileID: 496574918}
   dialogLines:
-  - Thank you for coming detective...
-  - We have a murderer on the loose!
+  - Detective, thank goodness you're here! We've called upon you because you're one
+    of the best investigators around...
+  - quite frankly, you're our last hope in solving this terrible crime. Let me give
+    you a brief overview of Willowbrook.
+  - Early this morning, Evelyn Greenfield, the village florist, was found dead in
+    her shop. It's a small village, and we've never had a case like this before.
 --- !u!61 &1976574039
 BoxCollider2D:
   m_ObjectHideFlags: 0
