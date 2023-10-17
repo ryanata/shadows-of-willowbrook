@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PoliceScene.unity
     guid: 9eb17f43cf33e4199b84038080b82860
+  - enabled: 1
+    path: Assets/Scenes/SecretLayerScene.unity
+    guid: a6605e3f7e4dab64c9ccc17ea40b3330
   m_configObjects: {}

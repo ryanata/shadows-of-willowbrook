@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 745f47f18cecf4f50b6a2c31426009d3, type: 3}
   m_Name: GlobalStore
   m_EditorClassIdentifier: 
-  startPosition: {x: 0, y: 0}
+  startPosition: {x: -1, y: 14.9}
   cluesFound: 0000000000000000

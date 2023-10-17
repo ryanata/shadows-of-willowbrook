@@ -28,10 +28,7 @@ public class PlayerController : MonoBehaviour
     {
         // If in MainScene, then we must use the player's position
         // from the previous scene.
-        if (SceneManager.GetActiveScene().name == "MainScene")
-        {
-            transform.position = playerStorage.startPosition;
-        }
+        transform.position = playerStorage.startPosition;
     }
 
     private void Update()
