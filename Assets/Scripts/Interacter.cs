@@ -5,23 +5,21 @@ using UnityEngine;
 public class Interacter : MonoBehaviour
 {
     public UseToggle toggle;
+    private PlayerController playerController;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        playerController = FindObjectOfType<PlayerController>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
-    }
-
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-        if (collision.gameObject.tag == "Player" && Input.GetKeyDown(KeyCode.E))
+        if (playerController.isInDialog)
         {
             toggle.activate(false);
         }
+        
     }
 }
