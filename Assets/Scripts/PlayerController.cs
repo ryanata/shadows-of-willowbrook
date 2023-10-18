@@ -28,15 +28,17 @@ public class PlayerController : MonoBehaviour
     {
         // If in MainScene, then we must use the player's position
         // from the previous scene.
-        if (SceneManager.GetActiveScene().name == "MainScene")
-        {
-            transform.position = playerStorage.startPosition;
-        }
+        transform.position = playerStorage.startPosition;
     }
 
     private void Update()
     {
-        if (isInDialog || isDead) return;
+        if (isDead)
+        {
+            SceneManager.LoadSceneAsync("DeathScreen");
+            return;
+        }
+        if (isInDialog) return;
         if (Input.GetKeyDown(KeyCode.J))
         {
             this.ToggleJournal();
@@ -60,7 +62,12 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (isInDialog || isDead) return;
+        if (isDead)
+        {
+            SceneManager.LoadSceneAsync("DeathScreen");
+            return;
+        }
+        if (isInDialog) return;
         bool success = MovePlayer(input);
 
         if (!success)
