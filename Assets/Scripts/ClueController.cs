@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class ClueController : MonoBehaviour {
-    public HelpTextController helpText;
+    public UseToggle helpText;
     public int clueNumber;
     public SceneInfo playerStorage;
     private bool pickUpAllowed;
