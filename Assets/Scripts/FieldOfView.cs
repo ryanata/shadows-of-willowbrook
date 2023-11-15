@@ -89,8 +89,9 @@ public class FieldOfView : MonoBehaviour
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.white;
+        #if UNITY_EDITOR
         UnityEditor.Handles.DrawWireDisc(transform.position, Vector3.forward, viewRadius);
-
+        #endif
         if (agent)
         {
             Vector3 targetDir = (agent.steeringTarget - transform.position).normalized;

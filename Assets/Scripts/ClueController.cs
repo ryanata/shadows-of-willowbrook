@@ -10,8 +10,17 @@ public class ClueController : MonoBehaviour {
     public SceneInfo playerStorage;
     private bool pickUpAllowed;
 
+    // Start is called before the first frame update
+    private void Start () 
+    {
+        if (playerStorage.cluesFound[clueNumber-1])
+        {
+            Destroy(gameObject);
+        }
+    }
 	// Update is called once per frame
-	private void Update () {
+	private void Update () 
+    {
         if (pickUpAllowed && Input.GetKeyDown(KeyCode.E))
         {
             this.PickUp();
