@@ -15,6 +15,8 @@ public class MurdererController : MonoBehaviour
     private NavMeshAgent agent;
     private Transform target;
     private bool isEscaping = false;
+    private float baseSpeed;
+    private float escapeStart;
 
     private void Start()
     {
@@ -22,24 +24,27 @@ public class MurdererController : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
+        baseSpeed = killSpeed;
     }
 
     private void Update()
     {
         if (playerController.isDead) return;
+        updateSpeed();
         float distanceToTarget = Vector3.Distance(transform.position, target.position);
 
         if (isEscaping)
         {
             agent.speed = escapeSpeed;
+            float timeTaken = TimeManager.instance.inGameTime - escapeStart;
             // Calculate direction from murderer to player
             Vector3 directionToPlayer = (target.position - transform.position).normalized;
             // Calculate escape point in opposite direction
             Vector3 escapePoint = transform.position - directionToPlayer * escapeRange;
             agent.SetDestination(escapePoint);
-            if (Vector3.Distance(transform.position, escapePoint) <= 0.5f)
+            if (Vector3.Distance(transform.position, escapePoint) <= 0.5f || timeTaken > 3)
             {
-                gameObject.SetActive(false);
+                deactivate();
             }
         }
         else
@@ -53,6 +58,15 @@ public class MurdererController : MonoBehaviour
                 playerController.isDead = true;
             }
         }
+    }
+
+    private void updateSpeed()
+    {
+        float time = TimeManager.instance.inGameTime;
+        // Each full day is 210 seconds = 90 + 90 + 30
+        // Each day that passes, kill speed goes up by 0.75 until it caps out at 6
+        int daysPassed = (int)(time / 210);
+        killSpeed = Mathf.Min(6, baseSpeed + 0.75f * daysPassed);
     }
 
 
@@ -70,7 +84,11 @@ public class MurdererController : MonoBehaviour
 
     public void escape()
     {
-        isEscaping = true;
+        if (!isEscaping)
+        {
+            isEscaping = true;
+            escapeStart = TimeManager.instance.inGameTime;
+        }
     }
 
     public bool isActive()
