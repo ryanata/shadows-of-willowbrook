@@ -160,7 +160,7 @@ MonoBehaviour:
   m_AssetsPPU: 100
   m_RefResolutionX: 1920
   m_RefResolutionY: 1080
-  m_CropFrame: 2
+  m_CropFrame: 4
   m_GridSnapping: 1
   m_FilterMode: 0
   m_UpscaleRT: 0
@@ -248,9 +248,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0.28703704
-    width: 0.39791667
-    height: 1
+    y: 0.61018515
+    width: 0.353125
+    height: 0.353125
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -868,6 +868,7 @@ GameObject:
   - component: {fileID: 678388189}
   - component: {fileID: 678388188}
   - component: {fileID: 678388190}
+  - component: {fileID: 678388191}
   m_Layer: 0
   m_Name: Writers_House
   m_TagString: Untagged
@@ -995,6 +996,22 @@ PolygonCollider2D:
       - {x: 9.742926, y: -10.385063}
       - {x: 10.037266, y: -9.060457}
   m_UseDelaunayMesh: 0
+--- !u!114 &678388191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678388187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &738656702
 GameObject:
   m_ObjectHideFlags: 0
@@ -15363,6 +15380,7 @@ GameObject:
   - component: {fileID: 850149121}
   - component: {fileID: 850149120}
   - component: {fileID: 850149122}
+  - component: {fileID: 850149123}
   m_Layer: 0
   m_Name: Botanist_House
   m_TagString: Untagged
@@ -15489,6 +15507,22 @@ PolygonCollider2D:
       - {x: 3.6951618, y: 2.4191341}
       - {x: 4.0885277, y: 3.75}
   m_UseDelaunayMesh: 0
+--- !u!114 &850149123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 850149119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &1019095698
 GameObject:
   m_ObjectHideFlags: 0
@@ -15630,6 +15664,7 @@ GameObject:
   - component: {fileID: 1043662834}
   - component: {fileID: 1043662833}
   - component: {fileID: 1043662835}
+  - component: {fileID: 1043662836}
   m_Layer: 0
   m_Name: Detective_House
   m_TagString: Untagged
@@ -15677,7 +15712,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 4
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 44dacbd9659dc4ac985f2a7c66c529b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -15755,6 +15790,22 @@ PolygonCollider2D:
       - {x: -6.2000194, y: -5.5937843}
       - {x: -3.4259365, y: -5.5786057}
   m_UseDelaunayMesh: 0
+--- !u!114 &1043662836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043662832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &1114068549
 GameObject:
   m_ObjectHideFlags: 0
@@ -16844,8 +16895,8 @@ MonoBehaviour:
   murderer: {fileID: 275748385}
   dayIntensity: 1
   nightIntensity: 0.1
-  dayDuration: 180
-  nightDuration: 180
+  dayDuration: 20
+  nightDuration: 50
   transitionDuration: 30
 --- !u!114 &1657595111 stripped
 MonoBehaviour:
@@ -16942,6 +16993,7 @@ GameObject:
   - component: {fileID: 1790503137}
   - component: {fileID: 1790503136}
   - component: {fileID: 1790503138}
+  - component: {fileID: 1790503139}
   m_Layer: 0
   m_Name: Bakery
   m_TagString: Untagged
@@ -17068,6 +17120,22 @@ PolygonCollider2D:
       - {x: 0.3550117, y: -4.1477623}
       - {x: 4.5820107, y: -4.0887527}
   m_UseDelaunayMesh: 0
+--- !u!114 &1790503139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790503135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &1976574034
 GameObject:
   m_ObjectHideFlags: 0
@@ -59892,6 +59960,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 580233313462897894, guid: 9bb1719f632f342c0a4660d1de3e56f2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 836127680909699119, guid: 9bb1719f632f342c0a4660d1de3e56f2, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -59964,6 +60036,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1919760762915819159, guid: 9bb1719f632f342c0a4660d1de3e56f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a3ea288a21c82461398c3f01fab5bffc, type: 3}
     - target: {fileID: 3735107648199647409, guid: 9bb1719f632f342c0a4660d1de3e56f2, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -60197,6 +60273,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7973823149674643425, guid: 9bb1719f632f342c0a4660d1de3e56f2, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8500604013760892419, guid: 9bb1719f632f342c0a4660d1de3e56f2, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -40
+      objectReference: {fileID: 0}
+    - target: {fileID: 8500604013760892419, guid: 9bb1719f632f342c0a4660d1de3e56f2, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
