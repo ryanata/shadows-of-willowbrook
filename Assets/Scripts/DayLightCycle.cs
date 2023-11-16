@@ -12,6 +12,8 @@ public class DayLightCycle : MonoBehaviour
     public float nightDuration = 180f; // 3 minutes
     public float transitionDuration = 60f; // 1 minute
 
+    public float timeInDay { get; private set; }
+
     private UnityEngine.Rendering.Universal.Light2D globalLight;
     private float cycleDuration;
 
@@ -23,9 +25,13 @@ public class DayLightCycle : MonoBehaviour
 
     void Update()
     {
-        float time = Time.time % cycleDuration;
+<<<<<<< HEAD
+        timeInDay = Time.time % cycleDuration;
+=======
+        float time = TimeManager.instance.inGameTime % cycleDuration;
+>>>>>>> master
 
-        if (time < dayDuration)
+        if (timeInDay < dayDuration)
         {
             globalLight.intensity = dayIntensity;
             if (murderer.isActive())
@@ -33,12 +39,12 @@ public class DayLightCycle : MonoBehaviour
                 murderer.deactivate();
             }
         }
-        else if (time < dayDuration + transitionDuration)
+        else if (timeInDay < dayDuration + transitionDuration)
         {
-            float t = (time - dayDuration) / transitionDuration;
+            float t = (timeInDay - dayDuration) / transitionDuration;
             globalLight.intensity = Mathf.Lerp(dayIntensity, nightIntensity, t);
         }
-        else if (time < dayDuration + transitionDuration + nightDuration)
+        else if (timeInDay < dayDuration + transitionDuration + nightDuration)
         {
             globalLight.intensity = nightIntensity;
             // Spawn the murderer only if it isn't active
@@ -49,7 +55,7 @@ public class DayLightCycle : MonoBehaviour
         }
         else
         {
-            float t = (time - dayDuration - transitionDuration - nightDuration) / transitionDuration;
+            float t = (timeInDay - dayDuration - transitionDuration - nightDuration) / transitionDuration;
             globalLight.intensity = Mathf.Lerp(nightIntensity, dayIntensity, t);
             // Escape from the player
             murderer.escape();
