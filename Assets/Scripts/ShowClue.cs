@@ -1,11 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class ShowClue : MonoBehaviour
+public class ShowClue : MonoBehaviour, IPointerClickHandler
 {
+    public GameObject journal;
     public GameObject clueImage;
     public GameObject questionMarkImage;
+    public GameObject clueInformation;
     public int clueNumber;
     public SceneInfo playerStorage;
 
@@ -15,6 +18,7 @@ public class ShowClue : MonoBehaviour
     {
         clueImage.SetActive(false);
         questionMarkImage.SetActive(true);
+        clueInformation.SetActive(false);
     }
 
     // Update is called once per frame
@@ -28,6 +32,16 @@ public class ShowClue : MonoBehaviour
             clueImage.SetActive(true);
             questionMarkImage.SetActive(false);
             foundClue = true;
+        }
+    }
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        // If the clue has been found, show the clue information image
+        if (foundClue)
+        {
+            clueInformation.SetActive(true);
+            journal.SetActive(false);
         }
     }
 }

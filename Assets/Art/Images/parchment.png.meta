@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4834e3e1ab76c4a60bcc92de7dbe18b2
+guid: 07db39ff39faa4928b548651da71839f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,190 +110,64 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Flower_red
+      name: parchment_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 48
-        width: 16
-        height: 16
+        x: 60
+        y: 272
+        width: 251
+        height: 337
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46b41ad67d263452e93459f8feaf85f4
-      internalID: -839079478
+      spriteID: 7334472a900174bd8a97be4f19203394
+      internalID: 362681563
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Flower_purple
+      name: parchment_1
       rect:
         serializedVersion: 2
-        x: 16
-        y: 48
-        width: 16
-        height: 16
+        x: 316
+        y: 266
+        width: 423
+        height: 650
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07912a753083e403fa92f548f3eb191c
-      internalID: 401507047
+      spriteID: 744836a7d24b54c6e9479ef389183cb1
+      internalID: 608826168
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diary
+      name: parchment_2
       rect:
         serializedVersion: 2
-        x: 32
-        y: 47
-        width: 16
-        height: 16
+        x: 768
+        y: 272
+        width: 227
+        height: 575
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40f5fd8f9aba64f318d5c9686dc7cdcd
-      internalID: 1133911118
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Key
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7ea4b627dbcd44bdab6130f1b2e8fbe0
-      internalID: -577463601
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Flower_blue
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 82fdf2cbb902e4f8dae7f2c24e803a16
-      internalID: 1488099702
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Flower_pink
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e3113f6756e1c41c79de3413f46b29ce
-      internalID: -1450007809
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Potion
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 31
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 37f70f9b8bfae4a5e847fe8c625b545f
-      internalID: 476279023
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Letter
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 88b8a80402b5f4cfea58b001739df095
-      internalID: 2093466105
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lock
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6de5f59d5f46541a4a4f0ada994fda2b
-      internalID: 1782044822
+      spriteID: 59db88479a97f4c7fb7a01cd8f0435f6
+      internalID: 1102071747
       vertices: []
       indices: 
       edges: []
@@ -309,15 +183,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Diary: 1133911118
-      Flower_blue: 1488099702
-      Flower_pink: -1450007809
-      Flower_purple: 401507047
-      Flower_red: -839079478
-      Key: -577463601
-      Letter: 2093466105
-      Lock: 1782044822
-      Potion: 476279023
+      parchment_0: 362681563
+      parchment_1: 608826168
+      parchment_2: 1102071747
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
