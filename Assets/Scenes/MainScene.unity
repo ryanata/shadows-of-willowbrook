@@ -248,14 +248,14 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0.28703704
-    width: 0.39791667
+    y: 0
+    width: 1
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
   orthographic: 0
-  orthographic size: 5
+  orthographic size: 5.4
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -17188,6 +17188,7 @@ MonoBehaviour:
   - 'You should have a journal that you can open by pressing J. Go to my office to
     collect your first clue I''ve compiled... '
   - Good luck, Detective. Willowbrook is counting on you to bring justice for Evelyn!
+  afterDialogLine: Go get em
 --- !u!61 &1976574039
 BoxCollider2D:
   m_ObjectHideFlags: 0

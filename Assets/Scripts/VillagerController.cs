@@ -7,7 +7,13 @@ public class VillagerController : MonoBehaviour
     // This is the key that the player will press to interact with the villager
     public KeyCode interactionKey = KeyCode.E;
     public DialogManager dialogManager;
+
+    [TextArea(3, 10)]
     public string[] dialogLines;
+
+
+    [TextArea(3, 10)]
+    public string afterDialogLine;
 
     private PlayerController playerController;
     private int currentLine = 0;
@@ -39,13 +45,29 @@ public class VillagerController : MonoBehaviour
 
     private void Update()
     {
-        if (isPlayerInRange && Input.GetKeyDown(interactionKey))
+        if (isPlayerInRange && Input.GetKeyDown(interactionKey) && (currentLine < dialogLines.Length))
         {
             // Debug
             Debug.Log("Player pressed interaction key");
             playerController.isInDialog = true;
             dialogManager.ShowDialog();
             this.NextLine();
+        }
+        else if(isPlayerInRange && Input.GetKeyDown(interactionKey))
+        {
+            if (playerController.isInDialog == false)
+            {
+                Debug.Log("Player false");
+                dialogManager.ShowDialog();
+                dialogManager.SetDialog(afterDialogLine);
+                playerController.isInDialog = true;
+            }
+            else
+            {
+                Debug.Log("Player true");
+                dialogManager.HideDialog();
+                playerController.isInDialog = false;
+            }
         }
     }
 
