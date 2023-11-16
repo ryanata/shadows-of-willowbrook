@@ -25,11 +25,7 @@ public class DayLightCycle : MonoBehaviour
 
     void Update()
     {
-<<<<<<< HEAD
         timeInDay = Time.time % cycleDuration;
-=======
-        float time = TimeManager.instance.inGameTime % cycleDuration;
->>>>>>> master
 
         if (timeInDay < dayDuration)
         {
