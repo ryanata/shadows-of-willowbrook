@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class ClueController : MonoBehaviour {
-    public UseToggle helpText;
+    public GameObject prompt;
     public int clueNumber;
     public SceneInfo playerStorage;
     private bool pickUpAllowed;
@@ -32,7 +32,7 @@ public class ClueController : MonoBehaviour {
         if (collision.gameObject.name.Equals("Player"))
         {
             pickUpAllowed = true;
-            helpText.activate(true);
+            prompt.SetActive(true);
         }  
     }
     
@@ -41,7 +41,7 @@ public class ClueController : MonoBehaviour {
         if (collision.gameObject.name.Equals("Player"))
         {
             pickUpAllowed = false;
-            helpText.activate(false);
+            prompt.SetActive(false);
         }
     }
 
