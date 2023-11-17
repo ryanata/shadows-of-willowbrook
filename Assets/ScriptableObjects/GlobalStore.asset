@@ -14,3 +14,40 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startPosition: {x: 0, y: 0}
   cluesFound: 0000000000000000
+  dialogueRead:
+  - name: Police
+    baseDialogue: 0
+    clueAFound: 0
+    clueBFound: 0
+    clueCFound: 0
+    night: 0
+  - name: Mayor
+    baseDialogue: 0
+    clueAFound: 0
+    clueBFound: 0
+    clueCFound: 0
+    night: 0
+  - name: Samuel
+    baseDialogue: 0
+    clueAFound: 0
+    clueBFound: 0
+    clueCFound: 0
+    night: 0
+  - name: Baker
+    baseDialogue: 0
+    clueAFound: 0
+    clueBFound: 0
+    clueCFound: 0
+    night: 0
+  - name: Lillian
+    baseDialogue: 0
+    clueAFound: 0
+    clueBFound: 0
+    clueCFound: 0
+    night: 0
+  - name: Walter
+    baseDialogue: 0
+    clueAFound: 0
+    clueBFound: 0
+    clueCFound: 0
+    night: 0

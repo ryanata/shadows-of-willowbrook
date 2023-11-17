@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Interacter : MonoBehaviour
 {
-    public UseToggle toggle;
+    public GameObject prompt;
+    public SceneInfo playerStorage;
     private PlayerController playerController;
 
     // Start is called before the first frame update
@@ -16,10 +17,9 @@ public class Interacter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (playerController.isInDialog)
+        if (playerController.isInDialog || playerStorage.dialogueRead[0].baseDialogue)
         {
-            toggle.activate(false);
+            prompt.SetActive(false);
         }
-        
     }
 }

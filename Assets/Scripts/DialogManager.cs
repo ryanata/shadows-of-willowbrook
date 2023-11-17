@@ -5,17 +5,23 @@ using TMPro;
 
 public class DialogManager : MonoBehaviour
 {
-    public TMP_Text dialogText;
+    [TextArea(10, 20)] [SerializeField] private string content;
+    [Space] [SerializeField] private TMP_Text textComponent;
 
     private void Awake()
     {
-        dialogText = GetComponentInChildren<TMP_Text>();
+        textComponent.text = content;
+    }
+
+    public void SetDialog(string dialog)
+    {
+        textComponent.pageToDisplay = 1;
+        textComponent.text = dialog;
     }
 
     public void ShowDialog()
     {
         gameObject.SetActive(true);
-        Debug.Log("Dialog shown");
     }
 
     public void HideDialog()
@@ -23,9 +29,19 @@ public class DialogManager : MonoBehaviour
         gameObject.SetActive(false);
     }
 
-    public void SetDialog(string dialog)
+    public bool IsActive()
     {
-        dialogText.text = dialog;
+        return gameObject.activeSelf;
+    }
+
+    public void ContinueDialog()
+    {
+        textComponent.pageToDisplay++;
+    }
+
+    public bool HasReachedEnd()
+    {
+        return textComponent.pageToDisplay == textComponent.textInfo.pageCount;
     }
 }
 
