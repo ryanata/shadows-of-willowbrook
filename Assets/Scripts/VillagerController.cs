@@ -13,7 +13,7 @@ public class VillagerController : MonoBehaviour
 
 
     [TextArea(3, 10)]
-    public string afterDialogLine;
+    public string[] afterDialogLine;
 
     private PlayerController playerController;
     private int currentLine = 0;
@@ -59,7 +59,9 @@ public class VillagerController : MonoBehaviour
             {
                 Debug.Log("Player false");
                 dialogManager.ShowDialog();
-                dialogManager.SetDialog(afterDialogLine);
+                var r = new System.Random();
+                var rNum = r.Next(0, afterDialogLine.Length);
+                dialogManager.SetDialog(afterDialogLine[rNum]);
                 playerController.isInDialog = true;
             }
             else
