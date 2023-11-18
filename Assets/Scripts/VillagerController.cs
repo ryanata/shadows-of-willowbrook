@@ -14,6 +14,7 @@ public class VillagerController : MonoBehaviour
     private bool[] dialogueAdded = new bool[8];
     private PlayerController playerController;
     private bool isPlayerInRange = false;
+    private bool isConversationDry = true;
 
 
     private void Awake()
@@ -44,6 +45,10 @@ public class VillagerController : MonoBehaviour
         AddDialog();
         if (isPlayerInRange && Input.GetKeyDown(interactionKey))
         {
+            if (dialogLines.Count > 0)
+            {
+                isConversationDry = false;
+            }
             this.NextLine();
         }
     }
@@ -52,15 +57,24 @@ public class VillagerController : MonoBehaviour
     {
         if (dialogManager.IsActive() && !dialogManager.HasReachedEnd())
         {
-            Debug.Log("Continuing dialog...");
             dialogManager.ContinueDialog();
             return;
         }
         // If dialogLines is empty, hide the dialog box)
         if (dialogLines.Count == 0)
         {
+            if (isConversationDry)
+            {
+                // Set the dialogue to a random dry dialogue
+                dialogManager.ShowDialog();
+                SetDialogAndLabel("Villager: I don't have anything to say to you.");
+                playerController.isInDialog = true;
+                isConversationDry = false;
+                return;
+            }
             dialogManager.HideDialog();
             playerController.isInDialog = false;
+            isConversationDry = true;
             return;
         }
         string dialog = dialogLines.Dequeue();
@@ -72,7 +86,7 @@ public class VillagerController : MonoBehaviour
         }
         dialogManager.ShowDialog();
         playerController.isInDialog = true;
-        dialogManager.SetDialog(dialog);
+        SetDialogAndLabel(dialog);
     }
 
     private void SystemPrompt(string prompt)
@@ -92,7 +106,7 @@ public class VillagerController : MonoBehaviour
                 break;
             case "Mayor":
             case "Samuel":
-            case "Baker":
+            case "Isabel":
             case "Lillian":
             case "Walter":
             default:
@@ -124,11 +138,27 @@ public class VillagerController : MonoBehaviour
                 break;
             case "Mayor":
             case "Samuel":
-            case "Baker":
+            case "Isabel":
             case "Lillian":
             case "Walter":
             default:
                 break;
+        }
+    }
+
+    private void SetDialogAndLabel(string text)
+    {
+        // Grab everything before ": " and set it as the label
+        // Grab everything after ": " and set it as the dialog
+        string[] splitText = text.Split(new string[] { ": " }, System.StringSplitOptions.None);
+        dialogManager.SetDialog(splitText[1]);
+        if (splitText[0] == "Villager")
+        {
+            dialogManager.SetLabel(villagerName);
+        }
+        else
+        {
+            dialogManager.SetLabel(splitText[0]);
         }
     }
 }
