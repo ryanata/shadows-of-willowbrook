@@ -17188,7 +17188,10 @@ MonoBehaviour:
   - 'You should have a journal that you can open by pressing J. Go to my office to
     collect your first clue I''ve compiled... '
   - Good luck, Detective. Willowbrook is counting on you to bring justice for Evelyn!
-  afterDialogLine: Go get em
+  afterDialogLine:
+  - Go get em
+  - Nice
+  - Wow
 --- !u!61 &1976574039
 BoxCollider2D:
   m_ObjectHideFlags: 0
