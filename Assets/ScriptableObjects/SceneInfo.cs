@@ -24,7 +24,7 @@ public class SceneInfo : ScriptableObject
         new DialogueState { name = "Police", baseDialogue = false, clueAFound = false, clueBFound = false, clueCFound = false, night = false },
         new DialogueState { name = "Mayor", baseDialogue = false, clueAFound = false, clueBFound = false, clueCFound = false, night = false },
         new DialogueState { name = "Samuel", baseDialogue = false, clueAFound = false, clueBFound = false, clueCFound = false, night = false },
-        new DialogueState { name = "Baker", baseDialogue = false, clueAFound = false, clueBFound = false, clueCFound = false, night = false },
+        new DialogueState { name = "Isabel", baseDialogue = false, clueAFound = false, clueBFound = false, clueCFound = false, night = false },
         new DialogueState { name = "Lillian", baseDialogue = false, clueAFound = false, clueBFound = false, clueCFound = false, night = false },
         new DialogueState { name = "Walter", baseDialogue = false, clueAFound = false, clueBFound = false, clueCFound = false, night = false },
     };

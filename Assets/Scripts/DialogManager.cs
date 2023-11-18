@@ -7,6 +7,7 @@ public class DialogManager : MonoBehaviour
 {
     [TextArea(10, 20)] [SerializeField] private string content;
     [Space] [SerializeField] private TMP_Text textComponent;
+    [SerializeField] private TMP_Text labelComponent;
 
     private void Awake()
     {
@@ -17,6 +18,11 @@ public class DialogManager : MonoBehaviour
     {
         textComponent.pageToDisplay = 1;
         textComponent.text = dialog;
+    }
+
+    public void SetLabel(string label)
+    {
+        labelComponent.text = label;
     }
 
     public void ShowDialog()

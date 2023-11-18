@@ -33,7 +33,7 @@ MonoBehaviour:
     clueBFound: 0
     clueCFound: 0
     night: 0
-  - name: Baker
+  - name: Isabel
     baseDialogue: 0
     clueAFound: 0
     clueBFound: 0
