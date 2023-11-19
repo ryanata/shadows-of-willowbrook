@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/DeathScreen.unity
     guid: 0d08ac35bbc0746bc8a49cbdaccc7ddc
   - enabled: 1
+    path: Assets/Scenes/MayorScene.unity
+    guid: 07ca9e57791624dfeb6a003f21587225
+  - enabled: 1
     path: Assets/Scenes/MainScene.unity
     guid: 57e4bd3b044af524886ba34cf782eb7e
   - enabled: 0
@@ -23,9 +26,21 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FlowerShopScene.unity
     guid: 9f0ec7c92322746729e2bb73c9379f46
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/PoliceScene.unity
     guid: 9eb17f43cf33e4199b84038080b82860
+  - enabled: 1
+    path: Assets/Scenes/DetectiveScene.unity
+    guid: bf9f76ad6b94941cb917b859235f0e86
+  - enabled: 1
+    path: Assets/Scenes/PoliceScene2.unity
+    guid: 3c191b1f6406544aaaf9b33e8c5f85d5
+  - enabled: 1
+    path: Assets/Scenes/WriterScene.unity
+    guid: 655654a0993064f80add140a723f96dc
+  - enabled: 1
+    path: Assets/Scenes/WalterScene.unity
+    guid: f6aa2aa2050034b3da3ebbb1cf18b15e
   - enabled: 1
     path: Assets/Scenes/BakeryScene.unity
     guid: 6417bfb6fada8460585bc7a51105da37
