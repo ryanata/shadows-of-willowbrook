@@ -215,12 +215,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI books & more_5
+      name: LooseYellowPage
       rect:
         serializedVersion: 2
-        x: 464
+        x: 512
         y: 401
-        width: 96
+        width: 48
         height: 62
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -446,7 +446,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI books & more_16
+      name: BrownLetter
       rect:
         serializedVersion: 2
         x: 561
@@ -5097,7 +5097,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      BrownLetter: 20539015
       Diary: 108263493
+      LooseYellowPage: 855233623
       Parchment: -506493184
       UI books & more_0: 1701053390
       UI books & more_1: 70219640
@@ -5166,7 +5168,6 @@ TextureImporter:
       UI books & more_157: 2089542774
       UI books & more_158: -1892039577
       UI books & more_159: 580542201
-      UI books & more_16: 20539015
       UI books & more_160: 4200999
       UI books & more_161: -129732383
       UI books & more_162: 253360926
@@ -5280,7 +5281,6 @@ TextureImporter:
       UI books & more_47: 1552383349
       UI books & more_48: 1470229086
       UI books & more_49: 1925482596
-      UI books & more_5: 855233623
       UI books & more_50: -1623064480
       UI books & more_51: 2096466287
       UI books & more_52: -444108661
