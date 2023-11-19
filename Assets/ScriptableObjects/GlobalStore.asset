@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 745f47f18cecf4f50b6a2c31426009d3, type: 3}
   m_Name: GlobalStore
   m_EditorClassIdentifier: 
-  startPosition: {x: 0, y: 0}
+  startPosition: {x: 0, y: -2.7}
   cluesFound: 0000000000000000
   dialogueRead:
   - name: Police
-    baseDialogue: 1
+    baseDialogue: 0
     clueAFound: 0
     clueBFound: 0
     clueCFound: 0
@@ -51,6 +51,20 @@ MonoBehaviour:
     clueBFound: 0
     clueCFound: 0
     night: 0
+  schedules:
+  - name: Police
+    destinations:
+    - position: {x: 15, y: 3, z: 0}
+      sceneName: MainScene
+    - position: {x: -31, y: 6, z: 0}
+      sceneName: MainScene
+    - position: {x: -1, y: -3.5, z: 0}
+      sceneName: PoliceScene2
+    - position: {x: 8, y: -2.4, z: 0}
+      sceneName: PoliceScene2
+    homeEntrance: {x: 12.7, y: 11, z: 0}
+    homeExit: {x: -8, y: -2.5, z: 0}
+    curIndex: 0
   dayDuration: 90
   nightDuration: 90
   transitionDuration: 30
