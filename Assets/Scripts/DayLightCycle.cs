@@ -6,6 +6,7 @@ using UnityEngine;
 public class DayLightCycle : MonoBehaviour
 {
     public MurdererController murderer;
+    public PlayerController playerController;
     public float dayIntensity = 1f;
     public float nightIntensity = 0.1f;
     public float dayDuration = 180f; // 3 minutes
@@ -31,6 +32,7 @@ public class DayLightCycle : MonoBehaviour
             if (murderer.isActive())
             {
                 murderer.deactivate();
+                playerController.canSleep = false;
             }
         }
         else if (time < dayDuration + transitionDuration)
@@ -45,6 +47,7 @@ public class DayLightCycle : MonoBehaviour
             if (!murderer.isActive())
             {
                 murderer.activate();
+                playerController.canSleep = true;
             }
         }
         else
@@ -53,6 +56,7 @@ public class DayLightCycle : MonoBehaviour
             globalLight.intensity = Mathf.Lerp(nightIntensity, dayIntensity, t);
             // Escape from the player
             murderer.escape();
+            playerController.canSleep = false;
         }
     }
 }

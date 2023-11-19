@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SecretLayerScene.unity
     guid: a6605e3f7e4dab64c9ccc17ea40b3330
+  - enabled: 1
+    path: Assets/Scenes/TestScene.unity
+    guid: f570e800043c9fc43943c94272d0632a
   m_configObjects: {}

@@ -10,6 +10,8 @@ public class PlayerController : MonoBehaviour
     public ContactFilter2D movementFilter;
     public bool isInDialog;
     public bool isDead;
+    public bool isInBed;
+    public bool canSleep;
     public GameObject journal;
     public SceneInfo playerStorage;
 
@@ -39,6 +41,7 @@ public class PlayerController : MonoBehaviour
             return;
         }
         if (isInDialog) return;
+        //if (isInBed) return;
         if (Input.GetKeyDown(KeyCode.J))
         {
             this.ToggleJournal();
@@ -68,6 +71,7 @@ public class PlayerController : MonoBehaviour
             return;
         }
         if (isInDialog) return;
+        //if (isInBed) return;
         bool success = MovePlayer(input);
 
         if (!success)
