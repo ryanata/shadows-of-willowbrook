@@ -28,4 +28,7 @@ public class SceneInfo : ScriptableObject
         new DialogueState { name = "Lillian", baseDialogue = false, clueAFound = false, clueBFound = false, clueCFound = false, night = false },
         new DialogueState { name = "Walter", baseDialogue = false, clueAFound = false, clueBFound = false, clueCFound = false, night = false },
     };
+    public float dayDuration = 90f;
+    public float nightDuration = 90f;
+    public float transitionDuration = 30f;
 }

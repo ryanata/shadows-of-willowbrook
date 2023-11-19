@@ -11,6 +11,7 @@ public class MurdererController : MonoBehaviour
     public float escapeRange = 8f;
     public float escapeSpeed = 8f;
     public Vector3 nightSpawnPoint;
+    public SceneInfo playerStorage;
 
     private NavMeshAgent agent;
     private Transform target;
@@ -63,9 +64,7 @@ public class MurdererController : MonoBehaviour
     private void updateSpeed()
     {
         float time = TimeManager.instance.inGameTime;
-        // Each full day is 210 seconds = 90 + 90 + 30
-        // Each day that passes, kill speed goes up by 0.75 until it caps out at 6
-        int daysPassed = (int)(time / 210);
+        int daysPassed = (int)(time / (playerStorage.dayDuration + 2*playerStorage.transitionDuration + playerStorage.nightDuration));
         killSpeed = Mathf.Min(6, baseSpeed + 0.75f * daysPassed);
     }
 

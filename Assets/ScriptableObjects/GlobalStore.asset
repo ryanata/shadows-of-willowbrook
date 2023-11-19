@@ -16,7 +16,7 @@ MonoBehaviour:
   cluesFound: 0000000000000000
   dialogueRead:
   - name: Police
-    baseDialogue: 0
+    baseDialogue: 1
     clueAFound: 0
     clueBFound: 0
     clueCFound: 0
@@ -51,3 +51,6 @@ MonoBehaviour:
     clueBFound: 0
     clueCFound: 0
     night: 0
+  dayDuration: 90
+  nightDuration: 90
+  transitionDuration: 30
