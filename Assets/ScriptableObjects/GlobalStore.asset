@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 745f47f18cecf4f50b6a2c31426009d3, type: 3}
   m_Name: GlobalStore
   m_EditorClassIdentifier: 
-  startPosition: {x: 13, y: 10}
-  cluesFound: 0100000000000000
+  startPosition: {x: 0, y: 0}
+  cluesFound: 0000000000000000
   dialogueRead:
   - name: Police
-    baseDialogue: 1
+    baseDialogue: 0
     clueAFound: 0
     clueBFound: 0
     clueCFound: 0
