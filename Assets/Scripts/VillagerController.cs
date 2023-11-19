@@ -13,6 +13,7 @@ public class VillagerController : MonoBehaviour
     // Bool array to keep track of which dialogue have been added
     private bool[] dialogueAdded = new bool[8];
     private PlayerController playerController;
+    private VillagerLifeController villagerLifeController;
     private bool isPlayerInRange = false;
     private bool isConversationDry = true;
 
@@ -20,6 +21,7 @@ public class VillagerController : MonoBehaviour
     private void Awake()
     {
         playerController = FindObjectOfType<PlayerController>();
+        villagerLifeController = GetComponent<VillagerLifeController>();
     }
 
     private void OnTriggerStay2D(Collider2D collision)
@@ -69,11 +71,13 @@ public class VillagerController : MonoBehaviour
                 dialogManager.ShowDialog();
                 SetDialogAndLabel("Villager: I don't have anything to say to you.");
                 playerController.isInDialog = true;
+                villagerLifeController.isInDialog = true;
                 isConversationDry = false;
                 return;
             }
             dialogManager.HideDialog();
             playerController.isInDialog = false;
+            villagerLifeController.isInDialog = false;
             isConversationDry = true;
             return;
         }
@@ -86,6 +90,7 @@ public class VillagerController : MonoBehaviour
         }
         dialogManager.ShowDialog();
         playerController.isInDialog = true;
+        villagerLifeController.isInDialog = true;
         SetDialogAndLabel(dialog);
     }
 

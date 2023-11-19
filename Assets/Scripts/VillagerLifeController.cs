@@ -13,6 +13,7 @@ public class VillagerLifeController : MonoBehaviour
     public float speed;
     public Transform home;
     public SceneInfo playerStorage;
+    public bool isInDialog = false;
 
     private float timeInCycle;
     private SpriteRenderer sprite;
@@ -21,6 +22,9 @@ public class VillagerLifeController : MonoBehaviour
     private int currentPointIndex;
     private BoxCollider2D boxCollider;
     private CircleCollider2D circleCollider;
+    private Animator animator;
+    private PlayerController playerController;
+
 
     private bool hasWaitedAtPatrolPoint;
     private bool isWaiting = false;
@@ -36,8 +40,10 @@ public class VillagerLifeController : MonoBehaviour
         agent.autoBraking = true;
         agent.speed = speed;
 
+        animator = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
         circleCollider = GetComponent<CircleCollider2D>();
+        playerController = FindObjectOfType<PlayerController>();
         sprite = GetComponent<SpriteRenderer>();
 
         onMainScene = SceneManager.GetActiveScene().name == "MainScene";
@@ -48,6 +54,18 @@ public class VillagerLifeController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(isInDialog);
+        if (isInDialog)
+        {
+            // Stop the villager from moving
+            if (agent.velocity.magnitude > 0)
+            {
+                agent.velocity = Vector3.zero;
+            }
+            FacePlayer();
+
+            return;
+        }
         timeInCycle = TimeManager.instance.inGameTime%(playerStorage.dayDuration + playerStorage.transitionDuration + playerStorage.nightDuration + playerStorage.transitionDuration);
         
         if (IsTime(TimeOfDay.Night) && onMainScene)
@@ -94,6 +112,28 @@ public class VillagerLifeController : MonoBehaviour
                 GotoNextPoint();
             }
         }
+
+        // Get the current velocity of the NavMeshAgent
+        Vector3 velocity = agent.velocity;
+        
+        // Check if the NavMeshAgent is moving
+        bool isMoving = velocity.magnitude > 0;
+
+        // Set the animation parameters
+        animator.SetBool("isMoving", isMoving);
+        if (isMoving)
+        {
+            // Normalize the velocity to get the direction of movement
+            Vector3 normalizedVelocity = velocity.normalized;
+
+            // Set the direction of movement
+            Vector3 direction = new Vector3(normalizedVelocity.x, normalizedVelocity.y, 0);
+
+            // Set the animation parameters
+            animator.SetFloat("moveX", direction.x);
+            animator.SetFloat("moveY", direction.y);
+        }
+
     }
 
     void GotoNextPoint()
@@ -177,5 +217,16 @@ public class VillagerLifeController : MonoBehaviour
         sprite.enabled = true;
         boxCollider.enabled = true;
         circleCollider.enabled = true;
+    }
+
+    void FacePlayer()
+    {
+        // Face the player
+        Vector3 directionToPlayer = playerController.transform.position - transform.position;
+        directionToPlayer.Normalize();
+
+        animator.SetBool("isMoving", false);
+        animator.SetFloat("moveX", directionToPlayer.x);
+        animator.SetFloat("moveY", directionToPlayer.y);
     }
 }
