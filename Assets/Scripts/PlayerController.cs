@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
     public bool isInDialog;
     public bool isInBed;
     public bool isDead;
+    public bool justLoaded = true;
     public GameObject journal;
     public SceneInfo playerStorage;
 
@@ -28,8 +29,9 @@ public class PlayerController : MonoBehaviour
     private void Start()
     {
         // If in MainScene, then we must use the player's position
-        // from the previous scene.
-        transform.position = playerStorage.startPosition;
+        // from the previous scene. UNLESS they haven't talked to police yet
+        if (playerStorage.dialogueRead[0].baseDialogue)
+            transform.position = playerStorage.startPosition;
     }
 
     private void Update()
@@ -39,7 +41,7 @@ public class PlayerController : MonoBehaviour
             SceneManager.LoadSceneAsync("DeathScreen");
             return;
         }
-        if (isInDialog) return;
+        if (isInDialog || !playerStorage.dialogueRead[0].baseDialogue) return;
         if (Input.GetKeyDown(KeyCode.J))
         {
             this.ToggleJournal();

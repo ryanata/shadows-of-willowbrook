@@ -62,7 +62,10 @@ public class VillagerLifeController : MonoBehaviour
             DisableSprite();
         }
 
-        GotoNextPoint();
+        if (!IsPoliceAndIntroduced()) // This is to prevent police from moving in the beggining
+        {
+            GotoNextPoint();
+        }
     }
 
     // Update is called once per frame
@@ -88,8 +91,9 @@ public class VillagerLifeController : MonoBehaviour
                 DisableSprite();
             }
             
-            if (hasWaitedAtPatrolPoint)
+            if (hasWaitedAtPatrolPoint && !IsPoliceAndIntroduced())
             {
+                Debug.Log("herereerere");
                 GotoNextPoint();
             }
             else if (!isWaiting)
@@ -275,5 +279,10 @@ public class VillagerLifeController : MonoBehaviour
         animator.SetBool("isMoving", false);
         animator.SetFloat("moveX", directionToPlayer.x);
         animator.SetFloat("moveY", directionToPlayer.y);
+    }
+
+    bool IsPoliceAndIntroduced()
+    {
+        return name=="Police" && !playerStorage.dialogueRead[0].baseDialogue;
     }
 }
