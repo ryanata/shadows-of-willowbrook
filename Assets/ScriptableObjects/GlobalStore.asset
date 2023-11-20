@@ -58,7 +58,7 @@ MonoBehaviour:
       sceneName: MainScene
     - position: {x: -31, y: 6, z: 0}
       sceneName: MainScene
-    - position: {x: 3.5, y: -1, z: 0}
+    - position: {x: 3.5, y: 0, z: 0}
       sceneName: PoliceScene2
     - position: {x: -3.5, y: 0.6, z: 0}
       sceneName: PoliceScene2
