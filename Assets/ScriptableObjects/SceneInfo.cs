@@ -77,6 +77,146 @@ public class SceneInfo : ScriptableObject
             homeExit = new Vector3(0, -4.5f, 0),
             curIndex = 0 
         },
+        new Schedule { 
+            name = "Mayor", 
+            destinations = new List<Destination> {
+                // City Center
+                new Destination { 
+                    position = new Vector3(0, 8, 0), 
+                    sceneName = "MainScene" 
+                },
+                // Police
+                new Destination { 
+                    position = new Vector3(21, 10, 0), 
+                    sceneName = "MainScene" 
+                },
+                // Furniture
+                new Destination { 
+                    position = new Vector3(3.5f, -1, 0), 
+                    sceneName = "PoliceScene2"
+                },
+                // Desk
+                new Destination { 
+                    position = new Vector3(-3.5f, 0.6f, 0), 
+                    sceneName = "PoliceScene2"
+                },
+            },
+            homeEntrance = new Vector3(-14.5f, 27.25f, 0),
+            homeExit = new Vector3(0, -4.5f, 0),
+            curIndex = 0 
+        },
+        new Schedule { 
+            name = "Samuel", 
+            destinations = new List<Destination> {
+                // Forest, near florist
+                new Destination { 
+                    position = new Vector3(-13.7f, 2, 0), 
+                    sceneName = "MainScene" 
+                },
+                // Near detective house
+                new Destination { 
+                    position = new Vector3(4.5f, 16, 0), 
+                    sceneName = "MainScene" 
+                },
+                // Furniture
+                new Destination { 
+                    position = new Vector3(3.5f, -1, 0), 
+                    sceneName = "PoliceScene2"
+                },
+                // Desk
+                new Destination { 
+                    position = new Vector3(-3.5f, 0.6f, 0), 
+                    sceneName = "PoliceScene2"
+                },
+            },
+            homeEntrance = new Vector3(21.25f, 22.25f, 0),
+            homeExit = new Vector3(0, -4.5f, 0),
+            curIndex = 0
+        },
+        new Schedule { 
+            name = "Isabel", 
+            destinations = new List<Destination> {
+                // Mayor's House
+                new Destination { 
+                    position = new Vector3(-11, 24, 0), 
+                    sceneName = "MainScene" 
+                },
+                // Forest
+                new Destination { 
+                    position = new Vector3(-5, 24, 0), 
+                    sceneName = "MainScene" 
+                },
+                // Furniture
+                new Destination { 
+                    position = new Vector3(3.5f, -1, 0), 
+                    sceneName = "PoliceScene2"
+                },
+                // Desk
+                new Destination { 
+                    position = new Vector3(-3.5f, 0.6f, 0), 
+                    sceneName = "PoliceScene2"
+                },
+            },
+            homeEntrance = new Vector3(4.5f, 31.5f, 0),
+            homeExit = new Vector3(0, -4.5f, 0),
+            curIndex = 0 
+        },
+        new Schedule { 
+            name = "Lillian",
+            destinations = new List<Destination> {
+                // Flower bed
+                new Destination { 
+                    position = new Vector3(-32, -4, 0), 
+                    sceneName = "MainScene" 
+                },
+                // Walter's house
+                new Destination { 
+                    position = new Vector3(-41, 13, 0), 
+                    sceneName = "MainScene" 
+                },
+                // Furniture
+                new Destination { 
+                    position = new Vector3(3.5f, -1, 0), 
+                    sceneName = "PoliceScene2"
+                },
+                // Desk
+                new Destination { 
+                    position = new Vector3(-3.5f, 0.6f, 0), 
+                    sceneName = "PoliceScene2"
+                },
+            },
+            homeEntrance = new Vector3(-10.5f, 11, 0),
+            homeExit = new Vector3(0, -4.5f, 0),
+            curIndex = 0 
+        },
+        new Schedule { 
+            name = "Walter", 
+            destinations = new List<Destination> {
+                // Lake
+                new Destination { 
+                    position = new Vector3(8, 1, 0), 
+                    sceneName = "MainScene" 
+                },
+                // Backyard
+                new Destination { 
+                    position = new Vector3(-40, 28, 0), 
+                    sceneName = "MainScene" 
+                },
+                // Furniture
+                new Destination { 
+                    position = new Vector3(3.5f, -1, 0), 
+                    sceneName = "PoliceScene2"
+                },
+                // Desk
+                new Destination { 
+                    position = new Vector3(-3.5f, 0.6f, 0), 
+                    sceneName = "PoliceScene2"
+                },
+            },
+            homeEntrance = new Vector3(-34, 20.5f, 0),
+            homeExit = new Vector3(0, -4.5f, 0),
+            curIndex = 0 
+        }
     };
     public float dayDuration = 90f;
     public float nightDuration = 90f;

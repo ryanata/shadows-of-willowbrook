@@ -55,10 +55,10 @@ public class VillagerLifeController : MonoBehaviour
 
         scheduleIdx = scheduleIndices[name];
         Destination currentDestination = playerStorage.schedules[scheduleIdx].destinations[playerStorage.schedules[scheduleIdx].curIndex];
-        Debug.Log("Current destination: " + playerStorage.schedules[scheduleIdx].curIndex);
+        // Debug.Log("Current destination: " + playerStorage.schedules[scheduleIdx].curIndex);
         if (SceneManager.GetActiveScene().name != currentDestination.sceneName && (IsTime(TimeOfDay.Day) || IsTime(TimeOfDay.Morning)))
         {
-            Debug.Log("Disabling sprite because wrong scene");
+            // Debug.Log("Disabling sprite because wrong scene");
             DisableSprite();
         }
 
@@ -93,7 +93,6 @@ public class VillagerLifeController : MonoBehaviour
             
             if (hasWaitedAtPatrolPoint && !IsPoliceAndIntroduced())
             {
-                Debug.Log("herereerere");
                 GotoNextPoint();
             }
             else if (!isWaiting)
@@ -138,19 +137,19 @@ public class VillagerLifeController : MonoBehaviour
 
     void GotoNextPoint()
     {
-        Debug.Log("---GoToNextPoint---");
+        // Debug.Log("---GoToNextPoint---");
         if (playerStorage.schedules[scheduleIdx].destinations.Count == 0)
             return;
         if ((IsTime(TimeOfDay.Evening) || IsTime(TimeOfDay.Night)) && SceneManager.GetActiveScene().name == "MainScene")
         {
-            Debug.Log("Disabling sprite because it's night time");
+            // Debug.Log("Disabling sprite because it's night time");
             DisableSprite();
             return;
         }
         leavingScene = false;
         // Get the current destination
         Destination currentDestination = playerStorage.schedules[scheduleIdx].destinations[playerStorage.schedules[scheduleIdx].curIndex];
-        Debug.Log("GoToNextPoint: Should be going to: " + playerStorage.schedules[scheduleIdx].curIndex);
+        Debug.Log(name + " Should be going to: " + playerStorage.schedules[scheduleIdx].curIndex);
 
 
         // Check if the destination is in the same scene
@@ -160,7 +159,7 @@ public class VillagerLifeController : MonoBehaviour
 
             // Set the agent to go to the destination
             agent.destination = currentDestination.position;
-            Debug.Log("Going to " + playerStorage.schedules[scheduleIdx].curIndex + " in " + SceneManager.GetActiveScene().name);
+            Debug.Log(name + "Going to " + playerStorage.schedules[scheduleIdx].curIndex + " positioned at " + currentDestination.position);
         }
         else
         {
@@ -170,13 +169,13 @@ public class VillagerLifeController : MonoBehaviour
                 // Set the agent to go to the home entrance
                 agent.destination = playerStorage.schedules[scheduleIdx].homeEntrance;
                 leavingScene = true;
-                Debug.Log("Going to home entrance because destination is in other scene");
+                Debug.Log(name + "Going to home entrance because destination is in other scene");
             }
             else if (IsTime(TimeOfDay.Day) || IsTime(TimeOfDay.Morning))
             {
                 agent.destination = playerStorage.schedules[scheduleIdx].homeExit;
                 leavingScene = true;
-                Debug.Log("Going to home exit because destination is in main scene");
+                Debug.Log(name + "Going to home exit because destination is in main scene");
             }
             else
             {
@@ -187,7 +186,7 @@ public class VillagerLifeController : MonoBehaviour
                     currentDestination = playerStorage.schedules[scheduleIdx].destinations[playerStorage.schedules[scheduleIdx].curIndex];
                 }
                 agent.destination = currentDestination.position;
-                Debug.Log("Going to " + playerStorage.schedules[scheduleIdx].curIndex + " after re-reolling many times");
+                Debug.Log(name + "Going to " + playerStorage.schedules[scheduleIdx].curIndex + " after re-reolling many times");
                 EnableSprite();
             }
         }
@@ -199,7 +198,7 @@ public class VillagerLifeController : MonoBehaviour
         int startPos = (IsTime(TimeOfDay.Night) || IsTime(TimeOfDay.Evening) ? 2 : 0);
         // Move to a random index in the schedule
         playerStorage.schedules[scheduleIdx].curIndex = Random.Range(startPos, playerStorage.schedules[scheduleIdx].destinations.Count);
-        Debug.Log("NextPoint: Randomly selected: " + playerStorage.schedules[scheduleIdx].curIndex);
+        // Debug.Log("NextPoint: Randomly selected: " + playerStorage.schedules[scheduleIdx].curIndex);
         hasWaitedAtPatrolPoint = false;
     }
 
