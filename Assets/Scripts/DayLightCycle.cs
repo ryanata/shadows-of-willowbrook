@@ -6,18 +6,24 @@ using UnityEngine;
 public class DayLightCycle : MonoBehaviour
 {
     public MurdererController murderer;
-    public float dayIntensity = 1f;
-    public float nightIntensity = 0.1f;
-    public float dayDuration = 180f; // 3 minutes
-    public float nightDuration = 180f; // 3 minutes
-    public float transitionDuration = 60f; // 1 minute
+    public SceneInfo playerStorage;
 
+
+    private float dayIntensity = 1f;
+    private float nightIntensity = 0.1f;
+
+    private float dayDuration;
+    private float nightDuration;
+    private float transitionDuration;
     private UnityEngine.Rendering.Universal.Light2D globalLight;
     private float cycleDuration;
 
     void Start()
     {
         globalLight = GetComponent<UnityEngine.Rendering.Universal.Light2D>();
+        dayDuration = playerStorage.dayDuration;
+        nightDuration = playerStorage.nightDuration;
+        transitionDuration = playerStorage.transitionDuration;
         cycleDuration = dayDuration + transitionDuration + nightDuration + transitionDuration;
     }
 
