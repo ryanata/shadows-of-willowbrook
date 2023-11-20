@@ -64,7 +64,7 @@ public class SceneInfo : ScriptableObject
                 },
                 // Furniture
                 new Destination { 
-                    position = new Vector3(3.5f, -1, 0), 
+                    position = new Vector3(3.5f, 0, 0), 
                     sceneName = "PoliceScene2"
                 },
                 // Desk

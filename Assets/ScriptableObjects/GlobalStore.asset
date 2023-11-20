@@ -16,19 +16,19 @@ MonoBehaviour:
   cluesFound: 0000000000000000
   dialogueRead:
   - name: Police
-    baseDialogue: 1
+    baseDialogue: 0
     clueAFound: 0
     clueBFound: 0
     clueCFound: 0
     night: 0
   - name: Mayor
-    baseDialogue: 1
+    baseDialogue: 0
     clueAFound: 0
     clueBFound: 0
     clueCFound: 0
     night: 0
   - name: Samuel
-    baseDialogue: 1
+    baseDialogue: 0
     clueAFound: 0
     clueBFound: 0
     clueCFound: 0
@@ -58,7 +58,7 @@ MonoBehaviour:
       sceneName: MainScene
     - position: {x: -31, y: 6, z: 0}
       sceneName: MainScene
-    - position: {x: 3.5, y: -1, z: 0}
+    - position: {x: 3.5, y: 0, z: 0}
       sceneName: PoliceScene2
     - position: {x: -3.5, y: 0.6, z: 0}
       sceneName: PoliceScene2
@@ -77,7 +77,7 @@ MonoBehaviour:
       sceneName: PoliceScene2
     homeEntrance: {x: -14.5, y: 27.25, z: 0}
     homeExit: {x: 0, y: -4.5, z: 0}
-    curIndex: 3
+    curIndex: 0
   - name: Samuel
     destinations:
     - position: {x: -13.7, y: 2, z: 0}
@@ -90,7 +90,7 @@ MonoBehaviour:
       sceneName: PoliceScene2
     homeEntrance: {x: 21.25, y: 22.25, z: 0}
     homeExit: {x: 0, y: -4.5, z: 0}
-    curIndex: 2
+    curIndex: 0
   - name: Isabel
     destinations:
     - position: {x: -11, y: 24, z: 0}
@@ -103,7 +103,7 @@ MonoBehaviour:
       sceneName: PoliceScene2
     homeEntrance: {x: 4.5, y: 31.5, z: 0}
     homeExit: {x: 0, y: -4.5, z: 0}
-    curIndex: 2
+    curIndex: 0
   - name: Lillian
     destinations:
     - position: {x: -32, y: -4, z: 0}
@@ -116,7 +116,7 @@ MonoBehaviour:
       sceneName: PoliceScene2
     homeEntrance: {x: -10.5, y: 11, z: 0}
     homeExit: {x: 0, y: -4.5, z: 0}
-    curIndex: 3
+    curIndex: 0
   - name: Walter
     destinations:
     - position: {x: 8, y: 1, z: 0}
@@ -129,7 +129,7 @@ MonoBehaviour:
       sceneName: PoliceScene2
     homeEntrance: {x: -34, y: 20.5, z: 0}
     homeExit: {x: 0, y: -4.5, z: 0}
-    curIndex: 3
+    curIndex: 0
   dayDuration: 90
   nightDuration: 90
   transitionDuration: 30
