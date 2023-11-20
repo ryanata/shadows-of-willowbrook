@@ -34,6 +34,7 @@ public class SceneInfo : ScriptableObject
 {
     public Vector2 startPosition;
     // Set of clues found in this scene.
+    // 0 = Journal, 1 = Letter, 2 = Knife, 3 = Poisonous Flower, 4 = Note from diary, 5 = Potion, 6 = Blueprint, 7 = Key
     public bool[] cluesFound = new bool[8];
     // State of dialogue with every villager.
     public List<DialogueState> dialogueRead = new List<DialogueState>
