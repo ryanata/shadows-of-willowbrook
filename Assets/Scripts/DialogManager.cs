@@ -16,8 +16,8 @@ public class DialogManager : MonoBehaviour
 
     public void SetDialog(string dialog)
     {
-        textComponent.pageToDisplay = 1;
         textComponent.text = dialog;
+        textComponent.pageToDisplay = 1;
     }
 
     public void SetLabel(string label)

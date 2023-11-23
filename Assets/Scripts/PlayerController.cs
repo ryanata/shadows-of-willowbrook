@@ -9,7 +9,6 @@ public class PlayerController : MonoBehaviour
     public float CollisionOffset = 0.05f;
     public ContactFilter2D movementFilter;
     public bool isInDialog;
-    public bool isInBed;
     public bool isDead;
     public bool justLoaded = true;
     public GameObject journal;

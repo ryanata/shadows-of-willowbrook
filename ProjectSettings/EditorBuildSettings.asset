@@ -15,11 +15,11 @@ EditorBuildSettings:
     path: Assets/Scenes/DeathScreen.unity
     guid: 0d08ac35bbc0746bc8a49cbdaccc7ddc
   - enabled: 1
-    path: Assets/Scenes/MayorScene.unity
-    guid: 07ca9e57791624dfeb6a003f21587225
-  - enabled: 1
     path: Assets/Scenes/MainScene.unity
     guid: 57e4bd3b044af524886ba34cf782eb7e
+  - enabled: 1
+    path: Assets/Scenes/MayorScene.unity
+    guid: 07ca9e57791624dfeb6a003f21587225
   - enabled: 0
     path: Assets/Scenes/FakeHouse.unity
     guid: 2b566f3b478b34336a7f439280996f31
