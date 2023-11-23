@@ -8,6 +8,7 @@ public class ClueController : MonoBehaviour {
     public GameObject prompt;
     public int clueNumber;
     public SceneInfo playerStorage;
+    private PlayerController playerController;
     private bool pickUpAllowed;
 
     // Start is called before the first frame update
@@ -17,11 +18,12 @@ public class ClueController : MonoBehaviour {
         {
             Destroy(gameObject);
         }
+        playerController = FindObjectOfType<PlayerController>();
     }
 	// Update is called once per frame
 	private void Update () 
     {
-        if (pickUpAllowed && Input.GetKeyDown(KeyCode.E))
+        if (pickUpAllowed && Input.GetKeyDown(KeyCode.E) && !playerController.isInDialog)
         {
             this.PickUp();
         }

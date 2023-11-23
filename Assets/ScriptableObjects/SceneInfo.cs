@@ -85,24 +85,19 @@ public class SceneInfo : ScriptableObject
                     position = new Vector3(0, 8, 0), 
                     sceneName = "MainScene" 
                 },
-                // Police
+                // Police station
                 new Destination { 
                     position = new Vector3(21, 10, 0), 
                     sceneName = "MainScene" 
                 },
-                // Furniture
+                // Bed
                 new Destination { 
-                    position = new Vector3(3.5f, -1, 0), 
-                    sceneName = "PoliceScene2"
-                },
-                // Desk
-                new Destination { 
-                    position = new Vector3(-3.5f, 0.6f, 0), 
-                    sceneName = "PoliceScene2"
+                    position = new Vector3(-31, 7, 0), 
+                    sceneName = "MayorScene"
                 },
             },
             homeEntrance = new Vector3(-14.5f, 27.25f, 0),
-            homeExit = new Vector3(0, -4.5f, 0),
+            homeExit = new Vector3(-33, 3, 0),
             curIndex = 0 
         },
         new Schedule { 
@@ -118,19 +113,19 @@ public class SceneInfo : ScriptableObject
                     position = new Vector3(4.5f, 16, 0), 
                     sceneName = "MainScene" 
                 },
-                // Furniture
+                // Couch
                 new Destination { 
-                    position = new Vector3(3.5f, -1, 0), 
-                    sceneName = "PoliceScene2"
+                    position = new Vector3(-34.3f, 3.75f, 0), 
+                    sceneName = "WriterScene"
                 },
-                // Desk
+                // Bed/Desk
                 new Destination { 
-                    position = new Vector3(-3.5f, 0.6f, 0), 
-                    sceneName = "PoliceScene2"
+                    position = new Vector3(-26.5f, 3.75f, 0), 
+                    sceneName = "WriterScene"
                 },
             },
             homeEntrance = new Vector3(21.25f, 22.25f, 0),
-            homeExit = new Vector3(0, -4.5f, 0),
+            homeExit = new Vector3(-32, 1, 0),
             curIndex = 0
         },
         new Schedule { 
@@ -146,19 +141,19 @@ public class SceneInfo : ScriptableObject
                     position = new Vector3(-5, 24, 0), 
                     sceneName = "MainScene" 
                 },
-                // Furniture
+                // Counter
                 new Destination { 
-                    position = new Vector3(3.5f, -1, 0), 
-                    sceneName = "PoliceScene2"
+                    position = new Vector3(-5.5f, -0.45f, 0), 
+                    sceneName = "BakeryScene"
                 },
-                // Desk
+                // Seating area
                 new Destination { 
-                    position = new Vector3(-3.5f, 0.6f, 0), 
-                    sceneName = "PoliceScene2"
+                    position = new Vector3(3.5f, 1, 0), 
+                    sceneName = "BakeryScene"
                 },
             },
             homeEntrance = new Vector3(4.5f, 31.5f, 0),
-            homeExit = new Vector3(0, -4.5f, 0),
+            homeExit = new Vector3(0, -4, 0),
             curIndex = 0 
         },
         new Schedule { 
@@ -174,15 +169,15 @@ public class SceneInfo : ScriptableObject
                     position = new Vector3(-41, 13, 0), 
                     sceneName = "MainScene" 
                 },
-                // Furniture
+                // Flower row
                 new Destination { 
-                    position = new Vector3(3.5f, -1, 0), 
-                    sceneName = "PoliceScene2"
+                    position = new Vector3(1.28f, -0.64f, 0), 
+                    sceneName = "FlowerShopScene"
                 },
-                // Desk
+                // Counter
                 new Destination { 
-                    position = new Vector3(-3.5f, 0.6f, 0), 
-                    sceneName = "PoliceScene2"
+                    position = new Vector3(-5, -0.25f, 0), 
+                    sceneName = "FlowerShopScene"
                 },
             },
             homeEntrance = new Vector3(-10.5f, 11, 0),
@@ -202,23 +197,24 @@ public class SceneInfo : ScriptableObject
                     position = new Vector3(-40, 28, 0), 
                     sceneName = "MainScene" 
                 },
-                // Furniture
+                // Bed
                 new Destination { 
-                    position = new Vector3(3.5f, -1, 0), 
-                    sceneName = "PoliceScene2"
+                    position = new Vector3(-29, 7, 0), 
+                    sceneName = "WalterScene"
                 },
-                // Desk
+                // Entrance
                 new Destination { 
-                    position = new Vector3(-3.5f, 0.6f, 0), 
-                    sceneName = "PoliceScene2"
+                    position = new Vector3(-35f, 7.5f, 0), 
+                    sceneName = "WalterScene"
                 },
             },
             homeEntrance = new Vector3(-34, 20.5f, 0),
-            homeExit = new Vector3(0, -4.5f, 0),
+            homeExit = new Vector3(-34, 4.8f, 0),
             curIndex = 0 
         }
     };
     public float dayDuration = 90f;
     public float nightDuration = 90f;
     public float transitionDuration = 30f;
+    public string villagerTalking = "";
 }

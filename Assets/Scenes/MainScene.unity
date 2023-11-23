@@ -249,8 +249,8 @@ Camera:
     serializedVersion: 2
     x: 0
     y: 0.51203704
-    width: 0.32500002
-    height: 0.325
+    width: 0.3260417
+    height: 0.32604167
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -330,7 +330,6 @@ GameObject:
   m_Component:
   - component: {fileID: 62345497}
   - component: {fileID: 62345496}
-  - component: {fileID: 62345495}
   - component: {fileID: 62345494}
   - component: {fileID: 62345493}
   - component: {fileID: 62345492}
@@ -400,7 +399,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  name: Mayor
+  villagerName: Mayor
   playerStorage: {fileID: 11400000, guid: a375cd822eb314c63b18b72d34bea9f9, type: 2}
   isInDialog: 0
 --- !u!114 &62345492
@@ -468,51 +467,6 @@ MonoBehaviour:
   interactionKey: 101
   dialogManager: {fileID: 1062874144}
   playerStorage: {fileID: 11400000, guid: a375cd822eb314c63b18b72d34bea9f9, type: 2}
---- !u!61 &62345495
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 62345488}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.875, y: 1.875}
-    newSize: {x: 0.21875, y: 0.46875}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.21875, y: 0.46875}
-  m_EdgeRadius: 0
 --- !u!212 &62345496
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17344,7 +17298,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1150616172}
   - component: {fileID: 1150616180}
-  - component: {fileID: 1150616179}
   - component: {fileID: 1150616178}
   - component: {fileID: 1150616177}
   - component: {fileID: 1150616176}
@@ -17429,7 +17382,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  name: Walter
+  villagerName: Walter
   playerStorage: {fileID: 11400000, guid: a375cd822eb314c63b18b72d34bea9f9, type: 2}
   isInDialog: 0
 --- !u!114 &1150616176
@@ -17497,51 +17450,6 @@ MonoBehaviour:
   interactionKey: 101
   dialogManager: {fileID: 1062874144}
   playerStorage: {fileID: 11400000, guid: a375cd822eb314c63b18b72d34bea9f9, type: 2}
---- !u!61 &1150616179
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1150616171}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.875, y: 1.875}
-    newSize: {x: 0.21875, y: 0.46875}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.21875, y: 0.46875}
-  m_EdgeRadius: 0
 --- !u!212 &1150616180
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17604,7 +17512,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1160742004}
   - component: {fileID: 1160742012}
-  - component: {fileID: 1160742011}
   - component: {fileID: 1160742010}
   - component: {fileID: 1160742009}
   - component: {fileID: 1160742008}
@@ -17689,7 +17596,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  name: Samuel
+  villagerName: Samuel
   playerStorage: {fileID: 11400000, guid: a375cd822eb314c63b18b72d34bea9f9, type: 2}
   isInDialog: 0
 --- !u!114 &1160742008
@@ -17757,51 +17664,6 @@ MonoBehaviour:
   interactionKey: 101
   dialogManager: {fileID: 1062874144}
   playerStorage: {fileID: 11400000, guid: a375cd822eb314c63b18b72d34bea9f9, type: 2}
---- !u!61 &1160742011
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1160742003}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.875, y: 1.8125}
-    newSize: {x: 0.21875, y: 0.46875}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.21875, y: 0.46875}
-  m_EdgeRadius: 0
 --- !u!212 &1160742012
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19369,7 +19231,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1843397629}
   - component: {fileID: 1843397628}
-  - component: {fileID: 1843397627}
   - component: {fileID: 1843397626}
   - component: {fileID: 1843397625}
   - component: {fileID: 1843397624}
@@ -19439,7 +19300,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  name: Isabel
+  villagerName: Isabel
   playerStorage: {fileID: 11400000, guid: a375cd822eb314c63b18b72d34bea9f9, type: 2}
   isInDialog: 0
 --- !u!114 &1843397624
@@ -19507,51 +19368,6 @@ MonoBehaviour:
   interactionKey: 101
   dialogManager: {fileID: 1062874144}
   playerStorage: {fileID: 11400000, guid: a375cd822eb314c63b18b72d34bea9f9, type: 2}
---- !u!61 &1843397627
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1843397620}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.875, y: 1.8125}
-    newSize: {x: 0.21875, y: 0.46875}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.21875, y: 0.46875}
-  m_EdgeRadius: 0
 --- !u!212 &1843397628
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19629,7 +19445,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1976574036}
   - component: {fileID: 1976574035}
-  - component: {fileID: 1976574039}
   - component: {fileID: 1976574038}
   - component: {fileID: 1976574040}
   - component: {fileID: 1976574041}
@@ -19726,51 +19541,6 @@ MonoBehaviour:
   interactionKey: 101
   dialogManager: {fileID: 1062874144}
   playerStorage: {fileID: 11400000, guid: a375cd822eb314c63b18b72d34bea9f9, type: 2}
---- !u!61 &1976574039
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1976574034}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.875, y: 1.875}
-    newSize: {x: 0.21875, y: 0.46875}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.21875, y: 0.46875}
-  m_EdgeRadius: 0
 --- !u!58 &1976574040
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -19833,7 +19603,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  name: Police
+  villagerName: Police
   playerStorage: {fileID: 11400000, guid: a375cd822eb314c63b18b72d34bea9f9, type: 2}
   isInDialog: 0
 --- !u!195 &1976574043
@@ -62584,7 +62354,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2141051158}
   - component: {fileID: 2141051166}
-  - component: {fileID: 2141051165}
   - component: {fileID: 2141051164}
   - component: {fileID: 2141051163}
   - component: {fileID: 2141051162}
@@ -62669,7 +62438,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  name: Lillian
+  villagerName: Lillian
   playerStorage: {fileID: 11400000, guid: a375cd822eb314c63b18b72d34bea9f9, type: 2}
   isInDialog: 0
 --- !u!114 &2141051162
@@ -62737,51 +62506,6 @@ MonoBehaviour:
   interactionKey: 101
   dialogManager: {fileID: 1062874144}
   playerStorage: {fileID: 11400000, guid: a375cd822eb314c63b18b72d34bea9f9, type: 2}
---- !u!61 &2141051165
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2141051157}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.875, y: 1.75}
-    newSize: {x: 0.21875, y: 0.46875}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.21875, y: 0.46875}
-  m_EdgeRadius: 0
 --- !u!212 &2141051166
 SpriteRenderer:
   m_ObjectHideFlags: 0
