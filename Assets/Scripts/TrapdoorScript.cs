@@ -1,13 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class EvidenceBox : MonoBehaviour
+public class TrapdoorScript : MonoBehaviour
 {
     public GameObject prompt;
     public DialogManager dialogManager;
     public SceneInfo playerStorage;
-    public GameObject submissionImage;
+    public Vector2 startPosition;
 
     private bool inRange;
     private bool dialogShown = false;
@@ -23,9 +24,10 @@ public class EvidenceBox : MonoBehaviour
     {
         if (inRange && Input.GetKeyDown(KeyCode.E))
         {
-            if (CollectedAllClues())
+            if (playerStorage.cluesFound[7])
             {
-                submissionImage.SetActive(true);
+                playerStorage.startPosition = startPosition;
+                SceneManager.LoadSceneAsync("SecretLayerScene");
             }
             else if (dialogShown)
             {
@@ -36,8 +38,8 @@ public class EvidenceBox : MonoBehaviour
             else
             {
                 dialogManager.ShowDialog();
-                dialogManager.SetDialog("Collect all the clues before submitting your report.");
-                dialogManager.SetLabel("Evidence");
+                dialogManager.SetDialog("It looks like I need a key to access this door. Let's find it without looking suspicious...");
+                dialogManager.SetLabel("Detective");
                 dialogShown = true;
                 playerController.isInDialog = true;
             }
@@ -62,15 +64,4 @@ public class EvidenceBox : MonoBehaviour
         }
     }
 
-    private bool CollectedAllClues()
-    {
-        foreach (bool clue in playerStorage.cluesFound)
-        {
-            if (!clue)
-            {
-                return false;
-            }
-        }
-        return true;
-    }
 }

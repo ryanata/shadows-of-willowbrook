@@ -1,32 +1,28 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditorInternal;
+// using UnityEditorInternal;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class SleepLoader : MonoBehaviour
 {
-    private PlayerController playerController;
+    public BedInteractor bed;
     public Animator transition;
     private float timeInCycle;
-    public float transitionTime = 10;
+    public float transitionTime = 5;
     public SceneInfo playerStorage;
     // Update is called once per frame
 
-    private void Awake()
-    {
-        playerController = FindObjectOfType<PlayerController>();
-    }
     private void Update()
     {
-        if (playerController.isInBed == true /*&& IsTime(TimeOfDay.Night)*/)
-        {
-            Debug.Log("Is in bed");
-            LoadNextLevel();
-            playerController.isInBed = false;
-        }
         timeInCycle = TimeManager.instance.inGameTime % (playerStorage.dayDuration + playerStorage.transitionDuration + playerStorage.nightDuration + playerStorage.transitionDuration);
+
+        if (bed.clickedBed == true && IsTime(TimeOfDay.Night))
+        {
+            LoadNextLevel();
+            bed.clickedBed = false;
+        }
     }
 
     public void LoadNextLevel()
@@ -37,19 +33,27 @@ public class SleepLoader : MonoBehaviour
 
     IEnumerator LoadStart()
     {
-        Debug.Log("LoadStart called");
         transition.SetTrigger("Start");
         yield return new WaitForSeconds(transitionTime);
-        Debug.Log("LoadStart completed");
+        // Change time to morning
+        if (IsTime(TimeOfDay.Night))
+        {
+            int cycle = (int)(playerStorage.dayDuration + 2*playerStorage.transitionDuration + playerStorage.nightDuration);
+            int timeInCycle = (int)TimeManager.instance.inGameTime % cycle;
+            int timeUntilMorning = (cycle - (int)playerStorage.transitionDuration) - timeInCycle;
+            if (timeUntilMorning > 0)
+            {
+                Debug.Log("Adding " + timeUntilMorning + " to time");
+                TimeManager.instance.inGameTime += timeUntilMorning;
+            }
+        }
         StartCoroutine(LoadEnd());
     }
 
     IEnumerator LoadEnd()
     {
-        Debug.Log("LoadEnd called");
         transition.SetTrigger("End");
         yield return new WaitForSeconds(transitionTime);
-        Debug.Log("LoadEnd completed");
     }
 
     enum TimeOfDay

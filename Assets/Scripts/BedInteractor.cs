@@ -6,12 +6,9 @@ using static System.TimeZoneInfo;
 public class BedInteractor : MonoBehaviour
 {
     public KeyCode interactionKey = KeyCode.E;
+    public bool clickedBed = false;
     private PlayerController playerController;
     private bool isPlayerInRange = false;
-    private void Awake()
-    {
-        playerController = FindObjectOfType<PlayerController>();
-    }
 
     private void OnTriggerStay2D(Collider2D collision)
     {
@@ -35,10 +32,7 @@ public class BedInteractor : MonoBehaviour
     {
         if (isPlayerInRange && Input.GetKeyDown(interactionKey))
         {
-            // Debug
-            Debug.Log("Player pressed interaction key");
-            playerController.isInBed = true;
-
+            clickedBed = true;
         }
     }
 }
