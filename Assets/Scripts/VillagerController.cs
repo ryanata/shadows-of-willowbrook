@@ -14,6 +14,7 @@ public class VillagerController : MonoBehaviour
     private VillagerLifeController villagerLifeController;
     private bool isPlayerInRange = false;
     private bool isConversationDry = true;
+    private bool delayConversation = false;
     private Dictionary<string, int> dialogIndices = new Dictionary<string, int>()
     {
         {"Police", 0},
@@ -56,8 +57,16 @@ public class VillagerController : MonoBehaviour
         {
             AddDialog();
         }
-        if (isPlayerInRange && Input.GetKeyDown(interactionKey))
+        if (isPlayerInRange && Input.GetKeyDown(interactionKey) && !IsOtherVillagerTalking())
         {
+            if (delayConversation)
+            {
+                return;
+            }
+            if (playerStorage.villagerTalking == "")
+            {
+                playerStorage.villagerTalking = villagerName;
+            }
             if (dialogLines.Count > 0)
             {
                 isConversationDry = false;
@@ -88,8 +97,11 @@ public class VillagerController : MonoBehaviour
             }
             dialogManager.HideDialog();
             playerController.isInDialog = false;
+            playerStorage.villagerTalking = "";
             villagerLifeController.isInDialog = false;
             isConversationDry = true;
+            delayConversation = true;
+            Invoke("Delay", 1f);  // Delay the next conversation by 1 second
             return;
         }
         string dialog = dialogLines.Dequeue();
@@ -103,6 +115,17 @@ public class VillagerController : MonoBehaviour
         playerController.isInDialog = true;
         villagerLifeController.isInDialog = true;
         SetDialogAndLabel(dialog);
+    }
+    
+    private void Delay()
+    {
+        delayConversation = false;
+    }
+
+    private bool IsOtherVillagerTalking()
+    {
+        // Check if villagerTalking is not empty and doesn't equal villagerName
+        return (playerStorage.villagerTalking != "" && playerStorage.villagerTalking != villagerName);
     }
 
     private void SystemPrompt(string prompt)
@@ -158,7 +181,6 @@ public class VillagerController : MonoBehaviour
             default:
                 return "Villager: I don't have anything to say to you.";
         }
-        return "Villager: I don't have anything to say to you.";
     }
 
     // Determines which dialog to read based on...

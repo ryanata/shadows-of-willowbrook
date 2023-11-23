@@ -10,7 +10,7 @@ public class VillagerLifeController : MonoBehaviour
     NavMeshAgent agent;
 
     public float speed;
-    public string name;
+    public string villagerName;
     public SceneInfo playerStorage;
     public bool isInDialog = false;
 
@@ -18,7 +18,6 @@ public class VillagerLifeController : MonoBehaviour
     private SpriteRenderer sprite;
     private float waitTimeRangeFrom = 5;
     private float waitTimeRangeTo = 20;
-    private BoxCollider2D boxCollider;
     private CircleCollider2D circleCollider;
     private Animator animator;
     private PlayerController playerController;
@@ -48,21 +47,14 @@ public class VillagerLifeController : MonoBehaviour
         agent.speed = speed;
 
         animator = GetComponent<Animator>();
-        boxCollider = GetComponent<BoxCollider2D>();
         circleCollider = GetComponent<CircleCollider2D>();
         playerController = FindObjectOfType<PlayerController>();
         sprite = GetComponent<SpriteRenderer>();
 
-        scheduleIdx = scheduleIndices[name];
-        Destination currentDestination = playerStorage.schedules[scheduleIdx].destinations[playerStorage.schedules[scheduleIdx].curIndex];
-        // Debug.Log("Current destination: " + playerStorage.schedules[scheduleIdx].curIndex);
-        if (SceneManager.GetActiveScene().name != currentDestination.sceneName && (IsTime(TimeOfDay.Day) || IsTime(TimeOfDay.Morning)))
-        {
-            // Debug.Log("Disabling sprite because wrong scene");
-            DisableSprite();
-        }
+        scheduleIdx = scheduleIndices[villagerName];
+        timeInCycle = TimeManager.instance.inGameTime%(playerStorage.dayDuration + playerStorage.transitionDuration + playerStorage.nightDuration + playerStorage.transitionDuration);
 
-        if (!IsPoliceAndIntroduced()) // This is to prevent police from moving in the beggining
+        if (!IsPoliceAndIntroduced()) // This is to prevent police from moving in the beginning
         {
             GotoNextPoint();
         }
@@ -74,14 +66,12 @@ public class VillagerLifeController : MonoBehaviour
         if (isInDialog)
         {
             // Stop the villager from moving
-            if (agent.velocity.magnitude > 0)
-            {
-                agent.velocity = Vector3.zero;
-            }
+            if (!agent.isStopped) agent.isStopped = true;
             FacePlayer();
 
             return;
         }
+        if (agent.isStopped) agent.isStopped = false;
         timeInCycle = TimeManager.instance.inGameTime%(playerStorage.dayDuration + playerStorage.transitionDuration + playerStorage.nightDuration + playerStorage.transitionDuration);
         
         if (!agent.pathPending && agent.remainingDistance < 0.5f)
@@ -89,6 +79,10 @@ public class VillagerLifeController : MonoBehaviour
             if (leavingScene)
             {
                 DisableSprite();
+            }
+            else
+            {
+                EnableSprite();
             }
             
             if (hasWaitedAtPatrolPoint && !IsPoliceAndIntroduced())
@@ -101,16 +95,9 @@ public class VillagerLifeController : MonoBehaviour
                 isWaiting = true;
             }
         }
-
-        if (IsTime(TimeOfDay.Evening) && SceneManager.GetActiveScene().name == "MainScene")
+        else if (!CanGoOutside() && SceneManager.GetActiveScene().name == "MainScene" && !leavingScene)
         {
-            agent.destination = playerStorage.schedules[scheduleIdx].homeEntrance;
-            leavingScene = true;
-        }
-        else if (IsTime(TimeOfDay.Night) && SceneManager.GetActiveScene().name == "MainScene")
-        {
-            agent.transform.position = playerStorage.schedules[scheduleIdx].homeEntrance;
-            leavingScene = true;
+            GotoNextPoint();
         }
         
         // Get the current velocity of the NavMeshAgent
@@ -135,76 +122,64 @@ public class VillagerLifeController : MonoBehaviour
         }
     }
 
+    // All cases:
+    // 1. Scene = MainScene and Villager Destination = Home and Time = Day -> Go to Home and then disable
+    // 2. Scene = MainScene and Villager Destination = Home and Time = Night -> Go to Home and then disable
+    // 3. Scene = MainScene and Villager Destination = MainScene and Time = Day -> Go to Destination
+    // 4. Scene = MainScene and Villager Destination = MainScene and Time = Night -> Go to Home and then disable
+    // 5. Scene = Home and Villager Destination = MainScene and Time = Day -> Go to Door and then disable
+    // 6. Scene = Home and Villager Destination = MainScene and Time = Night -> Re-roll Destination
+    // 7. Scene = Home and Villager Destination = Home and Time = Day -> Go to Destination
+    // 8. Scene = Home and Villager Destination = Home and Time = Night -> Go to Destination
     void GotoNextPoint()
     {
-        // Debug.Log("---GoToNextPoint---");
-        if (playerStorage.schedules[scheduleIdx].destinations.Count == 0)
-            return;
-        if ((IsTime(TimeOfDay.Evening) || IsTime(TimeOfDay.Night)) && SceneManager.GetActiveScene().name == "MainScene")
-        {
-            // Debug.Log("Disabling sprite because it's night time");
-            DisableSprite();
-            return;
-        }
+        hasWaitedAtPatrolPoint = false;
         leavingScene = false;
-        // Get the current destination
         Destination currentDestination = playerStorage.schedules[scheduleIdx].destinations[playerStorage.schedules[scheduleIdx].curIndex];
-        Debug.Log(name + " Should be going to: " + playerStorage.schedules[scheduleIdx].curIndex);
-
-
-        // Check if the destination is in the same scene
-        if (currentDestination.sceneName == SceneManager.GetActiveScene().name)
+        if (SceneManager.GetActiveScene().name == "MainScene")
         {
-            if (!sprite.enabled) EnableSprite();
-
-            // Set the agent to go to the destination
-            agent.destination = currentDestination.position;
-            Debug.Log(name + "Going to " + playerStorage.schedules[scheduleIdx].curIndex + " positioned at " + currentDestination.position);
-        }
-        else
-        {
-            // Check if the villager is in the MainScene
-            if (SceneManager.GetActiveScene().name == "MainScene")
+            if (!CanGoOutside() || currentDestination.sceneName != "MainScene")
             {
-                // Set the agent to go to the home entrance
                 agent.destination = playerStorage.schedules[scheduleIdx].homeEntrance;
                 leavingScene = true;
-                Debug.Log(name + "Going to home entrance because destination is in other scene");
-            }
-            else if (IsTime(TimeOfDay.Day) || IsTime(TimeOfDay.Morning))
-            {
-                agent.destination = playerStorage.schedules[scheduleIdx].homeExit;
-                leavingScene = true;
-                Debug.Log(name + "Going to home exit because destination is in main scene");
             }
             else
             {
-                // Set the agent to go to somewhere exclusively not in the MainScene
-                while (currentDestination.sceneName == "MainScene")
-                {
-                    playerStorage.schedules[scheduleIdx].curIndex = Random.Range(2, playerStorage.schedules[scheduleIdx].destinations.Count);
-                    currentDestination = playerStorage.schedules[scheduleIdx].destinations[playerStorage.schedules[scheduleIdx].curIndex];
-                }
                 agent.destination = currentDestination.position;
-                Debug.Log(name + "Going to " + playerStorage.schedules[scheduleIdx].curIndex + " after re-reolling many times");
-                EnableSprite();
             }
         }
-
-        // Save prevIdx
-        prevIdx = playerStorage.schedules[scheduleIdx].curIndex;
-        
-        // If it's night or evening, startPos has to start at 2 to imply we must re-roll a house destination
-        int startPos = (IsTime(TimeOfDay.Night) || IsTime(TimeOfDay.Evening) ? 2 : 0);
-        // Move to a random index in the schedule
-        playerStorage.schedules[scheduleIdx].curIndex = Random.Range(startPos, playerStorage.schedules[scheduleIdx].destinations.Count);
-        // Debug.Log("NextPoint: Randomly selected: " + playerStorage.schedules[scheduleIdx].curIndex);
-        hasWaitedAtPatrolPoint = false;
+        else
+        {
+            if (currentDestination.sceneName == "MainScene")
+            {
+                if (!CanGoOutside())
+                {
+                    // Re-roll
+                    while (currentDestination.sceneName == "MainScene")
+                    {
+                        playerStorage.schedules[scheduleIdx].curIndex = Random.Range(2, playerStorage.schedules[scheduleIdx].destinations.Count);
+                        currentDestination = playerStorage.schedules[scheduleIdx].destinations[playerStorage.schedules[scheduleIdx].curIndex];
+                    }
+                    // Go to destination guranteed to be in home
+                    agent.destination = currentDestination.position;
+                }
+                else
+                {
+                    agent.destination = playerStorage.schedules[scheduleIdx].homeEntrance;
+                    leavingScene = true;
+                }
+            }
+            else
+            {
+                agent.destination = currentDestination.position;
+            }
+        }
     }
 
     public int GetCurrentLocation()
     {
-        // If player is not moving, return prevIdx
+        // If agent is moving,then their velocity is greater than 0
+        // thus, they aren't at any location, they're en-route
         if (agent.velocity.magnitude > 0)
         {
             return -1;
@@ -218,10 +193,12 @@ public class VillagerLifeController : MonoBehaviour
     IEnumerator Wait()
     {
         float waitTime = Random.Range(waitTimeRangeFrom, waitTimeRangeTo);
-        Debug.Log("Waiting for " + waitTime + " seconds");
         yield return new WaitForSeconds(waitTime);
         isWaiting = false;
         hasWaitedAtPatrolPoint = true;
+        // Roll a new destination
+        int startPos = (!CanGoOutside()) ? 2 : 0;
+        playerStorage.schedules[scheduleIdx].curIndex = Random.Range(startPos, playerStorage.schedules[scheduleIdx].destinations.Count);
     }
 
     enum TimeOfDay
@@ -255,17 +232,20 @@ public class VillagerLifeController : MonoBehaviour
         return mark == marker;
     }
 
+    bool CanGoOutside()
+    {
+        return IsTime(TimeOfDay.Day) || IsTime(TimeOfDay.Morning);
+    }
+
     void DisableSprite()
     {
         sprite.enabled = false;
-        boxCollider.enabled = false;
         circleCollider.enabled = false;
     }
 
     void EnableSprite()
     {
         sprite.enabled = true;
-        boxCollider.enabled = true;
         circleCollider.enabled = true;
     }
 
@@ -282,6 +262,6 @@ public class VillagerLifeController : MonoBehaviour
 
     bool IsPoliceAndIntroduced()
     {
-        return name=="Police" && !playerStorage.dialogueRead[0].baseDialogue;
+        return villagerName=="Police" && !playerStorage.dialogueRead[0].baseDialogue;
     }
 }
