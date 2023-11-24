@@ -153,31 +153,98 @@ public class VillagerController : MonoBehaviour
 
     private string DryDialogue()
     {
-        int location = -1;
+        int location = villagerLifeController.GetCurrentLocation();
         switch (villagerName)
         {
             case "Police":
-                location = villagerLifeController.GetCurrentLocation();
-                Debug.Log("Villager's location is " + location);
                 switch (location)
                 {
                     case 0:
                         return "Villager: I sometimes come out to this lake to think.";
                     case 1:
-                        return "Villager: I'm just looking for what we missed here...";
+                        return "Villager: I'm just looking for what we could've missed here...";
                     case 2: // Furniture
                         return "Villager: Don't forget to turn in your evidence in the evidence box when you cracked the case!";
                     case 3: // Desk
-                        return "Villager: I'm working on it detective, I'm working on it...";
+                        return "Villager: I'm working on it detective, don't have anything for you.";
                     default:
                         break;
                 }
-                return "Villager: I don't have anything to say to you.";
+                return "Villager: I'm walkin' here!";
             case "Mayor":
+                switch (location)
+                {
+                    case 0: // City center
+                        return "Villager: This is our city center detective. Beautiful, isn't it?";
+                    case 1: // Police station
+                        return "Villager: I trust our police force and you to crack this case.";
+                    case 3: // Bed
+                        return "Villager: There's nothing in here for you to see detective.";
+                    default:
+                        break;
+                }
+                return "Villager: Just strolling around!";
+
             case "Samuel":
+                switch (location)
+                {
+                    case 0: // Forest, near florist
+                        return "Villager: You can get a great view of the flower shop here. I miss Evelyn...";
+                    case 1: // Near detective house
+                        return "Villager: Hey detective, this is your house here. We left you a comfy bed to sleep on!";
+                    case 2: // Couch
+                        return "Villager: Evelyn and I used to sit here and watch TV together. At least I imagined we did...";
+                    case 3: // Bed/Desk
+                        return "Villager: This is where I sleep and work. I don't have anything for you detective.";
+                    default:
+                        break;
+                }
+                return "Villager: Hello detective! I'm just walking around.";
             case "Isabel":
+                switch (location)
+                {
+                    case 0: // Mayor's house
+                        return "Villager: I'm keeping a lookout for the mayor. You never know nowadays...";
+                    case 1: // Forest
+                        return "Villager: I heard she died in the forest... I hope she's in a better place now.";
+                    case 2: // Counter
+                        return "Villager: Welcome to the bakery detective! We have the best pastries in town.";
+                    case 3: // Seating area
+                        return "Villager: Evelyn used to come here every morning to get a pastry. I miss her...";
+                    default:
+                        break;
+                }
+                return "Villager: Hey there! I need to get somewhere detective.";
             case "Lillian":
+                switch (location)
+                {
+                    case 0: // Flower bed
+                        return "Villager: I'm just checking out some stuff here. I hope you find the killer detective.";
+                    case 1: // Walter's house
+                        return "Villager: I find Walter a bit suspicious. He's always been a bit weird. Just letting you know detective.";
+                    case 2: // Flower row
+                        return "Villager: Here is a collection of flowers we sell. I hope you like them!";
+                    case 3: // Counter
+                        return "Villager: Welcome to the flower shop detective! We have the best flowers in town.";
+                    default:
+                        break;
+                }
+                return "Villager: Hey detective, I gotta go somewhere! See you around!";
             case "Walter":
+                switch (location)
+                {
+                    case 0: // Lake
+                        return "Villager: This lake is so peaceful. You can see some interesting aquatic plants here.";
+                    case 1: // Backyard
+                        return "Villager: I like the seclusion of my backyard. It's helping me get over Evelyn's death.";
+                    case 2: // Bed
+                        return "Villager: What you see here is my bed... You should sleep more detective.";
+                    case 3: // Entrance
+                        return "Villager: Welcome to my humble abode detective. Make yourself at home.";
+                    default:
+                        break;
+                }
+                return "Villager: Just taking my daily stroll detective.";
             default:
                 return "Villager: I don't have anything to say to you.";
         }
@@ -419,7 +486,7 @@ public class VillagerController : MonoBehaviour
                     dialogLines.Enqueue("System: base");
 
                 }
-                else if (playerStorage.cluesFound[4] && !playerStorage.dialogueRead[1].clueAFound) // Found Note from diary
+                else if (playerStorage.cluesFound[4] && !playerStorage.dialogueRead[5].clueAFound) // Found Note from diary
                 {
                     dialogLines.Enqueue("Detective: Walter, I found this torn page from Evelyn's diary. She mentions confronting someone and feeling betrayed. Do you have any idea who these people she's talking about might be?");
                     dialogLines.Enqueue("Villager: Confrontations and betrayal? That's rather perplexing. In a small village like Willowbrook, everyone knows everyone else's business. I can't imagine who she might be referring to. Perhaps they're from out of town? Evelyn did have a lot of customers who came from afar to buy her unique flowers.");
@@ -434,7 +501,7 @@ public class VillagerController : MonoBehaviour
                     dialogLines.Enqueue("System: clueA");
 
                 }
-                else if (playerStorage.cluesFound[3] && !playerStorage.dialogueRead[1].clueBFound) // Found poisonous flower
+                else if (playerStorage.cluesFound[3] && !playerStorage.dialogueRead[5].clueBFound) // Found poisonous flower
                 {
                     dialogLines.Enqueue("Detective: Walter, I found this mysterious flower in the woods. Can you take a look at it and tell me if you recognize it?");
                     dialogLines.Enqueue("Villager: Ah, this is no ordinary flower. It's a Helphinium - a poisonous species that's quite rare in these parts. I've studied them extensively during my botanist days. It's known for its toxic properties.");
@@ -448,7 +515,7 @@ public class VillagerController : MonoBehaviour
                     dialogLines.Enqueue("Villager: Of course, Detective. I want to see justice served for Evelyn. If there's anything else I can do to help, don't hesitate to ask.");
                     dialogLines.Enqueue("System: clueB");
                 }
-                else if (playerStorage.cluesFound[5] && !playerStorage.dialogueRead[1].clueCFound) // Found potion
+                else if (playerStorage.cluesFound[5] && !playerStorage.dialogueRead[5].clueCFound) // Found potion
                 {
                     dialogLines.Enqueue("Detective: Walter, I found this mysterious potion in an underground lair beneath the florist shop. Do you think this could've been used in the murder?");
                     dialogLines.Enqueue("Villager: Wow, Detective, if this potion is what I think it is, it is definitely derived from the poisonous Helphinium flower. Where did you find this?");

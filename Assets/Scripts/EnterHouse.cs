@@ -14,6 +14,7 @@ public class LoadSceneOnTrigger : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             playerStorage.startPosition = startPosition;
+            playerStorage.villagerTalking = "";
             SceneManager.LoadSceneAsync(sceneToLoad);
         }
     }
