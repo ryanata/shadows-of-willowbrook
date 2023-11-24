@@ -165,7 +165,7 @@ public class VillagerLifeController : MonoBehaviour
                 }
                 else
                 {
-                    agent.destination = playerStorage.schedules[scheduleIdx].homeEntrance;
+                    agent.destination = playerStorage.schedules[scheduleIdx].homeExit;
                     leavingScene = true;
                 }
             }
