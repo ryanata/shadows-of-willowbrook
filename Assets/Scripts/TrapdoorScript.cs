@@ -22,7 +22,7 @@ public class TrapdoorScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (inRange && Input.GetKeyDown(KeyCode.E))
+        if (inRange && Input.GetKeyDown(KeyCode.E) && playerStorage.villagerTalking == "")
         {
             if (playerStorage.cluesFound[7])
             {
