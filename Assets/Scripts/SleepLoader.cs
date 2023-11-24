@@ -9,19 +9,26 @@ public class SleepLoader : MonoBehaviour
 {
     public BedInteractor bed;
     public Animator transition;
-    private float timeInCycle;
     public float transitionTime = 5;
     public SceneInfo playerStorage;
-    // Update is called once per frame
+    
+    private float timeInCycle;
+    private PlayerController playerController;
+    private bool sleeping = false;
+
+    private void Start()
+    {
+        playerController = FindObjectOfType<PlayerController>();
+    }
 
     private void Update()
     {
         timeInCycle = TimeManager.instance.inGameTime % (playerStorage.dayDuration + playerStorage.transitionDuration + playerStorage.nightDuration + playerStorage.transitionDuration);
 
-        if (bed.clickedBed == true && IsTime(TimeOfDay.Night))
+        if (bed.clickedBed && IsTime(TimeOfDay.Night) && !sleeping)
         {
             LoadNextLevel();
-            bed.clickedBed = false;
+            sleeping = true;
         }
     }
 
@@ -34,7 +41,10 @@ public class SleepLoader : MonoBehaviour
     IEnumerator LoadStart()
     {
         transition.SetTrigger("Start");
+        playerController.isInDialog = true; // Freeze player
         yield return new WaitForSeconds(transitionTime);
+        playerController.isInDialog = false; // Unfreeze player
+
         // Change time to morning
         if (IsTime(TimeOfDay.Night))
         {
@@ -47,6 +57,7 @@ public class SleepLoader : MonoBehaviour
                 TimeManager.instance.inGameTime += timeUntilMorning;
             }
         }
+        sleeping = false;
         StartCoroutine(LoadEnd());
     }
 
