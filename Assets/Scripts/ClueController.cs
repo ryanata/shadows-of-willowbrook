@@ -23,9 +23,17 @@ public class ClueController : MonoBehaviour {
 	// Update is called once per frame
 	private void Update () 
     {
-        if (pickUpAllowed && Input.GetKeyDown(KeyCode.E) && !playerController.isInDialog)
+        if (pickUpAllowed)
         {
-            this.PickUp();
+            prompt.SetActive(true);
+            if (Input.GetKeyDown(KeyCode.E) && !playerController.isInDialog)
+            {
+                this.PickUp();
+            }
+        }
+        else
+        {
+            prompt.SetActive(false);
         }
     }
 
@@ -34,7 +42,6 @@ public class ClueController : MonoBehaviour {
         if (collision.gameObject.name.Equals("Player"))
         {
             pickUpAllowed = true;
-            prompt.SetActive(true);
         }  
     }
     
@@ -43,7 +50,6 @@ public class ClueController : MonoBehaviour {
         if (collision.gameObject.name.Equals("Player"))
         {
             pickUpAllowed = false;
-            prompt.SetActive(false);
         }
     }
 
@@ -51,6 +57,7 @@ public class ClueController : MonoBehaviour {
     {
         // Save the clue in global store
         playerStorage.cluesFound[clueNumber-1] = true;
+        prompt.SetActive(false);
         Destroy(gameObject);
     }
 

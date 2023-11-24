@@ -12,41 +12,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 745f47f18cecf4f50b6a2c31426009d3, type: 3}
   m_Name: GlobalStore
   m_EditorClassIdentifier: 
-  startPosition: {x: 0, y: -2.7}
-  cluesFound: 0101010101010101
+  startPosition: {x: 0, y: 0}
+  cluesFound: 0000000000000000
   dialogueRead:
   - name: Police
-    baseDialogue: 1
-    clueAFound: 1
+    baseDialogue: 0
+    clueAFound: 0
     clueBFound: 0
     clueCFound: 0
     night: 0
   - name: Mayor
-    baseDialogue: 1
-    clueAFound: 1
+    baseDialogue: 0
+    clueAFound: 0
     clueBFound: 0
     clueCFound: 0
     night: 0
   - name: Samuel
-    baseDialogue: 1
+    baseDialogue: 0
     clueAFound: 0
     clueBFound: 0
     clueCFound: 0
     night: 0
   - name: Isabel
-    baseDialogue: 1
-    clueAFound: 1
+    baseDialogue: 0
+    clueAFound: 0
     clueBFound: 0
     clueCFound: 0
     night: 0
   - name: Lillian
-    baseDialogue: 1
+    baseDialogue: 0
     clueAFound: 0
     clueBFound: 0
-    clueCFound: 1
+    clueCFound: 0
     night: 0
   - name: Walter
-    baseDialogue: 1
+    baseDialogue: 0
     clueAFound: 0
     clueBFound: 0
     clueCFound: 0
@@ -64,7 +64,7 @@ MonoBehaviour:
       sceneName: PoliceScene2
     homeEntrance: {x: 12.7, y: 11.5, z: 0}
     homeExit: {x: 0, y: -4.5, z: 0}
-    curIndex: 2
+    curIndex: 0
   - name: Mayor
     destinations:
     - position: {x: 0, y: 8, z: 0}
@@ -101,7 +101,7 @@ MonoBehaviour:
       sceneName: BakeryScene
     homeEntrance: {x: 4.5, y: 31.5, z: 0}
     homeExit: {x: 0, y: -4, z: 0}
-    curIndex: 3
+    curIndex: 0
   - name: Lillian
     destinations:
     - position: {x: -32, y: -4, z: 0}
@@ -128,7 +128,7 @@ MonoBehaviour:
     homeEntrance: {x: -34, y: 20.5, z: 0}
     homeExit: {x: -34, y: 4.8, z: 0}
     curIndex: 0
-  dayDuration: 10
+  dayDuration: 90
   nightDuration: 90
   transitionDuration: 30
   villagerTalking: 

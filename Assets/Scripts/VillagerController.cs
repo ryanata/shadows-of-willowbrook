@@ -486,7 +486,7 @@ public class VillagerController : MonoBehaviour
                     dialogLines.Enqueue("System: base");
 
                 }
-                else if (playerStorage.cluesFound[4] && !playerStorage.dialogueRead[1].clueAFound) // Found Note from diary
+                else if (playerStorage.cluesFound[4] && !playerStorage.dialogueRead[5].clueAFound) // Found Note from diary
                 {
                     dialogLines.Enqueue("Detective: Walter, I found this torn page from Evelyn's diary. She mentions confronting someone and feeling betrayed. Do you have any idea who these people she's talking about might be?");
                     dialogLines.Enqueue("Villager: Confrontations and betrayal? That's rather perplexing. In a small village like Willowbrook, everyone knows everyone else's business. I can't imagine who she might be referring to. Perhaps they're from out of town? Evelyn did have a lot of customers who came from afar to buy her unique flowers.");
@@ -501,7 +501,7 @@ public class VillagerController : MonoBehaviour
                     dialogLines.Enqueue("System: clueA");
 
                 }
-                else if (playerStorage.cluesFound[3] && !playerStorage.dialogueRead[1].clueBFound) // Found poisonous flower
+                else if (playerStorage.cluesFound[3] && !playerStorage.dialogueRead[5].clueBFound) // Found poisonous flower
                 {
                     dialogLines.Enqueue("Detective: Walter, I found this mysterious flower in the woods. Can you take a look at it and tell me if you recognize it?");
                     dialogLines.Enqueue("Villager: Ah, this is no ordinary flower. It's a Helphinium - a poisonous species that's quite rare in these parts. I've studied them extensively during my botanist days. It's known for its toxic properties.");
@@ -515,7 +515,7 @@ public class VillagerController : MonoBehaviour
                     dialogLines.Enqueue("Villager: Of course, Detective. I want to see justice served for Evelyn. If there's anything else I can do to help, don't hesitate to ask.");
                     dialogLines.Enqueue("System: clueB");
                 }
-                else if (playerStorage.cluesFound[5] && !playerStorage.dialogueRead[1].clueCFound) // Found potion
+                else if (playerStorage.cluesFound[5] && !playerStorage.dialogueRead[5].clueCFound) // Found potion
                 {
                     dialogLines.Enqueue("Detective: Walter, I found this mysterious potion in an underground lair beneath the florist shop. Do you think this could've been used in the murder?");
                     dialogLines.Enqueue("Villager: Wow, Detective, if this potion is what I think it is, it is definitely derived from the poisonous Helphinium flower. Where did you find this?");
