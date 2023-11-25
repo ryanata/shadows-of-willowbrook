@@ -35,7 +35,6 @@ public class VillagerLifeController : MonoBehaviour
     private bool isWaiting = false;
     private bool leavingScene = false;
     private int scheduleIdx = -1;
-    private int prevIdx = -1;
 
     // Start is called before the first frame update
     void Start()
@@ -165,7 +164,7 @@ public class VillagerLifeController : MonoBehaviour
                 }
                 else
                 {
-                    agent.destination = playerStorage.schedules[scheduleIdx].homeEntrance;
+                    agent.destination = playerStorage.schedules[scheduleIdx].homeExit;
                     leavingScene = true;
                 }
             }
@@ -186,7 +185,7 @@ public class VillagerLifeController : MonoBehaviour
         }
         else
         {
-            return prevIdx;
+            return playerStorage.schedules[scheduleIdx].curIndex;
         }
     }
 

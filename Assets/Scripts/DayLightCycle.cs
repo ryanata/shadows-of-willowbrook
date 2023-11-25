@@ -43,6 +43,10 @@ public class DayLightCycle : MonoBehaviour
         {
             float t = (time - dayDuration) / transitionDuration;
             globalLight.intensity = Mathf.Lerp(dayIntensity, nightIntensity, t);
+            if (murderer.isActive())
+            {
+                murderer.deactivate();
+            }
         }
         else if (time < dayDuration + transitionDuration + nightDuration)
         {
