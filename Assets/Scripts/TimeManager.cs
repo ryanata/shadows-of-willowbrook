@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class TimeManager : MonoBehaviour
@@ -23,6 +24,11 @@ public class TimeManager : MonoBehaviour
 
     void Update()
     {
+        if (SceneManager.GetActiveScene().name == "MainMenu")
+        {
+            inGameTime = 0;
+            return;
+        }
         inGameTime += Time.deltaTime;
     }
 }

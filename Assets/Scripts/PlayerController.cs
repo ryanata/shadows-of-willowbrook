@@ -41,7 +41,7 @@ public class PlayerController : MonoBehaviour
             return;
         }
         if (isInDialog || !playerStorage.dialogueRead[0].baseDialogue) return;
-        if (Input.GetKeyDown(KeyCode.J))
+        if (Input.GetKeyDown(KeyCode.J) || (journal.activeSelf && Input.GetKeyDown(KeyCode.Escape)))
         {
             this.ToggleJournal();
         }

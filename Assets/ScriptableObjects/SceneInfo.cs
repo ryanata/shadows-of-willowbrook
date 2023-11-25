@@ -97,7 +97,7 @@ public class SceneInfo : ScriptableObject
                 },
             },
             homeEntrance = new Vector3(-14.5f, 27.25f, 0),
-            homeExit = new Vector3(-33, 3, 0),
+            homeExit = new Vector3(-33, 3.5f, 0),
             curIndex = 0 
         },
         new Schedule { 
@@ -125,7 +125,7 @@ public class SceneInfo : ScriptableObject
                 },
             },
             homeEntrance = new Vector3(21.25f, 22.25f, 0),
-            homeExit = new Vector3(-32, 1, 0),
+            homeExit = new Vector3(-32, 1.7f, 0),
             curIndex = 0
         },
         new Schedule { 
@@ -217,4 +217,33 @@ public class SceneInfo : ScriptableObject
     public float nightDuration = 90f;
     public float transitionDuration = 30f;
     public string villagerTalking = "";
+    public bool guessedRight = false;
+
+    // Reset all non-static variables to their default values.
+    public void ResetVariables()
+    {
+        startPosition = new Vector2(0, 0);
+        // Reset cluesFound to be all false.
+        for (int i = 0; i < cluesFound.Length; i++)
+        {
+            cluesFound[i] = false;
+        }
+        // Reset dialogueRead to be all false.
+        foreach (DialogueState state in dialogueRead)
+        {
+            state.baseDialogue = false;
+            state.clueAFound = false;
+            state.clueBFound = false;
+            state.clueCFound = false;
+            state.night = false;
+        }
+        // Reset schedules to be all at the beginning.
+        foreach (Schedule schedule in schedules)
+        {
+            schedule.curIndex = 0;
+        }
+        villagerTalking = "";
+        guessedRight = false;
+    }
+
 }

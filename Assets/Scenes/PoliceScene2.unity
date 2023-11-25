@@ -176,6 +176,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shadow: {fileID: 2011322520}
+  parentController: {fileID: 823457188}
+  suspectName: Mayor
 --- !u!114 &57084347
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -870,11 +872,23 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 385590086}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 823457188}
+        m_TargetAssemblyTypeName: SubmitReportController, Assembly-CSharp
+        m_MethodName: SubmitReport
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &385590086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1327,6 +1341,7 @@ GameObject:
   - component: {fileID: 490115189}
   - component: {fileID: 490115191}
   - component: {fileID: 490115188}
+  - component: {fileID: 490115192}
   m_Layer: 0
   m_Name: EvidenceBox
   m_TagString: Untagged
@@ -1454,6 +1469,51 @@ MonoBehaviour:
   dialogManager: {fileID: 1997473990}
   playerStorage: {fileID: 11400000, guid: a375cd822eb314c63b18b72d34bea9f9, type: 2}
   submissionImage: {fileID: 823457184}
+--- !u!61 &490115192
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 490115187}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.005294323, y: 0.039706916}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.625, y: 1.1875}
+    newSize: {x: 1.625, y: 1.1875}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.0743973, y: 1.1080861}
+  m_EdgeRadius: 0
 --- !u!1 &542151711
 GameObject:
   m_ObjectHideFlags: 0
@@ -2880,6 +2940,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c5da61bde6694192b083ac7c5f3518e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  selected: 
+  playerStorage: {fileID: 11400000, guid: a375cd822eb314c63b18b72d34bea9f9, type: 2}
+  button: {fileID: 385590085}
 --- !u!1001 &852905761
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2998,6 +3061,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shadow: {fileID: 1814841498}
+  parentController: {fileID: 823457188}
+  suspectName: Isabel
 --- !u!114 &871388401
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3894,6 +3959,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shadow: {fileID: 2010721182}
+  parentController: {fileID: 823457188}
+  suspectName: Samuel
 --- !u!114 &1178551986
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5108,6 +5175,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shadow: {fileID: 1504973269}
+  parentController: {fileID: 823457188}
+  suspectName: Lillian
 --- !u!114 &1694645877
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5731,7 +5800,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2011322521
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5976,6 +6045,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shadow: {fileID: 2080075242}
+  parentController: {fileID: 823457188}
+  suspectName: Walter
 --- !u!114 &2077530870
 MonoBehaviour:
   m_ObjectHideFlags: 0
