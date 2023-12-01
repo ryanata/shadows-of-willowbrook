@@ -10,4 +10,9 @@ public class MainMenuController : MonoBehaviour
         playerStorage.ResetVariables();
         SceneManager.LoadScene("MainScene");
     }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
 }

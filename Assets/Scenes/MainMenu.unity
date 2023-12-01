@@ -527,9 +527,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 724391e166c184ada9f604b8041d9659, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 6950e260c9578452bb397a00592b25ea, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.5
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -623,9 +623,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 6d63553d41e77450bb1a3f58cefacc2c, type: 3}
+  m_audioClip: {fileID: 8300000, guid: e41ffae49c6994a9eb2bdffc8c29e2d3, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1010,7 +1010,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2106194531}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 664481521}
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
+        m_MethodName: QuitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2106194531
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1031,7 +1043,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f5b55cf92ec7343a6b55c6db7fc0b6e1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5275810a132b244f9bdc8a63cf8a3d45, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1

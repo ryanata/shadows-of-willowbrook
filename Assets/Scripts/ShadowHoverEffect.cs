@@ -9,7 +9,6 @@ public class ShadowHoverEffect : MonoBehaviour, IPointerEnterHandler, IPointerEx
     public SubmitReportController parentController;
     public string suspectName;
 
-    private bool setSuspect = false;
     private bool isHovering = false;
     private bool isClicked = false;
 
