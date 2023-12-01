@@ -1403,7 +1403,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 3, y: 1}
   m_SizeDelta: {x: 38.92189, y: 5.52463}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &2473247557873543065
@@ -1434,7 +1434,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: evenlyn's diary 11/10
+  m_text: Evenlyn's diary 11/10
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c2224d5da804b440fb4f67b7d5854287, type: 2}
   m_sharedMaterial: {fileID: 5932182204549048226, guid: c2224d5da804b440fb4f67b7d5854287, type: 2}
